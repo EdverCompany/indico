@@ -92,7 +92,7 @@ DEFAULTS = {
     'TEMP_DIR': '/opt/indico/tmp',
     'USE_PROXY': False,
     'WORKER_NAME': socket.getfqdn(),
-    'XELATEX_PATH': None,
+    'XELATEX_PATH': '/opt/texlive/bin/x86_64-linux/xelatex',
 }
 
 # Default values for settings that cannot be set in the config file
