@@ -67,7 +67,7 @@
         {% if indico_config.LOCAL_IDENTITIES and indico_config.LOCAL_REGISTRATION %}
             <p class="register">
                 {% trans url=url_for('.register', next=request.args.get('next')) -%}
-                    If you do not have an Indico account yet, you can <a href="{{ url }}">create one here</a>.
+                    If you do not have an Oceanman account yet, you can <a href="{{ url }}">create one here</a>.
                 {%- endtrans %}
             </p>
         {% elif indico_config.EXTERNAL_REGISTRATION_URL %}

@@ -204,9 +204,9 @@ def _topmenu_sections(sender, **kwargs):
 
 @signals.menu.items.connect_via('top-menu')
 def _topmenu_items(sender, **kwargs):
-    yield TopMenuItem('create-lecture', _('Create lecture'), 'lecture', 30, section='create-event')
-    yield TopMenuItem('create-meeting', _('Create meeting'), 'meeting', 20, section='create-event')
-    yield TopMenuItem('create-conference', _('Create conference'), 'conference', 10, section='create-event')
+    yield TopMenuItem('create-lecture', _('Create running event'), 'lecture', 30, section='create-event')
+    yield TopMenuItem('create-meeting', _('Create swimming event'), 'meeting', 20, section='create-event')
+    yield TopMenuItem('create-conference', _('Create cycling event'), 'conference', 10, section='create-event')
 
 
 @signals.event.sidemenu.connect
@@ -218,7 +218,7 @@ def _extend_event_menu(sender, **kwargs):
                                  get_menu_entry_by_name('my_sessions', event).is_visible)
 
     yield MenuEntryData(_('Overview'), 'overview', 'events.display_overview', position=0, static_site=True)
-    yield MenuEntryData(_('My Conference'), 'my_conference', position=7, visible=_my_conference_visible)
+    yield MenuEntryData(_('My Event'), 'my_conference', position=7, visible=_my_conference_visible)
 
 
 @signals.app_created.connect
