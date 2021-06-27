@@ -114,7 +114,7 @@ class PrincipalMixin:
     #: If set to ``None``, no unique constraints will be added.
     unique_columns = None
     #: Whether it should be allowed to add a user by email address.
-    #: This is useful in places where no Indico user exists yet.
+    #: This is useful in places where no Oceanman user exists yet.
     #: Usually adding an email address to an ACL should result in
     #: an email being sent to the user, inviting him to create an
     #: account with that email address.

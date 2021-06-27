@@ -17,7 +17,7 @@ from indico.util.passwords import PasswordProperty
 
 
 class Identity(db.Model):
-    """Identities of Indico users."""
+    """Identities of Oceanman users."""
     __tablename__ = 'identities'
     __table_args__ = (db.UniqueConstraint('provider', 'identifier'),
                       {'schema': 'users'})

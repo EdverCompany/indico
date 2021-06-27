@@ -162,7 +162,7 @@ def format_display_full_name(user, obj):
 
 
 class User(PersonMixin, db.Model):
-    """Indico users."""
+    """Oceanman users."""
 
     principal_order = 0
     principal_type = PrincipalType.user

@@ -144,7 +144,7 @@ experience, but here are some important points:
 - Stop, disable and and uninstall uWSGI and delete the old config file. To support
   the latest Python version uWSGI is now installed into the Indico virtual environment
   using ``pip``
-- Delete the ``~/.venv`` folder of the Indico user and recreate it using the commands
+- Delete the ``~/.venv`` folder of the Oceanman user and recreate it using the commands
   from the setup guide
 - Make sure to update your webserver config to use the more modern TLS defaults
 

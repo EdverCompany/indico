@@ -314,7 +314,7 @@ class CloneContentsForm(CloneRepeatabilityForm):
     selected_items = IndicoSelectMultipleCheckboxField(_('What to clone'))
     refresh_users = BooleanField(_('Refresh user information'),
                                  description=_('When checked, names and affiliations of users in the cloned event will '
-                                               'be synchronized with their Indico user profiles.'))
+                                               'be synchronized with their Oceanman user profiles.'))
 
     def __init__(self, event, set_defaults=False, **kwargs):
         visible_options = list(filter(attrgetter('is_visible'), EventCloner.get_cloners(event)))

@@ -182,7 +182,7 @@ ndRegForm.controller('FieldCtrl', function($scope, regFormFactory) {
         } else if (data.conflict == 'user-already-registered') {
           msg = $T.gettext('The user associated with this email address is already registered.');
         } else if (data.conflict == 'no-user') {
-          msg = $T.gettext('There is no Indico user associated with this email address.');
+          msg = $T.gettext('There is no Oceanman user associated with this email address.');
         } else if (
           data.status == 'error' &&
           (data.conflict == 'email-other-user' || data.conflict == 'email-no-user')

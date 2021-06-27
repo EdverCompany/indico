@@ -60,7 +60,7 @@ def setup():
 
 @cli.group(cls=LazyGroup, import_name='indico.cli.user:cli')
 def user():
-    """Manage Indico users."""
+    """Manage Oceanman users."""
 
 
 @cli.group(cls=LazyGroup, import_name='indico.cli.event:cli')

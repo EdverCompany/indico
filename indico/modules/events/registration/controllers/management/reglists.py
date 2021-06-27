@@ -287,7 +287,7 @@ class RHRegistrationCreate(RHManageRegFormBase):
 
 
 class RHRegistrationCreateMultiple(RHManageRegFormBase):
-    """Create multiple registrations for Indico users (management area)."""
+    """Create multiple registrations for Oceanman users (management area)."""
 
     def _register_user(self, user, notify):
         # Fill only the personal data fields, custom fields are left empty.

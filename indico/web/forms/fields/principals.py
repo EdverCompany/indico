@@ -111,7 +111,7 @@ class AccessControlListField(PrincipalListField):
 
 
 class PrincipalField(HiddenField):
-    """A field that lets you select a single Indico user.
+    """A field that lets you select a single Oceanman user.
 
     :param allow_external_users: If "search users with no indico account"
                                  should be available. Selecting such a user

@@ -52,7 +52,7 @@ To create an API key, go to *My Profile » HTTP API* and click the
 It is recommended to always use the highest security level. That means if
 only an *API key* is available always include it and if a *secret key* is
 available, always sign your requests. Since you might want to retrieve only
-public information (instead of everything visible to your Indico user) you
+public information (instead of everything visible to your Oceanman user) you
 can add the param *onlypublic=yes* to the query string.
 
 It is also possible to re-use the existing Indico session. This only makes

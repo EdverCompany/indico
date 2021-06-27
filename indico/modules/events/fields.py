@@ -70,7 +70,7 @@ class ReferencesField(MultipleItemsField):
 
 
 class EventPersonListField(PrincipalListField):
-    """A field that lets you select a list Indico user and EventPersons.
+    """A field that lets you select a list Oceanman user and EventPersons.
 
     This requires its form to have an event set.
     """

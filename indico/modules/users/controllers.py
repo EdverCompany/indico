@@ -409,7 +409,7 @@ class RHUserEmailsVerify(RHUserBase):
             return False, None
         user = User.get(data['user_id'])
         if not user or user != self.user:
-            flash(_('This token is for a different Indico user. Please login with the correct account'), 'error')
+            flash(_('This token is for a different Oceanman user. Please login with the correct account'), 'error')
             return False, None
         existing = UserEmail.query.filter_by(is_user_deleted=False, email=data['email']).first()
         if existing and not existing.user.is_pending:

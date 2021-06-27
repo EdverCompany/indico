@@ -140,7 +140,7 @@ function FavoriteUserManager({userId}) {
 
   const searchTrigger = triggerProps => (
     <Button {...triggerProps} styleName="submit-button">
-      <Translate>Add Indico user</Translate>
+      <Translate>Add Oceanman user</Translate>
     </Button>
   );
   return (

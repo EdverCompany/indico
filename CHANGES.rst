@@ -27,7 +27,7 @@ Major Features
 - Categories may now contain both events and subcategories at the same time. During the
   upgrade to 3.0 event creation is automatically set to restricted in all categories
   containing subcategories in order to avoid any negative surprises which would suddenly
-  allow random Indico users to create events in places where they couldn't do so previously.
+  allow random Oceanman users to create events in places where they couldn't do so previously.
   (:issue:`4679`, :pr:`4725`, :pr:`4757`)
 - The OAuth provider module has been re-implemented based on a more modern
   library (authlib). Support for the somewhat insecure *implicit flow* has been

@@ -341,10 +341,10 @@ class RegistrationManagersForm(IndicoForm):
 
 class CreateMultipleRegistrationsForm(IndicoForm):
     """
-    Form to create multiple registrations of Indico users at the same time.
+    Form to create multiple registrations of Oceanman users at the same time.
     """
 
-    user_principals = PrincipalListField(_('Indico users'), [DataRequired()], allow_external_users=True)
+    user_principals = PrincipalListField(_('Oceanman users'), [DataRequired()], allow_external_users=True)
     notify_users = BooleanField(_('Send e-mail notifications'),
                                 default=True,
                                 description=_('Notify the users about the registration.'),

@@ -456,7 +456,7 @@ to renew it automatically:
     systemctl enable certbot-renew.timer
 
 
-13. Create an Indico user
+13. Create an Oceanman user
 -------------------------
 
 Access ``https://YOURHOSTNAME`` in your browser and follow the steps
