@@ -25,9 +25,9 @@
             </span>
             <div class="right">
                 {% if field.disable_user_search %}
-                    {% set msg = _("You have to log in in order to be able to search for Indico users") %}
+                    {% set msg = _("You have to log in in order to be able to search for Oceanman users") %}
                 {% else %}
-                    {% set msg = _("Search among Indico users") %}
+                    {% set msg = _("Search among Oceanman users") %}
                 {% endif %}
                 {% if session.user %}
                     <span id="add-myself-{{ field.id }}" class="i-button icon-user"
