@@ -48,7 +48,7 @@ from indico.web.flask.util import url_for
 
 
 class EventType(RichIntEnum):
-    __titles__ = [None, _('Lecture'), _('Meeting'), _('Conference')]
+    __titles__ = [None, _('Running'), _('Swimming'), _('Cycling')]
     lecture = 1
     meeting = 2
     conference = 3

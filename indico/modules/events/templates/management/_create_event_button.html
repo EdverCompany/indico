@@ -5,17 +5,17 @@
         {{- text -}}
     </a>
     <ul class="i-dropdown">
-        <li>{{ create_event_link(category, 'lecture', _('Lecture')) }}</li>
-        <li>{{ create_event_link(category, 'meeting', _('Meeting')) }}</li>
-        <li>{{ create_event_link(category, 'conference', _('Conference')) }}</li>
+        <li>{{ create_event_link(category, 'lecture', _('Running Event')) }}</li>
+        <li>{{ create_event_link(category, 'meeting', _('Swimming Event')) }}</li>
+        <li>{{ create_event_link(category, 'conference', _('Cycling Event')) }}</li>
     </ul>
 {% endmacro %}
 
 {% macro create_event_link(category, type, text) -%}
     {%- set title = {
-        'lecture': _('Create new lecture'),
-        'meeting': _('Create new meeting'),
-        'conference': _('Create new conference')
+        'lecture': _('Create new running event'),
+        'meeting': _('Create new swimming event'),
+        'conference': _('Create new cycling event')
     }[type] -%}
     {%- set url = url_for('categories.display', category, _anchor='create-event:%s:%d'|format(type, category.id))
                   if category and not category.is_root
