@@ -2679,10 +2679,10 @@ msgstr "Шаблон посилання на карту"
 
 #: indico/modules/rb/client/js/modules/admin/LocationPage.jsx:130
 msgid ""
-"Indico can show a link to an external map when a room is associated to an "
+"Oceanman can show a link to an external map when a room is associated to an "
 "event."
 msgstr ""
-"Indico може показати посилання на зовнішню карту, коли аудиторія пов’язана з"
+"Oceanman може показати посилання на зовнішню карту, коли аудиторія пов’язана з"
 " подією."
 
 #: indico/modules/rb/client/js/modules/admin/LocationPage.jsx:148
@@ -3756,8 +3756,8 @@ msgid "Affiliation"
 msgstr "Організація"
 
 #: indico/web/client/js/react/components/principals/Search.jsx:402
-msgid "Include users with no Indico account"
-msgstr "Включити користувачів без  облікових записів Indico"
+msgid "Include users with no Oceanman account"
+msgstr "Включити користувачів без  облікових записів Oceanman"
 
 #: indico/web/client/js/react/components/principals/Search.jsx:405
 #: indico/web/client/js/react/components/principals/Search.jsx:505

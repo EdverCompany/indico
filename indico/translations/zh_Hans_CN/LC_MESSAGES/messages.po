@@ -8,7 +8,7 @@
 # 中天 梁 <liangzt@ihep.ac.cn>, 2020
 msgid ""
 msgstr ""
-"Project-Id-Version: Indico\n"
+"Project-Id-Version: Oceanman\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-10 16:36+0200\n"
 "PO-Revision-Date: 2021-05-11 11:11+0000\n"
@@ -98,13 +98,13 @@ msgid ""
 msgstr "Celery 任务调度程序似乎没有运行。这意味着电子邮件发送和事件提醒等定期任务不工作。"
 
 #: indico/core/celery/__init__.py:81
-msgid "The Celery task scheduler is running a different Indico version."
-msgstr "Celery 任务调度程序正在运行不同的 Indico 版本。"
+msgid "The Celery task scheduler is running a different Oceanman version."
+msgstr "Celery 任务调度程序正在运行不同的 Oceanman 版本。"
 
 #: indico/core/celery/templates/celery_tasks.html:12
 #, python-format
 msgid ""
-"Monitor Indico's Celery tasks with Flower <a class=\"bold\" "
+"Monitor Oceanman's Celery tasks with Flower <a class=\"bold\" "
 "href=\"%(flower_url)s\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">here</a>."
 msgstr ""
@@ -613,8 +613,8 @@ msgid "Administration"
 msgstr "管理"
 
 #: indico/modules/admin/controllers/base.py:25
-msgid "Only Indico administrators may access this page."
-msgstr "只有 Indico 管理员可以访问这个页面。"
+msgid "Only Oceanman administrators may access this page."
+msgstr "只有 Oceanman 管理员可以访问这个页面。"
 
 #: indico/modules/announcement/__init__.py:38
 #: indico/modules/announcement/templates/settings.html:5
@@ -643,8 +643,8 @@ msgid "Message"
 msgstr "消息"
 
 #: indico/modules/announcement/templates/settings.html:9
-msgid "The announcement is a message shown on top of each Indico page."
-msgstr "公告是显示所有在 Indico 页面顶部的信息。"
+msgid "The announcement is a message shown on top of each Oceanman page."
+msgstr "公告是显示所有在 Oceanman 页面顶部的信息。"
 
 #: indico/modules/api/__init__.py:64
 msgid "API"
@@ -772,12 +772,12 @@ msgstr "禁用持久签名时，所有签名的请求都需要再次使用有效
 msgid ""
 "In order to enable an iCal export link, your account needs to have an API "
 "key created. This key enables other applications to access data from within "
-"Indico even when you are neither using nor logged into the Indico system "
+"Oceanman even when you are neither using nor logged into the Oceanman system "
 "yourself with the link provided. Once created, you can manage your key at "
 "any time by going to 'My Profile' and looking under the tab entitled 'HTTP "
-"API'. Further information about HTTP API keys can be found in the Indico "
+"API'. Further information about HTTP API keys can be found in the Oceanman "
 "documentation."
-msgstr "为了启用 iCal 导出链接，您的帐户需要创建一个API 密钥。此键使其他应用程序能够从 Indico 中访问数据，即使您既不使用也不通过提供的链接亲自登录 Indico 系统。创建后，您可以随时通过转到 “我的个人信息\" 并在标题为 “HTTP API” 的选项卡下查看来管理密钥。有关HTTP API密钥的更多信息可以在 Indico 文档中找到。"
+msgstr "为了启用 iCal 导出链接，您的帐户需要创建一个API 密钥。此键使其他应用程序能够从 Oceanman 中访问数据，即使您既不使用也不通过提供的链接亲自登录 Oceanman 系统。创建后，您可以随时通过转到 “我的个人信息\" 并在标题为 “HTTP API” 的选项卡下查看来管理密钥。有关HTTP API密钥的更多信息可以在 Oceanman 文档中找到。"
 
 #: indico/modules/api/templates/_messages.html:32
 msgid ""
@@ -945,13 +945,13 @@ msgstr "使所有链接无效"
 
 #: indico/modules/api/templates/user_profile.html:133
 msgid ""
-"Token-based unique links are secret URLs which Indico uses to allow you to "
+"Token-based unique links are secret URLs which Oceanman uses to allow you to "
 "easily fetch data from within other applications (e.g. calendar schedulers "
 "through iCalendar). They are generated through a digital signature based on "
-"a secret key that is unique per Indico user. If one of your links is "
+"a secret key that is unique per Oceanman user. If one of your links is "
 "compromised, you should click this button. All other links will be "
 "invalidated."
-msgstr "基于令牌的唯一链接是Indico使用的秘密URL，允许您从其他应用程序（例如通过iCalendar的日历调度程序）轻松获取数据。它们是通过基于每个Indio用户唯一的密钥的数字签名生成的。如果你的一个链接被破坏，你应该点击这个按钮。所有其他链接将失效。"
+msgstr "基于令牌的唯一链接是Oceanman使用的秘密URL，允许您从其他应用程序（例如通过iCalendar的日历调度程序）轻松获取数据。它们是通过基于每个Indio用户唯一的密钥的数字签名生成的。如果你的一个链接被破坏，你应该点击这个按钮。所有其他链接将失效。"
 
 #: indico/modules/api/templates/user_profile.html:156
 msgid "Unblock API key"
@@ -1494,12 +1494,12 @@ msgid "Upload"
 msgstr "上传"
 
 #: indico/modules/auth/__init__.py:58
-msgid "Your Indico profile has been deleted."
-msgstr "您的 Indico 个人信息已被删除。"
+msgid "Your Oceanman profile has been deleted."
+msgstr "您的 Oceanman 个人信息已被删除。"
 
 #: indico/modules/auth/__init__.py:73 indico/web/flask/session.py:71
-msgid "Your Indico profile has been blocked."
-msgstr "您的 Indico 个人信息已被禁用。"
+msgid "Your Oceanman profile has been blocked."
+msgstr "您的 Oceanman 个人信息已被禁用。"
 
 #: indico/modules/auth/__init__.py:108
 msgid "Accounts"
@@ -1534,9 +1534,9 @@ msgstr "您已经成功验证了您的电子邮件地址，现在可以继续进
 
 #: indico/modules/auth/controllers.py:278
 msgid ""
-"There is already some information in Indico that concerns you. We are going "
+"There is already some information in Oceanman that concerns you. We are going "
 "to link it automatically."
-msgstr "Indico中已经有了一些关于您的信息。我们将自动连接到它。"
+msgstr "Oceanman中已经有了一些关于您的信息。我们将自动连接到它。"
 
 #: indico/modules/auth/controllers.py:313
 msgid ""
@@ -1546,9 +1546,9 @@ msgstr "您的注册申请已收到。一旦处理完毕，我们将向您发送
 
 #: indico/modules/auth/controllers.py:320
 msgid ""
-"You have sucessfully registered your Indico profile. Check <a "
+"You have sucessfully registered your Oceanman profile. Check <a "
 "href=\"{url}\">your profile</a> for further details and settings."
-msgstr "您已成功注册了 Indico 个人信息。检查 <a href=\"{url}\"> 您的个人信息 </a> 以了解更多详细信息和设置。"
+msgstr "您已成功注册了 Oceanman 个人信息。检查 <a href=\"{url}\"> 您的个人信息 </a> 以了解更多详细信息和设置。"
 
 #: indico/modules/auth/controllers.py:341
 msgid "Local account added successfully"
@@ -1772,8 +1772,8 @@ msgid "External Accounts"
 msgstr "外部账号"
 
 #: indico/modules/auth/templates/accounts.html:97
-msgid "External accounts linked with your Indico profile."
-msgstr "与您的 Indico 个人信息关联的外部帐户。"
+msgid "External accounts linked with your Oceanman profile."
+msgstr "与您的 Oceanman 个人信息关联的外部帐户。"
 
 #: indico/modules/auth/templates/accounts.html:126
 msgid "The account used to log in cannot be unlinked"
@@ -1808,17 +1808,17 @@ msgstr "第一次的时候您要使用 <strong>%(provider)s</strong>。"
 #: indico/modules/auth/templates/link_identity.html:19
 #, python-format
 msgid ""
-"We have found an existing Indico profile <strong>%(name)s</strong> which "
+"We have found an existing Oceanman profile <strong>%(name)s</strong> which "
 "will be linked with this account once you have verified that "
 "<strong>%(emails)s</strong> is actually your email address."
-msgstr "我们已经找到一个存在的 Indico 个人信息 <strong>%(name)s</strong>，一旦您已经验证了 <strong>  %(emails)s </strong> 实际上是您的电子邮件地址，它将与此帐户链接。"
+msgstr "我们已经找到一个存在的 Oceanman 个人信息 <strong>%(name)s</strong>，一旦您已经验证了 <strong>  %(emails)s </strong> 实际上是您的电子邮件地址，它将与此帐户链接。"
 
 #: indico/modules/auth/templates/link_identity.html:25
 #, python-format
 msgid ""
-"We have found an existing Indico profile <strong>%(name)s</strong> which "
+"We have found an existing Oceanman profile <strong>%(name)s</strong> which "
 "will be linked with this account once you click the button below."
-msgstr "我们已经找到一个存在的 Indico 个人信息  <strong> %(name)s</strong>，一旦您点击下面的按钮，它将与此帐户链接。"
+msgstr "我们已经找到一个存在的 Oceanman 个人信息  <strong> %(name)s</strong>，一旦您点击下面的按钮，它将与此帐户链接。"
 
 #: indico/modules/auth/templates/link_identity.html:44
 msgid "Add this account and log in"
@@ -1845,9 +1845,9 @@ msgstr "或连接到"
 #: indico/modules/auth/templates/login_page.html:61
 #, python-format
 msgid ""
-"If you do not have an Indico account yet, you can <a href=\"%(url)s\">create"
+"If you do not have an Oceanman account yet, you can <a href=\"%(url)s\">create"
 " one here</a>."
-msgstr "如果您还没有 Indico 账号，可以<a href=\"%(url)s\">在这里创建</a>。"
+msgstr "如果您还没有 Oceanman 账号，可以<a href=\"%(url)s\">在这里创建</a>。"
 
 #: indico/modules/auth/templates/login_page.html:67
 #, python-format
@@ -1877,12 +1877,12 @@ msgid "Back"
 msgstr "返回"
 
 #: indico/modules/auth/templates/register.html:7
-msgid "Create a new Indico profile"
-msgstr "创建新的 Indico 个人信息"
+msgid "Create a new Oceanman profile"
+msgstr "创建新的 Oceanman 个人信息"
 
 #: indico/modules/auth/templates/register.html:15
 msgid ""
-"To create a new Indico profile you first need to verify your email address."
+"To create a new Oceanman profile you first need to verify your email address."
 msgstr "创建新的个人信息您首先需要验证您的电子邮件地址。"
 
 #: indico/modules/auth/templates/register.html:24
@@ -1910,12 +1910,12 @@ msgid "Submit registration request"
 msgstr "提交注册请求"
 
 #: indico/modules/auth/templates/register.html:58
-msgid "Create my Indico profile"
-msgstr "创建我的 Indico 个人信息"
+msgid "Create my Oceanman profile"
+msgstr "创建我的 Oceanman 个人信息"
 
 #: indico/modules/auth/templates/reset_password.html:6
-msgid "Reset your Indico password"
-msgstr "重置您的 Indico 账号密码"
+msgid "Reset your Oceanman password"
+msgstr "重置您的 Oceanman 账号密码"
 
 #: indico/modules/auth/templates/reset_password.html:15
 msgid ""
@@ -1951,10 +1951,10 @@ msgstr "用户"
 #: indico/modules/auth/templates/emails/register_verify_email.txt:13
 #, python-format
 msgid ""
-"You started the Indico profile creation process.  To continue, you need to "
+"You started the Oceanman profile creation process.  To continue, you need to "
 "verify that %(email)s is indeed your email address. Please click the "
 "following link to continue the registration process:"
-msgstr "您启动了Indico个人信息创建过程。若要继续，您需要验证%(email)s确实是您的电子邮件地址。请单击以下链接继续注册过程："
+msgstr "您启动了Oceanman个人信息创建过程。若要继续，您需要验证%(email)s确实是您的电子邮件地址。请单击以下链接继续注册过程："
 
 #: indico/modules/auth/templates/emails/reset_password.txt:4
 msgid "Reset your password"
@@ -1963,10 +1963,10 @@ msgstr "重置密码"
 #: indico/modules/auth/templates/emails/reset_password.txt:13
 #, python-format
 msgid ""
-"We heard that you forgot your Indico username or password. Your username is:"
+"We heard that you forgot your Oceanman username or password. Your username is:"
 " %(username)s To set a new password, simply use the following link within an"
 " hour:"
-msgstr "我们听说您忘了您的Indico用户名或密码。您的用户名是：%(username)s 若要设置新密码，只需在一小时内使用以下链接："
+msgstr "我们听说您忘了您的Oceanman用户名或密码。您的用户名是：%(username)s 若要设置新密码，只需在一小时内使用以下链接："
 
 #: indico/modules/bootstrap/controllers.py:54
 msgid ""
@@ -1979,8 +1979,8 @@ msgid "Hello there!"
 msgstr "您好！"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:15
-msgid "Indico needs just a little bit more data from you..."
-msgstr "Indico 需要你提供更多的数据…"
+msgid "Oceanman needs just a little bit more data from you..."
+msgstr "Oceanman 需要你提供更多的数据…"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:25
 #: indico/web/templates/_session_bar.html:180
@@ -2006,8 +2006,8 @@ msgid "Site configuration"
 msgstr "站点配置"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:76
-msgid "These are the default parameters for your Indico site."
-msgstr "这些是您的 Indico 站点的默认参数。"
+msgid "These are the default parameters for your Oceanman site."
+msgstr "这些是您的 Oceanman 站点的默认参数。"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:78
 msgid ""
@@ -2028,10 +2028,10 @@ msgstr "让我们知道您的存在！"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:104
 msgid ""
-"Be part of the ever growing Indico community! Choose to receive news on the "
+"Be part of the ever growing Oceanman community! Choose to receive news on the "
 "latest releases (2–3 times per year) as well as important security "
 "advisories."
-msgstr "加入不断发展的Indico社区！ 选择接收有关最新版本的新闻（每年2-3次）以及重要的安全公告。"
+msgstr "加入不断发展的Oceanman社区！ 选择接收有关最新版本的新闻（每年2-3次）以及重要的安全公告。"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:110
 msgid "The following data will be sent to the Community Hub:"
@@ -2043,8 +2043,8 @@ msgstr "服务的 URL"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:113
 #: indico/modules/cephalopod/templates/cephalopod.html:20
-msgid "Indico version installed"
-msgstr "安装了的 Indico版本"
+msgid "Oceanman version installed"
+msgstr "安装了的 Oceanman版本"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:114
 #: indico/modules/cephalopod/templates/cephalopod.html:21
@@ -2089,15 +2089,15 @@ msgstr "联系人"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:125
 #: indico/modules/cephalopod/templates/cephalopod.html:58
-msgid "Affiliation of your Indico server"
-msgstr "Indico 服务器的从属关系"
+msgid "Affiliation of your Oceanman server"
+msgstr "Oceanman 服务器的从属关系"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:129
 msgid ""
 "Please note that <strong>no private information</strong> will ever be sent "
-"to the Community Hub or the Indico Project and that you can disable it any "
+"to the Community Hub or the Oceanman Project and that you can disable it any "
 "time (from the \"Community Hub\" section of the administrative area)."
-msgstr "请注意<strong>不会有私有信息</strong> 被送到社区中心或者 Indico 项目并且您可以在任何时候禁用它 (从管理区域的 “社区中心” 部分) 。"
+msgstr "请注意<strong>不会有私有信息</strong> 被送到社区中心或者 Oceanman 项目并且您可以在任何时候禁用它 (从管理区域的 “社区中心” 部分) 。"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:147
 msgid "Finish"
@@ -2106,17 +2106,17 @@ msgstr "完成"
 #: indico/modules/bootstrap/templates/flash_messages.html:2
 #, python-format
 msgid ""
-"Indico is now ready and you are logged as %(name)s with administrative "
-"rights!<br> Don't forget to tweak <a href=\"%(settings_link)s\">Indico's "
+"Oceanman is now ready and you are logged as %(name)s with administrative "
+"rights!<br> Don't forget to tweak <a href=\"%(settings_link)s\">Oceanman's "
 "settings</a> and update your <a href=\"%(profile_link)s\">profile</a>."
-msgstr "Indico现在已准备就绪，您将以具有管理权限的 %(name)s  登录！<br>别忘了调整 <a href=\"%(settings_link)s\"> indico 的设置</a>并更新你的<a href=\"%(profile_link)s\">个人信息</a>"
+msgstr "Oceanman现在已准备就绪，您将以具有管理权限的 %(name)s  登录！<br>别忘了调整 <a href=\"%(settings_link)s\"> indico 的设置</a>并更新你的<a href=\"%(profile_link)s\">个人信息</a>"
 
 #: indico/modules/bootstrap/templates/flash_messages.html:10
 #, python-format
 msgid ""
-"Welcome to the Indico community, your server has been registered to the "
+"Welcome to the Oceanman community, your server has been registered to the "
 "Community Hub!<br> You can manage it <a href=\"%(link)s\">here</a>."
-msgstr "欢迎使用 Indico 社区，您的服务器已注册到社区中心！<br>你可以在<a href=\"%(link)s\">这里</a>管理。"
+msgstr "欢迎使用 Oceanman 社区，您的服务器已注册到社区中心！<br>你可以在<a href=\"%(link)s\">这里</a>管理。"
 
 #: indico/modules/bootstrap/templates/flash_messages.html:17
 #, python-format
@@ -2240,9 +2240,9 @@ msgstr "禁用建议"
 
 #: indico/modules/categories/forms.py:50
 msgid ""
-"Enable this if you don't want Indico to suggest this category as a possible "
+"Enable this if you don't want Oceanman to suggest this category as a possible "
 "addition to a user's favourites."
-msgstr "如果不希望 Indico 建议将此类别添加到用户收藏夹中，请启用此选项。"
+msgstr "如果不希望 Oceanman 建议将此类别添加到用户收藏夹中，请启用此选项。"
 
 #: indico/modules/categories/forms.py:52
 msgid "Message Type"
@@ -2485,8 +2485,8 @@ msgid "Everywhere"
 msgstr "任何地方"
 
 #: indico/modules/categories/views.py:50
-msgid "Indico Atom feed"
-msgstr " Indico Atom feed"
+msgid "Oceanman Atom feed"
+msgstr " Oceanman Atom feed"
 
 #: indico/modules/categories/controllers/admin.py:28
 msgid "Settings saved!"
@@ -2779,9 +2779,9 @@ msgstr "新"
 
 #: indico/modules/categories/templates/display/root_category.html:17
 msgid ""
-"Welcome to Indico. The Indico tool allows you to manage complex conferences,"
+"Welcome to Oceanman. The Oceanman tool allows you to manage complex conferences,"
 " workshops and meetings."
-msgstr "欢迎使用 Indico。Indico 允许您管理复杂的大型会议、研讨会和一般会议。"
+msgstr "欢迎使用 Oceanman。Oceanman 允许您管理复杂的大型会议、研讨会和一般会议。"
 
 #: indico/modules/categories/templates/display/root_category.html:21
 msgid "To start browsing, please select a category below."
@@ -3142,12 +3142,12 @@ msgid "Synchronization timed-out. Please try again in a while."
 msgstr "同步超时。请过会儿再试。"
 
 #: indico/modules/cephalopod/forms.py:23
-msgid "Name of the person responsible for your Indico server."
-msgstr "您的 Indico 服务器负责人的姓名。"
+msgid "Name of the person responsible for your Oceanman server."
+msgstr "您的 Oceanman 服务器负责人的姓名。"
 
 #: indico/modules/cephalopod/forms.py:26
-msgid "Email address of the person responsible for your Indico server."
-msgstr "您的 Indico 服务器负责人的邮件地址。"
+msgid "Email address of the person responsible for your Oceanman server."
+msgstr "您的 Oceanman 服务器负责人的邮件地址。"
 
 #: indico/modules/cephalopod/templates/cephalopod.html:10
 msgid "Let us know that you exist!"
@@ -3155,10 +3155,10 @@ msgstr "让我们知道您的存在！"
 
 #: indico/modules/cephalopod/templates/cephalopod.html:12
 msgid ""
-"By registering your Indico server with the community hub, you will receive "
+"By registering your Oceanman server with the community hub, you will receive "
 "news on the latest releases as well as important security advisories. The "
 "data in the form below will be sent to the community hub."
-msgstr "通过在社区中心注册 Indico 服务器，您将收到最新版本的新闻以及重要的安全建议。下表中的数据将发送到社区中心。"
+msgstr "通过在社区中心注册 Oceanman 服务器，您将收到最新版本的新闻以及重要的安全建议。下表中的数据将发送到社区中心。"
 
 #: indico/modules/cephalopod/templates/cephalopod.html:17
 msgid ""
@@ -3179,15 +3179,15 @@ msgid "Synchronize"
 msgstr "同步"
 
 #: indico/modules/cephalopod/templates/cephalopod.html:53
-msgid "URL of your Indico server"
-msgstr "您的 Indico 服务器的链接URL"
+msgid "URL of your Oceanman server"
+msgstr "您的 Oceanman 服务器的链接URL"
 
 #: indico/modules/cephalopod/templates/not_prod_warning.html:4
 msgid ""
-"It seems like you are using a local URL for Indico or running in debug "
+"It seems like you are using a local URL for Oceanman or running in debug "
 "mode.<br> We recommend registering only production instances with the "
 "Community Hub."
-msgstr "似乎您正在 Indico 使用本地 URL 或在调试模式下运行。<br> 我们建议只在社区中心注册生产实例。"
+msgstr "似乎您正在 Oceanman 使用本地 URL 或在调试模式下运行。<br> 我们建议只在社区中心注册生产实例。"
 
 #: indico/modules/core/__init__.py:21
 #: indico/modules/events/management/__init__.py:22
@@ -3213,8 +3213,8 @@ msgid "All your token-based links have been invalidated"
 msgstr "您所有基于令牌的链接均已失效"
 
 #: indico/modules/core/forms.py:21
-msgid "The global title of this Indico site."
-msgstr "此 Indico 站点的全局名称。"
+msgid "The global title of this Oceanman site."
+msgstr "此 Oceanman 站点的全局名称。"
 
 #: indico/modules/core/forms.py:22
 #: indico/modules/events/management/__init__.py:20
@@ -3222,8 +3222,8 @@ msgid "Organization"
 msgstr "组织"
 
 #: indico/modules/core/forms.py:23
-msgid "The organization that runs this Indico site."
-msgstr "运行此 Indico 站点的组织"
+msgid "The organization that runs this Oceanman site."
+msgstr "运行此 Oceanman 站点的组织"
 
 #: indico/modules/core/forms.py:32
 msgid "Site"
@@ -3260,8 +3260,8 @@ msgid "Impersonating %(name)s"
 msgstr "模拟 %(name)s"
 
 #: indico/modules/core/templates/admin/settings.html:16
-msgid "Upgrade to Indico v2 successful!"
-msgstr "成功升级到 Indico v2!"
+msgid "Upgrade to Oceanman v2 successful!"
+msgstr "成功升级到 Oceanman v2!"
 
 #: indico/modules/core/templates/admin/settings.html:19
 msgid "Please consider registering your server with the Community Hub."
@@ -3273,17 +3273,17 @@ msgstr "启用调试模式。"
 
 #: indico/modules/core/templates/admin/settings.html:38
 msgid ""
-"A new Indico version (<strong id=\"new-indico-version\"></strong>) is "
+"A new Oceanman version (<strong id=\"new-indico-version\"></strong>) is "
 "available! Your current version is <strong id=\"cur-indico-"
 "version\"></strong>."
-msgstr "新的 Indico 版本 (<strong id=\"new-indico-version\"> </strong>) 可用！您的当前版本是 <strong id=\"cur-indico-version\"> </strong>。"
+msgstr "新的 Oceanman 版本 (<strong id=\"new-indico-version\"> </strong>) 可用！您的当前版本是 <strong id=\"cur-indico-version\"> </strong>。"
 
 #: indico/modules/core/templates/admin/settings.html:52
 msgid ""
 "A new version (<strong id=\"new-indico-plugins-version\"></strong>) of the "
-"official Indico plugin package is available! Your current version is <strong"
+"official Oceanman plugin package is available! Your current version is <strong"
 " id=\"cur-indico-plugins-version\"></strong>."
-msgstr "正式的 Indico 插件包新版本 (<strong id=\"new-indico-plugins-version\"></strong>) 可用！您当前的版本是 <strong id=\"cur-indico-plugins-version\"></strong> 。"
+msgstr "正式的 Oceanman 插件包新版本 (<strong id=\"new-indico-plugins-version\"></strong>) 可用！您当前的版本是 <strong id=\"cur-indico-plugins-version\"></strong> 。"
 
 #: indico/modules/core/templates/admin/settings.html:61
 #: indico/modules/users/templates/users_admin.html:98
@@ -7510,8 +7510,8 @@ msgstr "只有字段 \"Title\" 是必填项。"
 #: indico/modules/events/registration/templates/management/import_registrations.html:33
 #: indico/modules/events/roles/templates/import_members.html:9
 msgid ""
-"Users will be matched with existing Indico identities through their e-mail."
-msgstr "将通过电子邮件把用户与现有的Indico身份进行匹配。"
+"Users will be matched with existing Oceanman identities through their e-mail."
+msgstr "将通过电子邮件把用户与现有的Oceanman身份进行匹配。"
 
 #: indico/modules/events/contributions/templates/management/types_dialog.html:8
 msgid "Add new contribution type"
@@ -7958,7 +7958,7 @@ msgstr "使用自定义 CSS"
 #: indico/modules/events/layout/forms.py:96
 msgid ""
 "Use a custom CSS file as a theme for the conference page. Deactivate this "
-"option to reveal the available Indico themes."
+"option to reveal the available Oceanman themes."
 msgstr "使用自定义 CSS 文件作为会议页的主题。停用此选项以显示可用的索引主题。"
 
 #: indico/modules/events/layout/forms.py:100
@@ -8313,8 +8313,8 @@ msgstr "URL短链接"
 #: indico/modules/events/management/forms.py:70
 msgid ""
 "<strong>{}SHORTCUT</strong> - the URL shortcut must be unique within this "
-"Indico instance and is not case sensitive."
-msgstr "<strong> {} SHORTCUT </strong> - URL短链接在 Indico 中必须是唯一的，并且不区分大小写。"
+"Oceanman instance and is not case sensitive."
+msgstr "<strong> {} SHORTCUT </strong> - URL短链接在 Oceanman 中必须是唯一的，并且不区分大小写。"
 
 #: indico/modules/events/management/forms.py:78
 msgid ""
@@ -8644,14 +8644,14 @@ msgid "Edit attachment \"{name}\""
 msgstr "编辑附件 \"{name}\""
 
 #: indico/modules/events/management/util.py:187
-msgid "You have added a user with no Indico account."
-msgid_plural "You have added {} users with no Indico account."
-msgstr[0] "您添加 {} 个没有 Indico 帐号的用户。"
+msgid "You have added a user with no Oceanman account."
+msgid_plural "You have added {} users with no Oceanman account."
+msgstr[0] "您添加 {} 个没有 Oceanman 帐号的用户。"
 
 #: indico/modules/events/management/util.py:189
 msgid ""
-"An Indico account may be needed to upload materials and/or manage contents."
-msgstr "上传材料并且/或者管理内容需要有 Indico 帐号。"
+"An Oceanman account may be needed to upload materials and/or manage contents."
+msgstr "上传材料并且/或者管理内容需要有 Oceanman 帐号。"
 
 #: indico/modules/events/management/util.py:191
 msgid "To invite them, please go to the {link_start}Roles page{link_end}"
@@ -9173,8 +9173,8 @@ msgstr "程序代码"
 #: indico/modules/events/management/templates/program_codes.html:6
 msgid ""
 "You can automatically assign programme codes in your event to have more "
-"meaningful ways of referencing e.g. certain contributions outside Indico."
-msgstr "您可以在您的事件中自动分配程序代码，以获得更有意义的引用方式，例如Indico 之外的某些报告。"
+"meaningful ways of referencing e.g. certain contributions outside Oceanman."
+msgstr "您可以在您的事件中自动分配程序代码，以获得更有意义的引用方式，例如Oceanman 之外的某些报告。"
 
 #: indico/modules/events/management/templates/program_codes.html:14
 msgid "Programme code templates"
@@ -10385,9 +10385,9 @@ msgstr "此人目前只是一份摘要的作者，与事件没有其他关系。
 #: indico/modules/events/persons/templates/management/_person_list_row.html:68
 #, python-format
 msgid ""
-"This user seems to have no Indico account. If they do have an account, they "
+"This user seems to have no Oceanman account. If they do have an account, they "
 "should add %(email)s to their profile"
-msgstr "此用户似乎没有Indico帐户。如果他们确实有帐户，他们应该在他们的个人信息中添加%(email)s"
+msgstr "此用户似乎没有Oceanman帐户。如果他们确实有帐户，他们应该在他们的个人信息中添加%(email)s"
 
 #: indico/modules/events/persons/templates/management/_person_list_row.html:70
 msgid "No account"
@@ -10438,7 +10438,7 @@ msgid "Send invitation"
 msgstr "发送邀请"
 
 #: indico/modules/events/persons/templates/management/person_list.html:92
-msgid "Send an email to all users with no Indico account"
+msgid "Send an email to all users with no Oceanman account"
 msgstr "给所有没有 indico 账号的用户发邮件"
 
 #: indico/modules/events/persons/templates/management/person_list.html:99
@@ -10447,9 +10447,9 @@ msgstr "所有没有帐户的用户"
 
 #: indico/modules/events/persons/templates/management/person_list.html:105
 msgid ""
-"Send an email to all users with no Indico account who have not received an "
+"Send an email to all users with no Oceanman account who have not received an "
 "invitation email yet"
-msgstr "向尚未收到邀请电子邮件的所有没有 Indico 帐户的用户发送电子邮件"
+msgstr "向尚未收到邀请电子邮件的所有没有 Oceanman 帐户的用户发送电子邮件"
 
 #: indico/modules/events/persons/templates/management/person_list.html:114
 msgid "To users not invited yet"
@@ -10474,12 +10474,12 @@ msgstr "查询字符串"
 #: indico/modules/events/persons/templates/management/person_list.html:192
 #, python-format
 msgid ""
-"There is one user with no Indico account. An Indico account may be needed to"
+"There is one user with no Oceanman account. An Oceanman account may be needed to"
 " upload materials and/or manage contents."
 msgid_plural ""
-"There are %(count)s users with no Indico account. An Indico account may be "
+"There are %(count)s users with no Oceanman account. An Oceanman account may be "
 "needed to upload materials and/or manage contents."
-msgstr[0] "%(count)s个用户没有Indico 帐户。上传材料和/或管理内容可能需要 Indico 帐户。"
+msgstr[0] "%(count)s个用户没有Oceanman 帐户。上传材料和/或管理内容可能需要 Oceanman 帐户。"
 
 #: indico/modules/events/persons/templates/management/person_list.html:229
 msgid "No persons"
@@ -10582,8 +10582,8 @@ msgid "Registrant must have account"
 msgstr "注册人必须有帐号"
 
 #: indico/modules/events/registration/forms.py:63
-msgid "Registrations emails must be associated with an Indico account"
-msgstr "注册的电子邮件必须与 Indico 帐号关联"
+msgid "Registrations emails must be associated with an Oceanman account"
+msgstr "注册的电子邮件必须与 Oceanman 帐号关联"
 
 #: indico/modules/events/registration/forms.py:64
 msgid "Limit registrations"
@@ -10837,8 +10837,8 @@ msgstr "允许修改注册的用户列表"
 
 #: indico/modules/events/registration/forms.py:343
 #: indico/modules/events/registration/templates/management/regform_invitations.html:37
-msgid "Indico users"
-msgstr "Indico 用户"
+msgid "Oceanman users"
+msgstr "Oceanman 用户"
 
 #: indico/modules/events/registration/forms.py:344
 msgid "Send e-mail notifications"
@@ -11012,8 +11012,8 @@ msgstr "我们找不到您的注册信息。如果已经注册，请使用注册
 msgid ""
 "We could not find a registration for you.  If have already registered, "
 "please use the direct access link from the email you received after "
-"registering or log in to your Indico account."
-msgstr "我们找不到您的注册信息。如果已经注册，请使用注册后收到的电子邮件中的直接访问链接或登录到您的Indico帐户。"
+"registering or log in to your Oceanman account."
+msgstr "我们找不到您的注册信息。如果已经注册，请使用注册后收到的电子邮件中的直接访问链接或登录到您的Oceanman帐户。"
 
 #: indico/modules/events/registration/controllers/display.py:359
 msgid "Your registration has been withdrawn."
@@ -11772,9 +11772,9 @@ msgstr "未报到"
 
 #: indico/modules/events/registration/templates/management/_registration_details.html:247
 msgid ""
-"You can mark the registration as checked in manually here or with the Indico"
+"You can mark the registration as checked in manually here or with the Oceanman"
 " Check in app."
-msgstr "您可以在此处手工的或使用 Indico 签入应用程序将注册标记为签入。"
+msgstr "您可以在此处手工的或使用 Oceanman 签入应用程序将注册标记为签入。"
 
 #: indico/modules/events/registration/templates/management/_registration_details.html:251
 msgid "You can mark the registration as checked in manually."
@@ -11886,10 +11886,10 @@ msgid ""
 "<strong>Example</strong>: If your left and right margins are 1.5 cm each, "
 "but your printer prints everything 1 mm to the left, you could use a left "
 "margin of 1.6 cm and a right margin of 1.4 cm to compensate. If you increase"
-" a margin, do not forget to decrease the opposing one to avoid Indico "
+" a margin, do not forget to decrease the opposing one to avoid Oceanman "
 "thinking there is less space for printing badges, and the number of rows / "
 "columns will change."
-msgstr "<strong>示例</strong>：如果左右边距各为 1.5 厘米，但打印机将所有内容向左打印 1 毫米，则可以使用 1.6 厘米的左边距和 1.4 厘米的右边距进行调整。如果您增加了一个边距，请不要忘记减少相对的边距，以避免 Indico 认为打印胸牌的空间较小，并且行/列的数量将发生变化。"
+msgstr "<strong>示例</strong>：如果左右边距各为 1.5 厘米，但打印机将所有内容向左打印 1 毫米，则可以使用 1.6 厘米的左边距和 1.4 厘米的右边距进行调整。如果您增加了一个边距，请不要忘记减少相对的边距，以避免 Oceanman 认为打印胸牌的空间较小，并且行/列的数量将发生变化。"
 
 #: indico/modules/events/registration/templates/management/regform.html:19
 msgid "Edit settings for this form."
@@ -12146,24 +12146,24 @@ msgid "Registration list configuration"
 msgstr "注册列表配置"
 
 #: indico/modules/events/registration/templates/management/regform_reglist.html:42
-msgid "Register a user that doesn't exist in Indico"
-msgstr "注册 Indico 中不存在的用户"
+msgid "Register a user that doesn't exist in Oceanman"
+msgstr "注册 Oceanman 中不存在的用户"
 
 #: indico/modules/events/registration/templates/management/regform_reglist.html:49
-msgid "Register a Indico user"
-msgstr "注册 Indico 用户"
+msgid "Register a Oceanman user"
+msgstr "注册 Oceanman 用户"
 
 #: indico/modules/events/registration/templates/management/regform_reglist.html:50
-msgid "Indico user"
-msgstr "Indico 用户"
+msgid "Oceanman user"
+msgstr "Oceanman 用户"
 
 #: indico/modules/events/registration/templates/management/regform_reglist.html:56
-msgid "Register multiple Indico users"
-msgstr "注册多个 Indico 用户"
+msgid "Register multiple Oceanman users"
+msgstr "注册多个 Oceanman 用户"
 
 #: indico/modules/events/registration/templates/management/regform_reglist.html:57
-msgid "Multiple Indico users"
-msgstr "多个 Indico 用户"
+msgid "Multiple Oceanman users"
+msgstr "多个 Oceanman 用户"
 
 #: indico/modules/events/registration/templates/management/regform_reglist.html:75
 msgid "PDF (table style)"
@@ -13631,8 +13631,8 @@ msgid "Social Networks"
 msgstr "社会网络"
 
 #: indico/modules/events/templates/header.html:8
-msgid "Go to the Indico Home Page"
-msgstr "转到Indico首页"
+msgid "Go to the Oceanman Home Page"
+msgstr "转到Oceanman首页"
 
 #: indico/modules/events/templates/header.html:14
 msgid "Oldest event"
@@ -14529,9 +14529,9 @@ msgstr "默认分会"
 
 #: indico/modules/events/tracks/forms.py:28
 msgid ""
-"Indico will preselect this session whenever an abstract is accepted for the "
+"Oceanman will preselect this session whenever an abstract is accepted for the "
 "track"
-msgstr "每当接受摘要到此议题时，Indico 将预选此分会"
+msgstr "每当接受摘要到此议题时，Oceanman 将预选此分会"
 
 #: indico/modules/events/tracks/templates/_track_list.html:12
 msgid "Edit track"
@@ -14563,9 +14563,9 @@ msgstr "此议题不能删除，因为它包含接收的摘要"
 #: indico/modules/events/tracks/templates/_track_list.html:41
 #, python-format
 msgid ""
-"Indico will preselect the session \"%(title)s\" whenever an abstract is "
+"Oceanman will preselect the session \"%(title)s\" whenever an abstract is "
 "accepted for this track."
-msgstr "每当这个议题接收摘要时，Indico 将预选分会 “%(title)s”。"
+msgstr "每当这个议题接收摘要时，Oceanman 将预选分会 “%(title)s”。"
 
 #: indico/modules/events/tracks/templates/_track_list.html:70
 msgid "Edit track group"
@@ -14737,9 +14737,9 @@ msgstr "查询组"
 #: indico/modules/groups/templates/groups.html:74
 #, python-format
 msgid ""
-"This Indico instance also supports external groups from identity providers "
+"This Oceanman instance also supports external groups from identity providers "
 "(%(providers)s)."
-msgstr "此 Indico 实例还支持来自标识提供程序的外部组 (%(providers)s)。"
+msgstr "此 Oceanman 实例还支持来自标识提供程序的外部组 (%(providers)s)。"
 
 #: indico/modules/groups/templates/groups.html:78
 msgid ""
@@ -14812,8 +14812,8 @@ msgstr "子网"
 #: indico/modules/networks/forms.py:21
 msgid ""
 "Do you really want to grant everyone within the specified networks "
-"unauthenticated access to all attachments/materials in Indico?"
-msgstr "你是否确定要授予指定网络中的所有人未经身份认证访问 Indico 中所有附件/材料的权限 ?"
+"unauthenticated access to all attachments/materials in Oceanman?"
+msgstr "你是否确定要授予指定网络中的所有人未经身份认证访问 Oceanman 中所有附件/材料的权限 ?"
 
 #: indico/modules/networks/forms.py:30
 msgid "Subnets"
@@ -14921,16 +14921,16 @@ msgid "News '{title}' has been deleted"
 msgstr "新闻 '{title}' 已删除"
 
 #: indico/modules/news/forms.py:21
-msgid "Whether to show the latest news headlines on the Indico home page."
-msgstr "是否在 Indico 首页上显示最新的新闻标题。"
+msgid "Whether to show the latest news headlines on the Oceanman home page."
+msgstr "是否在 Oceanman 首页上显示最新的新闻标题。"
 
 #: indico/modules/news/forms.py:22
 msgid "Max. headlines"
 msgstr "最大标题"
 
 #: indico/modules/news/forms.py:23
-msgid "The maximum number of news headlines to show on the Indico home page."
-msgstr "Indico 首页上显示的新闻标题的最大数量。"
+msgid "The maximum number of news headlines to show on the Oceanman home page."
+msgstr "Oceanman 首页上显示的新闻标题的最大数量。"
 
 #: indico/modules/news/forms.py:24
 msgid "Max. age"
@@ -14938,9 +14938,9 @@ msgstr "最大年龄"
 
 #: indico/modules/news/forms.py:25
 msgid ""
-"The maximum age in days for news to show up on the Indico home page. Setting"
+"The maximum age in days for news to show up on the Oceanman home page. Setting"
 " it to 0 will show news no matter how old they are."
-msgstr "新闻在 Indico 主页上显示的最长天数。将其设置为 0 将显示新闻，而不管它们有多旧。"
+msgstr "新闻在 Oceanman 主页上显示的最长天数。将其设置为 0 将显示新闻，而不管它们有多旧。"
 
 #: indico/modules/news/forms.py:27
 msgid "\"New\" threshold"
@@ -15099,9 +15099,9 @@ msgstr "注册新应用程序"
 
 #: indico/modules/oauth/templates/apps.html:18
 msgid ""
-"This is the list of applications authorized to access Indico. Click on the "
+"This is the list of applications authorized to access Oceanman. Click on the "
 "name of an application to see more information."
-msgstr "这是授权访问 Indico 的应用程序列表。单击应用程序的名称以查看更多信息。"
+msgstr "这是授权访问 Oceanman 的应用程序列表。单击应用程序的名称以查看更多信息。"
 
 #: indico/modules/oauth/templates/apps.html:22
 msgid "There aren't any authorized applications."
@@ -15129,7 +15129,7 @@ msgstr "已授权的应用程序"
 
 #: indico/modules/oauth/templates/user_profile.html:12
 msgid ""
-"This is the list of applications you authorized to access your Indico data."
+"This is the list of applications you authorized to access your Oceanman data."
 msgstr "这是您授权访问Indio数据的应用程序列表。"
 
 #: indico/modules/oauth/templates/user_profile.html:16
@@ -15143,9 +15143,9 @@ msgstr "最后一次使用："
 #: indico/modules/oauth/templates/user_profile.html:36
 #, python-format
 msgid ""
-"%(app_name)s will no longer have access to your Indico data.<br> Are you "
+"%(app_name)s will no longer have access to your Oceanman data.<br> Are you "
 "sure you want to revoke its access?"
-msgstr "%(app_name)s 将无法再访问您的Indico数据。<br> 是否确实要撤消其访问权限？"
+msgstr "%(app_name)s 将无法再访问您的Oceanman数据。<br> 是否确实要撤消其访问权限？"
 
 #: indico/modules/oauth/templates/user_profile.html:38
 msgid "Revoke"
@@ -15400,9 +15400,9 @@ msgstr "验证令牌无效或已过期。"
 
 #: indico/modules/users/controllers.py:408
 msgid ""
-"This token is for a different Indico user. Please login with the correct "
+"This token is for a different Oceanman user. Please login with the correct "
 "account"
-msgstr "此令牌用于其他 Indico 用户。请使用正确的帐户登录"
+msgstr "此令牌用于其他 Oceanman 用户。请使用正确的帐户登录"
 
 #: indico/modules/users/controllers.py:413
 msgid "This email address is already attached to your account."
@@ -15449,12 +15449,12 @@ msgid "Users' names seem to be different!"
 msgstr "用户的名字似乎不同！"
 
 #: indico/modules/users/controllers.py:576
-msgid "Source user has never logged in to Indico!"
-msgstr "源用户从未登录到 Indico！"
+msgid "Source user has never logged in to Oceanman!"
+msgstr "源用户从未登录到 Oceanman！"
 
 #: indico/modules/users/controllers.py:578
-msgid "Target user has never logged in to Indico!"
-msgstr "目标用户从未登录到 Indico！"
+msgid "Target user has never logged in to Oceanman!"
+msgstr "目标用户从未登录到 Oceanman！"
 
 #: indico/modules/users/controllers.py:580
 msgid "Source user is blocked!"
@@ -15733,8 +15733,8 @@ msgid "Deleted"
 msgstr "已删除"
 
 #: indico/modules/users/templates/admins.html:9
-msgid "Admins have unrestricted access to everything in Indico."
-msgstr "管理员可以不受限制地访问 Indico 中的所有内容。"
+msgid "Admins have unrestricted access to everything in Oceanman."
+msgstr "管理员可以不受限制地访问 Oceanman 中的所有内容。"
 
 #: indico/modules/users/templates/base.html:10
 #, python-format
@@ -15815,7 +15815,7 @@ msgid "You have not marked any user as favourite."
 msgstr "您尚未将任何用户标记为收藏。"
 
 #: indico/modules/users/templates/favorites.html:28
-msgid "Add Indico user"
+msgid "Add Oceanman user"
 msgstr "添加 indico 用户"
 
 #: indico/modules/users/templates/favorites.html:35
@@ -15828,9 +15828,9 @@ msgstr "您尚未将任何类别标记为收藏。"
 
 #: indico/modules/users/templates/personal_data.html:19
 msgid ""
-"This user will no longer have access to Indico.<br> Are you sure you want to"
+"This user will no longer have access to Oceanman.<br> Are you sure you want to"
 " revoke their access?"
-msgstr "此用户将无法再访问Indico。<br> 你确定要撤销他们的访问权限吗？"
+msgstr "此用户将无法再访问Oceanman。<br> 你确定要撤销他们的访问权限吗？"
 
 #: indico/modules/users/templates/personal_data.html:23
 msgid "Block User"
@@ -15838,9 +15838,9 @@ msgstr "阻止用户"
 
 #: indico/modules/users/templates/personal_data.html:30
 msgid ""
-"This user will regain access to Indico.<br> Are you sure you want to restore"
+"This user will regain access to Oceanman.<br> Are you sure you want to restore"
 " their access?"
-msgstr "此用户将重新访问Indico。<br> 你确定要恢复他们的访问权限吗？"
+msgstr "此用户将重新访问Oceanman。<br> 你确定要恢复他们的访问权限吗？"
 
 #: indico/modules/users/templates/personal_data.html:33
 msgid "Unblock User"
@@ -15901,9 +15901,9 @@ msgstr[0] "%(count)s 个用户匹配您的查询条件。"
 #: indico/modules/users/templates/emails/verify_email.txt:13
 #, python-format
 msgid ""
-"You recently added the e-mail address %(email)s to your Indico account. "
+"You recently added the e-mail address %(email)s to your Oceanman account. "
 "Please click the following link to confirm this action."
-msgstr "您已将电子邮件地址 %(email)s 添加到您的 Indico 帐户。请单击以下链接以确认此操作。"
+msgstr "您已将电子邮件地址 %(email)s 添加到您的 Oceanman 帐户。请单击以下链接以确认此操作。"
 
 #: indico/modules/vc/__init__.py:59
 #: indico/modules/vc/templates/event_header.html:4
@@ -16014,8 +16014,8 @@ msgstr "要连接的会议室"
 
 #: indico/modules/vc/forms.py:107
 msgid ""
-"Please start writing the name of the room you would like to attach. Indico "
-"will suggest existing rooms. Only rooms created through Indico can be "
+"Please start writing the name of the room you would like to attach. Oceanman "
+"will suggest existing rooms. Only rooms created through Oceanman can be "
 "attached."
 msgstr "请开始写您要附上的会议室名字。Indio将建议现有会议室。只能附加通过Indio创建的会议室。"
 
@@ -16794,7 +16794,7 @@ msgstr ""
 #: indico/web/templates/bad_url_error.html:4
 #, python-format
 msgid ""
-"This Indico instance can only be accessed via <a "
+"This Oceanman instance can only be accessed via <a "
 "href=\"%(url)s\">%(url)s</a>"
 msgstr ""
 
@@ -16883,12 +16883,12 @@ msgid "This field is required"
 msgstr "此字段必填"
 
 #: indico/web/templates/forms/_person_link_widget_base.html:28
-msgid "You have to log in in order to be able to search for Indico users"
+msgid "You have to log in in order to be able to search for Oceanman users"
 msgstr "您必须登录才能搜索Indio用户"
 
 #: indico/web/templates/forms/_person_link_widget_base.html:30
-msgid "Search among Indico users"
-msgstr "在 Indico 用户中搜索"
+msgid "Search among Oceanman users"
+msgstr "在 Oceanman 用户中搜索"
 
 #: indico/web/templates/forms/_person_link_widget_base.html:34
 msgid "Add yourself to the list"

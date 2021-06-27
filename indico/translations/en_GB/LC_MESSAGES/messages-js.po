@@ -6,7 +6,7 @@
 # Adrian Mönnich, 2021
 msgid ""
 msgstr ""
-"Project-Id-Version: Indico\n"
+"Project-Id-Version: Oceanman\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-06-24 11:13+0200\n"
 "PO-Revision-Date: 2021-06-24 09:35+0000\n"
@@ -240,9 +240,9 @@ msgstr ""
 
 #: indico/modules/cephalopod/client/js/index.js:119
 msgid ""
-"Your Indico server is out of sync. Synchronize it with the button on the "
+"Your Oceanman server is out of sync. Synchronize it with the button on the "
 "right."
-msgstr "Your Indico server is out of sync. Synchronise it with the button on the right."
+msgstr "Your Oceanman server is out of sync. Synchronise it with the button on the right."
 
 #: indico/modules/cephalopod/client/js/index.js:129
 msgid "Error!"
@@ -250,9 +250,9 @@ msgstr ""
 
 #: indico/modules/cephalopod/client/js/index.js:147
 msgid ""
-"Your Indico server is not synchronized with the Community Hub! You can solve"
+"Your Oceanman server is not synchronized with the Community Hub! You can solve"
 " this <a href=\"{0}\">here</a>."
-msgstr "Your Indico server is not synchronised with the Community Hub! You can solve this <a href=\"{0}\">here</a>."
+msgstr "Your Oceanman server is not synchronised with the Community Hub! You can solve this <a href=\"{0}\">here</a>."
 
 #: indico/modules/designer/client/js/index.js:31
 #: indico/modules/designer/client/js/index.js:707
@@ -389,11 +389,11 @@ msgid "The user associated with this email address is already registered."
 msgstr ""
 
 #: indico/modules/events/registration/client/js/form/field.js:185
-msgid "There is no Indico user associated with this email address."
+msgid "There is no Oceanman user associated with this email address."
 msgstr ""
 
 #: indico/modules/events/registration/client/js/form/field.js:190
-msgid "This email address is not associated with your Indico account."
+msgid "This email address is not associated with your Oceanman account."
 msgstr ""
 
 #: indico/modules/events/registration/client/js/form/field.js:193
@@ -417,22 +417,22 @@ msgid "This email address is invalid."
 msgstr ""
 
 #: indico/modules/events/registration/client/js/form/field.js:210
-msgid "The registration will not be associated with any Indico account."
+msgid "The registration will not be associated with any Oceanman account."
 msgstr ""
 
 #: indico/modules/events/registration/client/js/form/field.js:212
-msgid "The registration will be associated with your Indico account."
+msgid "The registration will be associated with your Oceanman account."
 msgstr ""
 
 #: indico/modules/events/registration/client/js/form/field.js:215
 msgid ""
-"The registration will remain associated with the Indico account "
+"The registration will remain associated with the Oceanman account "
 "<strong>{0}</strong>."
 msgstr ""
 
 #: indico/modules/events/registration/client/js/form/field.js:221
 msgid ""
-"The registration will be associated with the Indico account "
+"The registration will be associated with the Oceanman account "
 "<strong>{0}</strong>."
 msgstr ""
 
@@ -1089,7 +1089,7 @@ msgstr ""
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:58
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:78
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:93
-msgid " If this person does not already have an Indico account, "
+msgid " If this person does not already have an Oceanman account, "
 msgstr ""
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:41

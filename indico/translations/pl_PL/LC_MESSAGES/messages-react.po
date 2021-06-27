@@ -2678,10 +2678,10 @@ msgstr "Zmapuj szablon URL"
 
 #: indico/modules/rb/client/js/modules/admin/LocationPage.jsx:130
 msgid ""
-"Indico can show a link to an external map when a room is associated to an "
+"Oceanman can show a link to an external map when a room is associated to an "
 "event."
 msgstr ""
-"Indico może pokazać link do zewnętrznej mapy, jeżeli pokój jest związany z "
+"Oceanman może pokazać link do zewnętrznej mapy, jeżeli pokój jest związany z "
 "wydarzeniem."
 
 #: indico/modules/rb/client/js/modules/admin/LocationPage.jsx:148
@@ -3756,8 +3756,8 @@ msgid "Affiliation"
 msgstr "Afiliacja"
 
 #: indico/web/client/js/react/components/principals/Search.jsx:402
-msgid "Include users with no Indico account"
-msgstr "Dodać użytkowników niemających konta Indico"
+msgid "Include users with no Oceanman account"
+msgstr "Dodać użytkowników niemających konta Oceanman"
 
 #: indico/web/client/js/react/components/principals/Search.jsx:405
 #: indico/web/client/js/react/components/principals/Search.jsx:505

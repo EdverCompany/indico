@@ -8,7 +8,7 @@
 # batpurev batchuluun <batpurev@gmail.com>, 2021
 msgid ""
 msgstr ""
-"Project-Id-Version: Indico\n"
+"Project-Id-Version: Oceanman\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-10 16:36+0200\n"
 "PO-Revision-Date: 2021-04-13 07:57+0000\n"
@@ -243,9 +243,9 @@ msgstr "Синкнээс гарсан"
 
 #: indico/modules/cephalopod/client/js/index.js:121
 msgid ""
-"Your Indico server is out of sync. Synchronize it with the button on the "
+"Your Oceanman server is out of sync. Synchronize it with the button on the "
 "right."
-msgstr "Таны Indico сервер синкнээс гарсан байна. Баруун гар талын товчоор үүнийг синхронжуулна."
+msgstr "Таны Oceanman сервер синкнээс гарсан байна. Баруун гар талын товчоор үүнийг синхронжуулна."
 
 #: indico/modules/cephalopod/client/js/index.js:131
 msgid "Error!"
@@ -253,9 +253,9 @@ msgstr "Алдаа!"
 
 #: indico/modules/cephalopod/client/js/index.js:149
 msgid ""
-"Your Indico server is not synchronized with the Community Hub! You can solve"
+"Your Oceanman server is not synchronized with the Community Hub! You can solve"
 " this <a href=\"{0}\">here</a>."
-msgstr "Таны Indico сервер Олон нийтийн хабаар синхронжуулаагүй! Та үүнийг <a href=\"{0}\">энд</a> дээр шийдвэрлэж чадна."
+msgstr "Таны Oceanman сервер Олон нийтийн хабаар синхронжуулаагүй! Та үүнийг <a href=\"{0}\">энд</a> дээр шийдвэрлэж чадна."
 
 #: indico/modules/core/client/js/impersonation.js:35
 msgid "Select user to impersonate"
@@ -397,12 +397,12 @@ msgid "The user associated with this email address is already registered."
 msgstr "Энэхүү цахим шуудангийн хаягтай холбоотой хэрэглэгч аль хэдийнэ бүртгэгдсэн байна."
 
 #: indico/modules/events/registration/client/js/form/field.js:185
-msgid "There is no Indico user associated with this email address."
-msgstr "Энэхүү цахим шуудангийн хаягтай холбоотой Indico хэрэглэгч байхгүй байна."
+msgid "There is no Oceanman user associated with this email address."
+msgstr "Энэхүү цахим шуудангийн хаягтай холбоотой Oceanman хэрэглэгч байхгүй байна."
 
 #: indico/modules/events/registration/client/js/form/field.js:190
-msgid "This email address is not associated with your Indico account."
-msgstr "Энэхүү цахим шуудангийн хаяг Indico бүртгэлтэй тань холбогдоогүй байна."
+msgid "This email address is not associated with your Oceanman account."
+msgstr "Энэхүү цахим шуудангийн хаяг Oceanman бүртгэлтэй тань холбогдоогүй байна."
 
 #: indico/modules/events/registration/client/js/form/field.js:193
 msgid ""
@@ -425,24 +425,24 @@ msgid "This email address is invalid."
 msgstr "Энэхүү цахим шуудангийн хаяг хүчингүй."
 
 #: indico/modules/events/registration/client/js/form/field.js:210
-msgid "The registration will not be associated with any Indico account."
-msgstr "Бүртгэл нь аливаа Indico бүртгэлтэй холбогдохгүй болно."
+msgid "The registration will not be associated with any Oceanman account."
+msgstr "Бүртгэл нь аливаа Oceanman бүртгэлтэй холбогдохгүй болно."
 
 #: indico/modules/events/registration/client/js/form/field.js:212
-msgid "The registration will be associated with your Indico account."
-msgstr "Бүртгэл нь таны Indico данстай холбогдох болно."
+msgid "The registration will be associated with your Oceanman account."
+msgstr "Бүртгэл нь таны Oceanman данстай холбогдох болно."
 
 #: indico/modules/events/registration/client/js/form/field.js:215
 msgid ""
-"The registration will remain associated with the Indico account "
+"The registration will remain associated with the Oceanman account "
 "<strong>{0}</strong>."
-msgstr "Бүртгэл нь Indico данс <strong>{0}</strong>-тай холбогдсон хэвээр үлдэх болно."
+msgstr "Бүртгэл нь Oceanman данс <strong>{0}</strong>-тай холбогдсон хэвээр үлдэх болно."
 
 #: indico/modules/events/registration/client/js/form/field.js:221
 msgid ""
-"The registration will be associated with the Indico account "
+"The registration will be associated with the Oceanman account "
 "<strong>{0}</strong>."
-msgstr "Бүртгэл нь Indico данс<strong>{0}</strong>-тай холбогдох болно."
+msgstr "Бүртгэл нь Oceanman данс<strong>{0}</strong>-тай холбогдох болно."
 
 #: indico/modules/events/registration/client/js/form/field.js:242
 msgid "Checking email address..."
@@ -1144,8 +1144,8 @@ msgid "This person exists in the event"
 msgstr "Энэ хүн үйл явдал дээр оршин байна"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:191
-msgid "Users with no Indico account"
-msgstr "Indico бүртгэлгүй хэрэглэгчид"
+msgid "Users with no Oceanman account"
+msgstr "Oceanman бүртгэлгүй хэрэглэгчид"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:239
 msgid "Grant all selected users submission rights"
@@ -1224,8 +1224,8 @@ msgstr "Тэмдэглэл:"
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1012
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1032
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1047
-msgid " If this person does not already have an Indico account, "
-msgstr "Энэ хүнд Indico бүртгэл аль хэдийнэ байхгүй тохиолдолд,"
+msgid " If this person does not already have an Oceanman account, "
+msgstr "Энэ хүнд Oceanman бүртгэл аль хэдийнэ байхгүй тохиолдолд,"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:995
 msgid "he or she will be sent an email asking to register as a user."
@@ -1341,10 +1341,10 @@ msgstr "Зохиогчийн эрх"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1445
 msgid ""
-"Please note that you have added a user that does not exist in Indico.\n"
+"Please note that you have added a user that does not exist in Oceanman.\n"
 "                                    Non existing users will be asked via email to create an account so\n"
 "                                    that they will be able to use the privileges below."
-msgstr "Indico дотор оршихгүй хэрэглэгч нэмснээ та анхаарна уу.\nбүртгэл үүсгэх эсэхийг оршин байхгүй хэрэглэгчээс цахим шуудангаар асууна\nулмаар тэд нар доорх давуу эрхийг эдлэх боломжтой болно."
+msgstr "Oceanman дотор оршихгүй хэрэглэгч нэмснээ та анхаарна уу.\nбүртгэл үүсгэх эсэхийг оршин байхгүй хэрэглэгчээс цахим шуудангаар асууна\nулмаар тэд нар доорх давуу эрхийг эдлэх боломжтой болно."
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1450
 msgid ""

@@ -2739,10 +2739,10 @@ msgstr "Modèle d'URL de carte"
 
 #: indico/modules/rb/client/js/modules/admin/LocationPage.jsx:130
 msgid ""
-"Indico can show a link to an external map when a room is associated to an "
+"Oceanman can show a link to an external map when a room is associated to an "
 "event."
 msgstr ""
-"Indico peut afficher un lien vers une carte extérieure lorsqu'une salle est "
+"Oceanman peut afficher un lien vers une carte extérieure lorsqu'une salle est "
 "liée à un événement."
 
 #: indico/modules/rb/client/js/modules/admin/LocationPage.jsx:148
@@ -3626,10 +3626,10 @@ msgstr "Entrer un texte ci-dessus pour commencer à chercher."
 #: indico/modules/search/client/js/components/SearchApp.jsx:112
 msgid ""
 "Enter a term above to begin searching inside the {categoryTitle} category. "
-"You can {link}search all of Indico instead{/link}."
+"You can {link}search all of Oceanman instead{/link}."
 msgstr ""
 "Entrer un texte ci-dessus pour commencer à chercher dans la catégorie "
-"{categoryTitle}. Vous pouvez {link}chercher dans tout Indico à la "
+"{categoryTitle}. Vous pouvez {link}chercher dans tout Oceanman à la "
 "place{/link}."
 
 #: indico/modules/search/client/js/components/SearchApp.jsx:131
@@ -3643,10 +3643,10 @@ msgstr "Votre recherche - {query} - n'a retourné aucun résultat."
 #: indico/modules/search/client/js/components/SearchApp.jsx:138
 msgid ""
 "Your search - {query} - did not match any results. You could try "
-"{link}searching all of Indico instead{/link}."
+"{link}searching all of Oceanman instead{/link}."
 msgstr ""
 "Votre recherche - {query} - n'a retourné aucun résultat. Vous pouvez essayer"
-" de {link}rechercher dans tout Indico à la place{/link}."
+" de {link}rechercher dans tout Oceanman à la place{/link}."
 
 #: indico/modules/search/client/js/components/SearchApp.jsx:190
 msgid "Sort by: {value}"
@@ -3687,8 +3687,8 @@ msgid "In this category ↵"
 msgstr "Dans cette catégorie "
 
 #: indico/modules/search/client/js/components/SearchBox.jsx:40
-msgid "All Indico ↵"
-msgstr "Tout Indico "
+msgid "All Oceanman ↵"
+msgstr "Tout Oceanman "
 
 #: indico/modules/search/client/js/components/results/PersonList.jsx:31
 msgid "et al."
@@ -3703,8 +3703,8 @@ msgid "You have not marked any category as favorite."
 msgstr "Vous n'avez aucune catégorie dans vos favoris."
 
 #: indico/modules/users/client/js/Favorites.jsx:143
-msgid "Add Indico user"
-msgstr "Ajouter un utilisateur Indico"
+msgid "Add Oceanman user"
+msgstr "Ajouter un utilisateur Oceanman"
 
 #: indico/modules/users/client/js/Favorites.jsx:151
 msgid "Favorite Users"
@@ -3916,8 +3916,8 @@ msgid "Affiliation"
 msgstr "Affiliation"
 
 #: indico/web/client/js/react/components/principals/Search.jsx:548
-msgid "Include users with no Indico account"
-msgstr "Inclure les utilisateurs sans compte Indico"
+msgid "Include users with no Oceanman account"
+msgstr "Inclure les utilisateurs sans compte Oceanman"
 
 #: indico/web/client/js/react/components/principals/Search.jsx:551
 #: indico/web/client/js/react/components/principals/Search.jsx:705

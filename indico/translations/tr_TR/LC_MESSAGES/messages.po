@@ -10,7 +10,7 @@
 # selcuk bilmis <selcukbilmis@gmail.com>, 2021
 msgid ""
 msgstr ""
-"Project-Id-Version: Indico\n"
+"Project-Id-Version: Oceanman\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-06-24 17:51+0200\n"
 "PO-Revision-Date: 2021-06-25 11:24+0000\n"
@@ -100,8 +100,8 @@ msgid ""
 msgstr "Celery görev zamanlayıcısı çalışıyor gibi görünmüyor. Bu e-posta gönderme ile etkinlik anımsatıcıları gibi periyodik görevlerin çalışmadığı anlamına gelir."
 
 #: indico/core/celery/__init__.py:79
-msgid "The Celery task scheduler is running a different Indico version."
-msgstr "Celery görev zamanlayıcı, farklı bir Indico sürümünü çalıştırıyor."
+msgid "The Celery task scheduler is running a different Oceanman version."
+msgstr "Celery görev zamanlayıcı, farklı bir Oceanman sürümünü çalıştırıyor."
 
 #: indico/core/celery/templates/celery_tasks.html:9
 msgid "Periodic Tasks"
@@ -631,8 +631,8 @@ msgid "Administration"
 msgstr "Yönetim"
 
 #: indico/modules/admin/controllers/base.py:23
-msgid "Only Indico administrators may access this page."
-msgstr "Bu sayfaya yalnızca Indico sistem yöneticileri erişebilir."
+msgid "Only Oceanman administrators may access this page."
+msgstr "Bu sayfaya yalnızca Oceanman sistem yöneticileri erişebilir."
 
 #: indico/modules/announcement/__init__.py:36
 #: indico/modules/announcement/templates/settings.html:5
@@ -661,8 +661,8 @@ msgid "Message"
 msgstr "Mesaj"
 
 #: indico/modules/announcement/templates/settings.html:9
-msgid "The announcement is a message shown on top of each Indico page."
-msgstr "Duyuru, her bir Indico sayfasının tepesinde gösterilen bir iletidir."
+msgid "The announcement is a message shown on top of each Oceanman page."
+msgstr "Duyuru, her bir Oceanman sayfasının tepesinde gösterilen bir iletidir."
 
 #: indico/modules/api/__init__.py:62
 msgid "API"
@@ -940,13 +940,13 @@ msgstr "Tüm bağlantıları geçersiz kıl"
 
 #: indico/modules/api/templates/user_profile.html:133
 msgid ""
-"Token-based unique links are secret URLs which Indico uses to allow you to "
+"Token-based unique links are secret URLs which Oceanman uses to allow you to "
 "easily fetch data from within other applications (e.g. calendar schedulers "
 "through iCalendar). They are generated through a digital signature based on "
-"a secret key that is unique per Indico user. If one of your links is "
+"a secret key that is unique per Oceanman user. If one of your links is "
 "compromised, you should click this button. All other links will be "
 "invalidated."
-msgstr "Jeton temelli benzersiz bağlantılar, Indico'nun diğer uygulamalardan (örneğin iCalendar üzerinden takvim zamanlayıcıları) getirmenize olanak tanımak için kullandığı gizli URL'lerdir. Bu bağlantılar, her Indico kullanıcısı için benzersiz olan bir sır anahtarı temelli bir dijital imza üzerinden üretilir. Bağlantılarınızdan biri üzerinde mutabakata varılması durumunda, bu düğmeye tıklamalısınız. Diğer tüm bağlantılar geçersiz kılınacaktır."
+msgstr "Jeton temelli benzersiz bağlantılar, Oceanman'nun diğer uygulamalardan (örneğin iCalendar üzerinden takvim zamanlayıcıları) getirmenize olanak tanımak için kullandığı gizli URL'lerdir. Bu bağlantılar, her Oceanman kullanıcısı için benzersiz olan bir sır anahtarı temelli bir dijital imza üzerinden üretilir. Bağlantılarınızdan biri üzerinde mutabakata varılması durumunda, bu düğmeye tıklamalısınız. Diğer tüm bağlantılar geçersiz kılınacaktır."
 
 #: indico/modules/api/templates/user_profile.html:156
 msgid "Unblock API key"
@@ -1484,12 +1484,12 @@ msgid "Upload"
 msgstr "Yükle"
 
 #: indico/modules/auth/__init__.py:58
-msgid "Your Indico profile has been deleted."
-msgstr "Indico profiliniz silindi."
+msgid "Your Oceanman profile has been deleted."
+msgstr "Oceanman profiliniz silindi."
 
 #: indico/modules/auth/__init__.py:73
-msgid "Your Indico profile has been blocked."
-msgstr "Indico profiliniz engellendi."
+msgid "Your Oceanman profile has been blocked."
+msgstr "Oceanman profiliniz engellendi."
 
 #: indico/modules/auth/__init__.py:108
 msgid "Accounts"
@@ -1529,9 +1529,9 @@ msgstr "E-posta adresinizi başarıyla doğruladınız ve kayıt işlemine devam
 
 #: indico/modules/auth/controllers.py:281
 msgid ""
-"There is already some information in Indico that concerns you. We are going "
+"There is already some information in Oceanman that concerns you. We are going "
 "to link it automatically."
-msgstr "Indico'da sizi ilgilendiren bazı bilgiler zaten vardır. Onları otomatik olarak olarak bağlayacağız."
+msgstr "Oceanman'da sizi ilgilendiren bazı bilgiler zaten vardır. Onları otomatik olarak olarak bağlayacağız."
 
 #: indico/modules/auth/controllers.py:316
 msgid ""
@@ -1541,9 +1541,9 @@ msgstr "Kayıt talebiniz alındı. Bu talep işlendiğinde size bir e-posta gön
 
 #: indico/modules/auth/controllers.py:323
 msgid ""
-"You have sucessfully registered your Indico profile. Check <a "
+"You have sucessfully registered your Oceanman profile. Check <a "
 "href=\"{url}\">your profile</a> for further details and settings."
-msgstr "Indico profilinize başarıyla kaydoldunuz. Daha fazla bilgi ve ayarlar için <a href=\"{url}\">profilinizi</a> kontrol edin."
+msgstr "Oceanman profilinize başarıyla kaydoldunuz. Daha fazla bilgi ve ayarlar için <a href=\"{url}\">profilinizi</a> kontrol edin."
 
 #: indico/modules/auth/controllers.py:345
 msgid "Local account added successfully"
@@ -1701,8 +1701,8 @@ msgid "The password you used to login is no longer secure:"
 msgstr "Giriş yapmak için kullandığınız şifre artık güvenli değil:"
 
 #: indico/modules/auth/templates/accounts.html:13
-msgid "You need to change your password in order to keep using Indico."
-msgstr "Indico'yu kullanmaya devam edebilmek için şifrenizi değiştirmeniz gerekiyor."
+msgid "You need to change your password in order to keep using Oceanman."
+msgstr "Oceanman'yu kullanmaya devam edebilmek için şifrenizi değiştirmeniz gerekiyor."
 
 #: indico/modules/auth/templates/accounts.html:23
 msgid "Local Account"
@@ -1782,8 +1782,8 @@ msgid "External Accounts"
 msgstr "Dış Hesaplar"
 
 #: indico/modules/auth/templates/accounts.html:110
-msgid "External accounts linked with your Indico profile."
-msgstr "Indico profilinize bağlı dış hesaplar"
+msgid "External accounts linked with your Oceanman profile."
+msgstr "Oceanman profilinize bağlı dış hesaplar"
 
 #: indico/modules/auth/templates/accounts.html:139
 msgid "The account used to log in cannot be unlinked"
@@ -1819,17 +1819,17 @@ msgstr "<strong>%(provider)s</strong> kullanarak ilk kez oturum açtınız."
 #: indico/modules/auth/templates/link_identity.html:19
 #, python-format
 msgid ""
-"We have found an existing Indico profile <strong>%(name)s</strong> which "
+"We have found an existing Oceanman profile <strong>%(name)s</strong> which "
 "will be linked with this account once you have verified that "
 "<strong>%(emails)s</strong> is actually your email address."
-msgstr "1%(emails)s1 gerçekten sizin e-posta adresiniz olduğunu doğruladıktan sonra bu hesaba bağlanacak mevcut bir Indico profili 1%(name)s1 bulduk."
+msgstr "1%(emails)s1 gerçekten sizin e-posta adresiniz olduğunu doğruladıktan sonra bu hesaba bağlanacak mevcut bir Oceanman profili 1%(name)s1 bulduk."
 
 #: indico/modules/auth/templates/link_identity.html:25
 #, python-format
 msgid ""
-"We have found an existing Indico profile <strong>%(name)s</strong> which "
+"We have found an existing Oceanman profile <strong>%(name)s</strong> which "
 "will be linked with this account once you click the button below."
-msgstr "Aşağıdaki düğmeye bastıktan sonra bu hesaba bağlanacak mevcut bir Indico profili %(name)sbulduk."
+msgstr "Aşağıdaki düğmeye bastıktan sonra bu hesaba bağlanacak mevcut bir Oceanman profili %(name)sbulduk."
 
 #: indico/modules/auth/templates/link_identity.html:44
 msgid "Add this account and log in"
@@ -1861,9 +1861,9 @@ msgstr "veya bağlan"
 #: indico/modules/auth/templates/login_page.html:69
 #, python-format
 msgid ""
-"If you do not have an Indico account yet, you can <a href=\"%(url)s\">create"
+"If you do not have an Oceanman account yet, you can <a href=\"%(url)s\">create"
 " one here</a>."
-msgstr "Henüz bir Indico hesabınız yoksa <a href=\"%(url)s\">buradan oluşturabilirsiniz</a>."
+msgstr "Henüz bir Oceanman hesabınız yoksa <a href=\"%(url)s\">buradan oluşturabilirsiniz</a>."
 
 #: indico/modules/auth/templates/login_page.html:75
 #, python-format
@@ -1893,13 +1893,13 @@ msgid "Back"
 msgstr "Geri"
 
 #: indico/modules/auth/templates/register.html:7
-msgid "Create a new Indico profile"
-msgstr "Yeni bir Indico profili oluştur"
+msgid "Create a new Oceanman profile"
+msgstr "Yeni bir Oceanman profili oluştur"
 
 #: indico/modules/auth/templates/register.html:15
 msgid ""
-"To create a new Indico profile you first need to verify your email address."
-msgstr "Yeni bir Indico profili oluşturmak için öncelikle e-posta adresinizi doğrulamanız gerekmektedir."
+"To create a new Oceanman profile you first need to verify your email address."
+msgstr "Yeni bir Oceanman profili oluşturmak için öncelikle e-posta adresinizi doğrulamanız gerekmektedir."
 
 #: indico/modules/auth/templates/register.html:24
 #: indico/modules/users/templates/users_admin_create.html:4
@@ -1926,12 +1926,12 @@ msgid "Submit registration request"
 msgstr "Kayıt isteğini gönder"
 
 #: indico/modules/auth/templates/register.html:58
-msgid "Create my Indico profile"
-msgstr "Indico profilimi oluştur"
+msgid "Create my Oceanman profile"
+msgstr "Oceanman profilimi oluştur"
 
 #: indico/modules/auth/templates/reset_password.html:6
-msgid "Reset your Indico password"
-msgstr "Indico parolanızı sıfırlayın"
+msgid "Reset your Oceanman password"
+msgstr "Oceanman parolanızı sıfırlayın"
 
 #: indico/modules/auth/templates/reset_password.html:15
 msgid ""
@@ -1968,11 +1968,11 @@ msgstr "kullanıcı"
 #: indico/modules/auth/templates/emails/register_verify_email.txt:12
 #, python-format
 msgid ""
-"You started the Indico profile creation process.  To continue, you need to verify\n"
+"You started the Oceanman profile creation process.  To continue, you need to verify\n"
 "that %(email)s is indeed your email address.\n"
 "\n"
 "Please click the following link to continue the registration process:"
-msgstr "Indico profili oluşturma sürecini başlattınız. Devam etmek için bu \n%(email)se-posta adresinizin size ait olduğunu doğrulamanız gerekmektedir. \n\n Kayıt işlemine devam etmek için lütfen aşağıdaki bağlantıyı tıklayın: "
+msgstr "Oceanman profili oluşturma sürecini başlattınız. Devam etmek için bu \n%(email)se-posta adresinizin size ait olduğunu doğrulamanız gerekmektedir. \n\n Kayıt işlemine devam etmek için lütfen aşağıdaki bağlantıyı tıklayın: "
 
 #: indico/modules/auth/templates/emails/reset_password.txt:4
 msgid "Reset your password"
@@ -1981,11 +1981,11 @@ msgstr "Parolanızı Yenileyin"
 #: indico/modules/auth/templates/emails/reset_password.txt:12
 #, python-format
 msgid ""
-"We heard that you forgot your Indico username or password.\n"
+"We heard that you forgot your Oceanman username or password.\n"
 "\n"
 "Your username is: %(username)s\n"
 "To set a new password, simply use the following link within an hour:"
-msgstr "Indico kullanıcı adınızı veya şifrenizi unuttuğunuzu haber aldık. \n\n Kullanıcı adınız: %(username)s\nYeni bir şifre belirlemek için bir saat içinde aşağıdaki bağlantıyı kullanmanız yeterlidir: "
+msgstr "Oceanman kullanıcı adınızı veya şifrenizi unuttuğunuzu haber aldık. \n\n Kullanıcı adınız: %(username)s\nYeni bir şifre belirlemek için bir saat içinde aşağıdaki bağlantıyı kullanmanız yeterlidir: "
 
 #: indico/modules/bootstrap/templates/bootstrap.html:5
 #: indico/modules/bootstrap/templates/bootstrap.html:14
@@ -1993,8 +1993,8 @@ msgid "Hello there!"
 msgstr "Merhaba!"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:15
-msgid "Indico needs just a little bit more data from you..."
-msgstr "Indico sizden biraz daha fazla veriye ihtiyaç duyuyor..."
+msgid "Oceanman needs just a little bit more data from you..."
+msgstr "Oceanman sizden biraz daha fazla veriye ihtiyaç duyuyor..."
 
 #: indico/modules/bootstrap/templates/bootstrap.html:25
 #: indico/web/templates/_session_bar.html:182
@@ -2020,8 +2020,8 @@ msgid "Site configuration"
 msgstr "Site Ayarları"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:76
-msgid "These are the default parameters for your Indico site."
-msgstr "Bunlar Indico siteniz için varsayılan parametrelerdir."
+msgid "These are the default parameters for your Oceanman site."
+msgstr "Bunlar Oceanman siteniz için varsayılan parametrelerdir."
 
 #: indico/modules/bootstrap/templates/bootstrap.html:78
 msgid ""
@@ -2042,10 +2042,10 @@ msgstr "Varlığınızdan bizi haberdar edin!"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:104
 msgid ""
-"Be part of the ever growing Indico community! Choose to receive news on the "
+"Be part of the ever growing Oceanman community! Choose to receive news on the "
 "latest releases (2–3 times per year) as well as important security "
 "advisories."
-msgstr "Sürekli büyüyen Indico topluluğunun bir parçası olun. En son sürümler (yılda 2-3 kez) ve önemli güvenlik tavsiyeleri hakkındaki haberleri almayı seçin."
+msgstr "Sürekli büyüyen Oceanman topluluğunun bir parçası olun. En son sürümler (yılda 2-3 kez) ve önemli güvenlik tavsiyeleri hakkındaki haberleri almayı seçin."
 
 #: indico/modules/bootstrap/templates/bootstrap.html:110
 msgid "The following data will be sent to the Community Hub:"
@@ -2057,8 +2057,8 @@ msgstr "Sunucu URL'i"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:113
 #: indico/modules/cephalopod/templates/cephalopod.html:20
-msgid "Indico version installed"
-msgstr "Yüklü Indico sürümü"
+msgid "Oceanman version installed"
+msgstr "Yüklü Oceanman sürümü"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:114
 #: indico/modules/cephalopod/templates/cephalopod.html:21
@@ -2103,15 +2103,15 @@ msgstr "İletişim kişisi"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:125
 #: indico/modules/cephalopod/templates/cephalopod.html:58
-msgid "Affiliation of your Indico server"
-msgstr "Indico sunucunuzun kurumu"
+msgid "Affiliation of your Oceanman server"
+msgstr "Oceanman sunucunuzun kurumu"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:129
 msgid ""
 "Please note that <strong>no private information</strong> will ever be sent "
-"to the Community Hub or the Indico Project and that you can disable it any "
+"to the Community Hub or the Oceanman Project and that you can disable it any "
 "time (from the \"Community Hub\" section of the administrative area)."
-msgstr "Lütfen Topluluk Merkezi veya Indico Projesine<strong>hiçbir kişisel veri</strong> gönderilmeyeceğine ve istediğiniz zaman bunu devre dışı bırakabileceğinize (idari alanın ''Topluluk Merkezi'' bölümünden) dikkat edin."
+msgstr "Lütfen Topluluk Merkezi veya Oceanman Projesine<strong>hiçbir kişisel veri</strong> gönderilmeyeceğine ve istediğiniz zaman bunu devre dışı bırakabileceğinize (idari alanın ''Topluluk Merkezi'' bölümünden) dikkat edin."
 
 #: indico/modules/bootstrap/templates/bootstrap.html:147
 msgid "Finish"
@@ -2120,17 +2120,17 @@ msgstr "Tamamla"
 #: indico/modules/bootstrap/templates/flash_messages.html:2
 #, python-format
 msgid ""
-"Indico is now ready and you are logged as %(name)s with administrative "
-"rights!<br> Don't forget to tweak <a href=\"%(settings_link)s\">Indico's "
+"Oceanman is now ready and you are logged as %(name)s with administrative "
+"rights!<br> Don't forget to tweak <a href=\"%(settings_link)s\">Oceanman's "
 "settings</a> and update your <a href=\"%(profile_link)s\">profile</a>."
-msgstr "Indico artık hazırdır ve %(name)s olarak yönetici hakları ile beraber oturum açtınız!<br>  Lütfen<a href=\"%(settings_link)s\">Indico'nun ayarlarında</a> istediğiniz değişiklikleri yapmayı<a href=\"%(profile_link)s\">profilinizi</a> güncellemeyi unutmayın."
+msgstr "Oceanman artık hazırdır ve %(name)s olarak yönetici hakları ile beraber oturum açtınız!<br>  Lütfen<a href=\"%(settings_link)s\">Oceanman'nun ayarlarında</a> istediğiniz değişiklikleri yapmayı<a href=\"%(profile_link)s\">profilinizi</a> güncellemeyi unutmayın."
 
 #: indico/modules/bootstrap/templates/flash_messages.html:10
 #, python-format
 msgid ""
-"Welcome to the Indico community, your server has been registered to the "
+"Welcome to the Oceanman community, your server has been registered to the "
 "Community Hub!<br> You can manage it <a href=\"%(link)s\">here</a>."
-msgstr "Indico topluluğuna hoş geldiniz, sunucunuz Topluluk Merkezine kaydedilmiştir!<br> Sunucunuzu <a href=\"%(link)s\">buradan</a> yönetebilirsiniz."
+msgstr "Oceanman topluluğuna hoş geldiniz, sunucunuz Topluluk Merkezine kaydedilmiştir!<br> Sunucunuzu <a href=\"%(link)s\">buradan</a> yönetebilirsiniz."
 
 #: indico/modules/bootstrap/templates/flash_messages.html:17
 #, python-format
@@ -2246,9 +2246,9 @@ msgstr "Önerileri Devre Dışı Bırak"
 
 #: indico/modules/categories/forms.py:48
 msgid ""
-"Enable this if you don't want Indico to suggest this category as a possible "
+"Enable this if you don't want Oceanman to suggest this category as a possible "
 "addition to a user's favorites."
-msgstr "Indico'nun bu kategoriyi  kullanıcının favorilerine eklenmesi şeklinde önermesini istemiyorsanız bu seçeneği etkinleştirin."
+msgstr "Oceanman'nun bu kategoriyi  kullanıcının favorilerine eklenmesi şeklinde önermesini istemiyorsanız bu seçeneği etkinleştirin."
 
 #: indico/modules/categories/forms.py:50
 msgid "Message Type"
@@ -2492,8 +2492,8 @@ msgid "Everywhere"
 msgstr "Her yer"
 
 #: indico/modules/categories/views.py:50
-msgid "Indico Atom feed"
-msgstr "Indico Atom beslemesi"
+msgid "Oceanman Atom feed"
+msgstr "Oceanman Atom beslemesi"
 
 #: indico/modules/categories/controllers/admin.py:26
 msgid "Settings saved!"
@@ -2781,9 +2781,9 @@ msgstr "yeni"
 
 #: indico/modules/categories/templates/display/root_category.html:17
 msgid ""
-"Welcome to Indico. The Indico tool allows you to manage complex conferences,"
+"Welcome to Oceanman. The Oceanman tool allows you to manage complex conferences,"
 " workshops and meetings."
-msgstr "Indico'ya hoşgeldiniz. Indico, konferans, çalıştay ve toplantıları düzenlemenize olanak tanır."
+msgstr "Oceanman'ya hoşgeldiniz. Oceanman, konferans, çalıştay ve toplantıları düzenlemenize olanak tanır."
 
 #: indico/modules/categories/templates/display/root_category.html:21
 msgid "To start browsing, please select a category below."
@@ -3145,12 +3145,12 @@ msgid "Synchronization timed-out. Please try again in a while."
 msgstr "Senkronizasyon zaman aşımına uğradı. Lütfen bir süre sonra tekrar deneyin."
 
 #: indico/modules/cephalopod/forms.py:21
-msgid "Name of the person responsible for your Indico server."
-msgstr "Indico sunucusundan sorumlu kişinin adı"
+msgid "Name of the person responsible for your Oceanman server."
+msgstr "Oceanman sunucusundan sorumlu kişinin adı"
 
 #: indico/modules/cephalopod/forms.py:24
-msgid "Email address of the person responsible for your Indico server."
-msgstr "Indico sunucunuzdan sorumlu kişinin e-posta adresi"
+msgid "Email address of the person responsible for your Oceanman server."
+msgstr "Oceanman sunucunuzdan sorumlu kişinin e-posta adresi"
 
 #: indico/modules/cephalopod/templates/cephalopod.html:10
 msgid "Let us know that you exist!"
@@ -3158,10 +3158,10 @@ msgstr "Varlığınızdan bizi haberdar edin!"
 
 #: indico/modules/cephalopod/templates/cephalopod.html:12
 msgid ""
-"By registering your Indico server with the community hub, you will receive "
+"By registering your Oceanman server with the community hub, you will receive "
 "news on the latest releases as well as important security advisories. The "
 "data in the form below will be sent to the community hub."
-msgstr "Indico sunucusuna topluluk merkezi ile kaydolduğunızda, en son sürümler ve önemli güvenlik tavsiyeleri hakkındaki haberleri alacaksınız. Aşağıdaki formdaki veriler, topluluk merkezine gönderilecektir."
+msgstr "Oceanman sunucusuna topluluk merkezi ile kaydolduğunızda, en son sürümler ve önemli güvenlik tavsiyeleri hakkındaki haberleri alacaksınız. Aşağıdaki formdaki veriler, topluluk merkezine gönderilecektir."
 
 #: indico/modules/cephalopod/templates/cephalopod.html:17
 msgid ""
@@ -3182,15 +3182,15 @@ msgid "Synchronize"
 msgstr "Eş zamanla"
 
 #: indico/modules/cephalopod/templates/cephalopod.html:53
-msgid "URL of your Indico server"
-msgstr "Indico sunucunuzun URL'si"
+msgid "URL of your Oceanman server"
+msgstr "Oceanman sunucunuzun URL'si"
 
 #: indico/modules/cephalopod/templates/not_prod_warning.html:4
 msgid ""
-"It seems like you are using a local URL for Indico or running in debug "
+"It seems like you are using a local URL for Oceanman or running in debug "
 "mode.<br> We recommend registering only production instances with the "
 "Community Hub."
-msgstr "Indico için yerel bir URL kullanıyor veya hata ayıklama modunda çalıştırıyorsunuz gibi görünüyor.<br> Topluluk Merkezine yalnızca üretim oluşumlarını kaydettirmenizi öneririz."
+msgstr "Oceanman için yerel bir URL kullanıyor veya hata ayıklama modunda çalıştırıyorsunuz gibi görünüyor.<br> Topluluk Merkezine yalnızca üretim oluşumlarını kaydettirmenizi öneririz."
 
 #: indico/modules/core/__init__.py:19
 #: indico/modules/events/management/__init__.py:20
@@ -3216,8 +3216,8 @@ msgid "All your token-based links have been invalidated"
 msgstr "Tüm jeton temelli bağlantılarınız geçersiz kılındı"
 
 #: indico/modules/core/forms.py:19
-msgid "The global title of this Indico site."
-msgstr "Bu Indico sitesinin genel başlığı"
+msgid "The global title of this Oceanman site."
+msgstr "Bu Oceanman sitesinin genel başlığı"
 
 #: indico/modules/core/forms.py:20
 #: indico/modules/events/management/__init__.py:18
@@ -3225,8 +3225,8 @@ msgid "Organization"
 msgstr "Organizasyon"
 
 #: indico/modules/core/forms.py:21
-msgid "The organization that runs this Indico site."
-msgstr "Indico sitesini yürüten organizasyon"
+msgid "The organization that runs this Oceanman site."
+msgstr "Oceanman sitesini yürüten organizasyon"
 
 #: indico/modules/core/forms.py:30
 msgid "Site"
@@ -3263,8 +3263,8 @@ msgid "Impersonating %(name)s"
 msgstr "%(name)s taklit ediyor"
 
 #: indico/modules/core/templates/admin/settings.html:16
-msgid "Upgrade to Indico v2 successful!"
-msgstr " Indico v2 yükseltmesi başarılı!"
+msgid "Upgrade to Oceanman v2 successful!"
+msgstr " Oceanman v2 yükseltmesi başarılı!"
 
 #: indico/modules/core/templates/admin/settings.html:19
 msgid "Please consider registering your server with the Community Hub."
@@ -3276,17 +3276,17 @@ msgstr "Hata ayıklama modu etkinleştirildi."
 
 #: indico/modules/core/templates/admin/settings.html:38
 msgid ""
-"A new Indico version (<strong id=\"new-indico-version\"></strong>) is "
+"A new Oceanman version (<strong id=\"new-indico-version\"></strong>) is "
 "available! Your current version is <strong id=\"cur-indico-"
 "version\"></strong>."
-msgstr "Yeni bir Indico sürümü (<strong id=\"new-indico-version\"></strong>) kullanılabilir! Mevcut sürümünüz<strong id=\"cur-indico-version\"></strong>."
+msgstr "Yeni bir Oceanman sürümü (<strong id=\"new-indico-version\"></strong>) kullanılabilir! Mevcut sürümünüz<strong id=\"cur-indico-version\"></strong>."
 
 #: indico/modules/core/templates/admin/settings.html:45
 msgid ""
 "A new version (<strong id=\"new-indico-plugins-version\"></strong>) of the "
-"official Indico plugin package is available! Your current version is <strong"
+"official Oceanman plugin package is available! Your current version is <strong"
 " id=\"cur-indico-plugins-version\"></strong>."
-msgstr "Resmi Indico eklenti paketinin yeni bir sürümü (<strong id=\"new-indico-plugins-version\"></strong>) kullanılabilir! Mevcut sürümünüz <strong id=\"cur-indico-plugins-version\"></strong>."
+msgstr "Resmi Oceanman eklenti paketinin yeni bir sürümü (<strong id=\"new-indico-plugins-version\"></strong>) kullanılabilir! Mevcut sürümünüz <strong id=\"cur-indico-plugins-version\"></strong>."
 
 #: indico/modules/core/templates/admin/settings.html:54
 #: indico/modules/users/templates/users_admin.html:99
@@ -7542,8 +7542,8 @@ msgstr "Yalnızca alan ''Başlığı'' zorunludur."
 #: indico/modules/events/registration/templates/management/import_registrations.html:33
 #: indico/modules/events/roles/templates/import_members.html:9
 msgid ""
-"Users will be matched with existing Indico identities through their e-mail."
-msgstr "Kullanıcılar, e-postaları üzerinden var olan Indico kimlikleri ile eşleştirilecektir."
+"Users will be matched with existing Oceanman identities through their e-mail."
+msgstr "Kullanıcılar, e-postaları üzerinden var olan Oceanman kimlikleri ile eşleştirilecektir."
 
 #: indico/modules/events/contributions/templates/management/types_dialog.html:8
 msgid "Add new contribution type"
@@ -7993,8 +7993,8 @@ msgstr "Özel CSS kullan"
 #: indico/modules/events/layout/forms.py:94
 msgid ""
 "Use a custom CSS file as a theme for the conference page. Deactivate this "
-"option to reveal the available Indico themes."
-msgstr "Konferans sayfası için özel bir CSS dosyasını tema olarak kullanın. Mevcut Indico temalarını açığa çıkarmak için bu seçeneğin etkinliğini kaldırın."
+"option to reveal the available Oceanman themes."
+msgstr "Konferans sayfası için özel bir CSS dosyasını tema olarak kullanın. Mevcut Oceanman temalarını açığa çıkarmak için bu seçeneğin etkinliğini kaldırın."
 
 #: indico/modules/events/layout/forms.py:98
 msgid ""
@@ -8347,9 +8347,9 @@ msgstr "URL kısa yolu"
 
 #: indico/modules/events/management/forms.py:67
 msgid ""
-"The URL shortcut must be unique within this Indico instance and is not case "
+"The URL shortcut must be unique within this Oceanman instance and is not case "
 "sensitive."
-msgstr "URL kısayolu bu Indico örneğinde benzersiz olmalı ve büyük/küçük harfe duyarlı değil."
+msgstr "URL kısayolu bu Oceanman örneğinde benzersiz olmalı ve büyük/küçük harfe duyarlı değil."
 
 #: indico/modules/events/management/forms.py:76
 msgid ""
@@ -8530,8 +8530,8 @@ msgstr "Kullanıcı bilgilerini yenile"
 #: indico/modules/events/management/forms.py:316
 msgid ""
 "When checked, names and affiliations of users in the cloned event will be "
-"synchronized with their Indico user profiles."
-msgstr "Seçildiğinde, klonlanan etkinlikteki kullanıcıların adları ve kurum bilgileri, Indico kullanıcı profilleriyle senkronize edilecektir."
+"synchronized with their Oceanman user profiles."
+msgstr "Seçildiğinde, klonlanan etkinlikteki kullanıcıların adları ve kurum bilgileri, Oceanman kullanıcı profilleriyle senkronize edilecektir."
 
 #: indico/modules/events/management/forms.py:345
 msgid "You have to select a category"
@@ -8690,15 +8690,15 @@ msgid "Edit attachment \"{name}\""
 msgstr " \"{name}\" ekini düzenle"
 
 #: indico/modules/events/management/util.py:185
-msgid "You have added a user with no Indico account."
-msgid_plural "You have added {} users with no Indico account."
-msgstr[0] "Indico hesabı olmayan {} kullanıcı eklediniz."
-msgstr[1] "Indico hesabı olmayan {} kullanıcı eklediniz."
+msgid "You have added a user with no Oceanman account."
+msgid_plural "You have added {} users with no Oceanman account."
+msgstr[0] "Oceanman hesabı olmayan {} kullanıcı eklediniz."
+msgstr[1] "Oceanman hesabı olmayan {} kullanıcı eklediniz."
 
 #: indico/modules/events/management/util.py:187
 msgid ""
-"An Indico account may be needed to upload materials and/or manage contents."
-msgstr "Materyaller yüklemek ve/veya içerikleri yönetmek için bir Indico hesabına ihtiyaç duyulabilir."
+"An Oceanman account may be needed to upload materials and/or manage contents."
+msgstr "Materyaller yüklemek ve/veya içerikleri yönetmek için bir Oceanman hesabına ihtiyaç duyulabilir."
 
 #: indico/modules/events/management/util.py:189
 msgid "To invite them, please go to the {link_start}Roles page{link_end}"
@@ -9222,8 +9222,8 @@ msgstr "Program kodları"
 #: indico/modules/events/management/templates/program_codes.html:6
 msgid ""
 "You can automatically assign program codes in your event to have more "
-"meaningful ways of referencing e.g. certain contributions outside Indico."
-msgstr "Örneğin Indico dışındaki belirli katkılara atıfta bulunmanın daha anlamlı yollarını bulmak için etkinliğinizdeki program kodlarını otomatik olarak atayabilirsiniz."
+"meaningful ways of referencing e.g. certain contributions outside Oceanman."
+msgstr "Örneğin Oceanman dışındaki belirli katkılara atıfta bulunmanın daha anlamlı yollarını bulmak için etkinliğinizdeki program kodlarını otomatik olarak atayabilirsiniz."
 
 #: indico/modules/events/management/templates/program_codes.html:14
 msgid "Program code templates"
@@ -10442,9 +10442,9 @@ msgstr "Bu kişi şu anda etkinlikle başka bir bağlantısı olmadan sadece bir
 #: indico/modules/events/persons/templates/management/_person_list_row.html:68
 #, python-format
 msgid ""
-"This user seems to have no Indico account. If they do have an account, they "
+"This user seems to have no Oceanman account. If they do have an account, they "
 "should add %(email)s to their profile"
-msgstr "Bu kullanıcının Indico hesabı yokmuş gibi görünüyor. Bir e-postaları varsa %(email)s bu bilgiyi profillerine eklemelidirler"
+msgstr "Bu kullanıcının Oceanman hesabı yokmuş gibi görünüyor. Bir e-postaları varsa %(email)s bu bilgiyi profillerine eklemelidirler"
 
 #: indico/modules/events/persons/templates/management/_person_list_row.html:70
 msgid "No account"
@@ -10495,8 +10495,8 @@ msgid "Send invitation"
 msgstr "Davetiye gönder"
 
 #: indico/modules/events/persons/templates/management/person_list.html:92
-msgid "Send an email to all users with no Indico account"
-msgstr "Indico hesabı olmayan tüm kullanıcılara e-posta gönder"
+msgid "Send an email to all users with no Oceanman account"
+msgstr "Oceanman hesabı olmayan tüm kullanıcılara e-posta gönder"
 
 #: indico/modules/events/persons/templates/management/person_list.html:99
 msgid "To all users with no account"
@@ -10504,9 +10504,9 @@ msgstr "Hesabı olmayan tüm kullanıcılara"
 
 #: indico/modules/events/persons/templates/management/person_list.html:105
 msgid ""
-"Send an email to all users with no Indico account who have not received an "
+"Send an email to all users with no Oceanman account who have not received an "
 "invitation email yet"
-msgstr "Henüz bir davet e-postası almayan ve Indico hesabı olmayan tüm kullanıcılara bir e-posta gönder"
+msgstr "Henüz bir davet e-postası almayan ve Oceanman hesabı olmayan tüm kullanıcılara bir e-posta gönder"
 
 #: indico/modules/events/persons/templates/management/person_list.html:114
 msgid "To users not invited yet"
@@ -10535,13 +10535,13 @@ msgstr "Dizgi ara"
 #: indico/modules/events/persons/templates/management/person_list.html:201
 #, python-format
 msgid ""
-"There is one user with no Indico account. An Indico account may be needed to"
+"There is one user with no Oceanman account. An Oceanman account may be needed to"
 " upload materials and/or manage contents."
 msgid_plural ""
-"There are %(count)s users with no Indico account. An Indico account may be "
+"There are %(count)s users with no Oceanman account. An Oceanman account may be "
 "needed to upload materials and/or manage contents."
-msgstr[0] "Indico hesabı olmayan kullanıcı vardır. Materyaller yüklemek ve/veya içerikleri yönetmek için bir Indico hesabına ihtiyaç duyulabilir."
-msgstr[1] "Indico hesabı olmayan '%(count)s' kullanıcı vardır. Materyaller yüklemek ve/veya içerikleri yönetmek için bir Indico hesabına ihtiyaç duyulabilir."
+msgstr[0] "Oceanman hesabı olmayan kullanıcı vardır. Materyaller yüklemek ve/veya içerikleri yönetmek için bir Oceanman hesabına ihtiyaç duyulabilir."
+msgstr[1] "Oceanman hesabı olmayan '%(count)s' kullanıcı vardır. Materyaller yüklemek ve/veya içerikleri yönetmek için bir Oceanman hesabına ihtiyaç duyulabilir."
 
 #: indico/modules/events/persons/templates/management/person_list.html:238
 msgid "No persons"
@@ -10645,8 +10645,8 @@ msgid "Registrant must have account"
 msgstr "Kaydettirenlerin hesabı olmalıdır"
 
 #: indico/modules/events/registration/forms.py:62
-msgid "Registrations emails must be associated with an Indico account"
-msgstr "Kayıt e-postaları bir Indico hesabı ile ilişkilendirilmelidir"
+msgid "Registrations emails must be associated with an Oceanman account"
+msgstr "Kayıt e-postaları bir Oceanman hesabı ile ilişkilendirilmelidir"
 
 #: indico/modules/events/registration/forms.py:63
 msgid "Limit registrations"
@@ -10910,8 +10910,8 @@ msgstr "Kayıtlarda değişiklik yapma izni verilen kullanıcıların listesi"
 
 #: indico/modules/events/registration/forms.py:347
 #: indico/modules/events/registration/templates/management/regform_invitations.html:37
-msgid "Indico users"
-msgstr "Indico kullanıcıları"
+msgid "Oceanman users"
+msgstr "Oceanman kullanıcıları"
 
 #: indico/modules/events/registration/forms.py:348
 msgid "Send e-mail notifications"
@@ -11094,8 +11094,8 @@ msgstr "Sizin adınıza bir kayıt bulamıyoruz. Önceden kaydolduysanız lütfe
 msgid ""
 "We could not find a registration for you.  If have already registered, "
 "please use the direct access link from the email you received after "
-"registering or log in to your Indico account."
-msgstr "Sizin adınıza bir kayıt bulamıyoruz. Önceden kaydolduysanız lütfen kayıt sonrasında aldığınız e-postadaki doğrudan erişim bağlantısını kullanın veya Indico hesabınızda oturum açın."
+"registering or log in to your Oceanman account."
+msgstr "Sizin adınıza bir kayıt bulamıyoruz. Önceden kaydolduysanız lütfen kayıt sonrasında aldığınız e-postadaki doğrudan erişim bağlantısını kullanın veya Oceanman hesabınızda oturum açın."
 
 #: indico/modules/events/registration/controllers/display.py:358
 msgid "Your registration has been withdrawn."
@@ -11860,9 +11860,9 @@ msgstr "Kayıt yaptırılmadı"
 
 #: indico/modules/events/registration/templates/management/_registration_details.html:247
 msgid ""
-"You can mark the registration as checked in manually here or with the Indico"
+"You can mark the registration as checked in manually here or with the Oceanman"
 " Check in app."
-msgstr "Kaydı buradan el ile veya Indico Kontrol uygulamasından kontrol edilmiş olarak işaretleyebilirsiniz."
+msgstr "Kaydı buradan el ile veya Oceanman Kontrol uygulamasından kontrol edilmiş olarak işaretleyebilirsiniz."
 
 #: indico/modules/events/registration/templates/management/_registration_details.html:251
 msgid "You can mark the registration as checked in manually."
@@ -11975,10 +11975,10 @@ msgid ""
 "<strong>Example</strong>: If your left and right margins are 1.5 cm each, "
 "but your printer prints everything 1 mm to the left, you could use a left "
 "margin of 1.6 cm and a right margin of 1.4 cm to compensate. If you increase"
-" a margin, do not forget to decrease the opposing one to avoid Indico "
+" a margin, do not forget to decrease the opposing one to avoid Oceanman "
 "thinking there is less space for printing badges, and the number of rows / "
 "columns will change."
-msgstr "<strong>Örnek</strong>: Sağ ve sol kenar boşluklarınız 1,5 cm ancak yazıcının her şeyi 1 mm sola yazdırıyorsa, bunu elafi etmek için 1,6 cm sol ve 1,4 cm sağ kenar boşluğu kullanabilirsiniz. Bir kenar boşluğunu artırırsanız Indico'nun yazdırma rozetleri için daha az yer kaldığını düşünmemesi için karşıdaki boşluğu azaltmayı ve satır/sütun sayısının değişeceğini unutmayın."
+msgstr "<strong>Örnek</strong>: Sağ ve sol kenar boşluklarınız 1,5 cm ancak yazıcının her şeyi 1 mm sola yazdırıyorsa, bunu elafi etmek için 1,6 cm sol ve 1,4 cm sağ kenar boşluğu kullanabilirsiniz. Bir kenar boşluğunu artırırsanız Oceanman'nun yazdırma rozetleri için daha az yer kaldığını düşünmemesi için karşıdaki boşluğu azaltmayı ve satır/sütun sayısının değişeceğini unutmayın."
 
 #: indico/modules/events/registration/templates/management/regform.html:19
 msgid "Edit settings for this form."
@@ -12235,24 +12235,24 @@ msgid "Registration list configuration"
 msgstr "Kayıt listesi yapılandırması"
 
 #: indico/modules/events/registration/templates/management/regform_reglist.html:42
-msgid "Register a user that doesn't exist in Indico"
-msgstr "Indico'da mevcut olmayan bir kullanıcıyı kaydet"
+msgid "Register a user that doesn't exist in Oceanman"
+msgstr "Oceanman'da mevcut olmayan bir kullanıcıyı kaydet"
 
 #: indico/modules/events/registration/templates/management/regform_reglist.html:49
-msgid "Register a Indico user"
-msgstr "Bir Indico kullanıcısını kaydet"
+msgid "Register a Oceanman user"
+msgstr "Bir Oceanman kullanıcısını kaydet"
 
 #: indico/modules/events/registration/templates/management/regform_reglist.html:50
-msgid "Indico user"
-msgstr "Indico kullanıcısı"
+msgid "Oceanman user"
+msgstr "Oceanman kullanıcısı"
 
 #: indico/modules/events/registration/templates/management/regform_reglist.html:56
-msgid "Register multiple Indico users"
-msgstr "Birden çok Indico kullanıcısını kaydet"
+msgid "Register multiple Oceanman users"
+msgstr "Birden çok Oceanman kullanıcısını kaydet"
 
 #: indico/modules/events/registration/templates/management/regform_reglist.html:57
-msgid "Multiple Indico users"
-msgstr "Çoklu Indico kullanıcıları"
+msgid "Multiple Oceanman users"
+msgstr "Çoklu Oceanman kullanıcıları"
 
 #: indico/modules/events/registration/templates/management/regform_reglist.html:75
 msgid "PDF (table style)"
@@ -13726,8 +13726,8 @@ msgid "Social Networks"
 msgstr "Sosyal Ağlar"
 
 #: indico/modules/events/templates/header.html:8
-msgid "Go to the Indico Home Page"
-msgstr "Indico Ana Sayfasına git"
+msgid "Go to the Oceanman Home Page"
+msgstr "Oceanman Ana Sayfasına git"
 
 #: indico/modules/events/templates/header.html:14
 msgid "Oldest event"
@@ -14608,9 +14608,9 @@ msgstr "Varsayılan oturum "
 
 #: indico/modules/events/tracks/forms.py:26
 msgid ""
-"Indico will preselect this session whenever an abstract is accepted for the "
+"Oceanman will preselect this session whenever an abstract is accepted for the "
 "track"
-msgstr "Indico, grup için bir özet kabul edildiğinde oturumu önceden seçecektir"
+msgstr "Oceanman, grup için bir özet kabul edildiğinde oturumu önceden seçecektir"
 
 #: indico/modules/events/tracks/templates/_track_list.html:12
 msgid "Edit track"
@@ -14642,9 +14642,9 @@ msgstr "Bu grup, kabul edilen özetler içerdiğinden silinemez"
 #: indico/modules/events/tracks/templates/_track_list.html:41
 #, python-format
 msgid ""
-"Indico will preselect the session \"%(title)s\" whenever an abstract is "
+"Oceanman will preselect the session \"%(title)s\" whenever an abstract is "
 "accepted for this track."
-msgstr "Indico, bu grup için bir özet kabul edildiğinde \"%(title)s\" oturumunu önceden seçecektir."
+msgstr "Oceanman, bu grup için bir özet kabul edildiğinde \"%(title)s\" oturumunu önceden seçecektir."
 
 #: indico/modules/events/tracks/templates/_track_list.html:70
 msgid "Edit track group"
@@ -14816,9 +14816,9 @@ msgstr "Grupları ara"
 #: indico/modules/groups/templates/groups.html:74
 #, python-format
 msgid ""
-"This Indico instance also supports external groups from identity providers "
+"This Oceanman instance also supports external groups from identity providers "
 "(%(providers)s)."
-msgstr "Bu Indico oluşumunu kimlik sağlayıcıların (%(providers)s) dış gruplarını da destekler."
+msgstr "Bu Oceanman oluşumunu kimlik sağlayıcıların (%(providers)s) dış gruplarını da destekler."
 
 #: indico/modules/groups/templates/groups.html:78
 msgid ""
@@ -14892,8 +14892,8 @@ msgstr "Alt ağ"
 #: indico/modules/networks/forms.py:19
 msgid ""
 "Do you really want to grant everyone within the specified networks "
-"unauthenticated access to all attachments/materials in Indico?"
-msgstr "Gerçekten belirtilen ağlardaki herkese Indico'daki tüm dosyalara/materyallere kimlik doğrulama olmadan erişim tanımak istiyor musunuz?"
+"unauthenticated access to all attachments/materials in Oceanman?"
+msgstr "Gerçekten belirtilen ağlardaki herkese Oceanman'daki tüm dosyalara/materyallere kimlik doğrulama olmadan erişim tanımak istiyor musunuz?"
 
 #: indico/modules/networks/forms.py:28
 msgid "Subnets"
@@ -15002,16 +15002,16 @@ msgid "News '{title}' has been deleted"
 msgstr "'{title}' haberleri silindi"
 
 #: indico/modules/news/forms.py:19
-msgid "Whether to show the latest news headlines on the Indico home page."
-msgstr "Indico ana sayfasında en son haber manşetlerinin gösterilip gösterilmeyeceği"
+msgid "Whether to show the latest news headlines on the Oceanman home page."
+msgstr "Oceanman ana sayfasında en son haber manşetlerinin gösterilip gösterilmeyeceği"
 
 #: indico/modules/news/forms.py:20
 msgid "Max. headlines"
 msgstr "Azami manşet sayısı"
 
 #: indico/modules/news/forms.py:21
-msgid "The maximum number of news headlines to show on the Indico home page."
-msgstr "Indico ana sayfasında gösterilecek azami haber manşeti sayısıdır."
+msgid "The maximum number of news headlines to show on the Oceanman home page."
+msgstr "Oceanman ana sayfasında gösterilecek azami haber manşeti sayısıdır."
 
 #: indico/modules/news/forms.py:22
 msgid "Max. age"
@@ -15019,9 +15019,9 @@ msgstr "Azami yaş"
 
 #: indico/modules/news/forms.py:23
 msgid ""
-"The maximum age in days for news to show up on the Indico home page. Setting"
+"The maximum age in days for news to show up on the Oceanman home page. Setting"
 " it to 0 will show news no matter how old they are."
-msgstr "Indico ana sayfasında gösterilecek haberler için azami gün sayısıdır. 0 şeklinde ayarlanması durumunda, haberler ne kadar eski olduğundan bağımsız olarak gösterilecektir."
+msgstr "Oceanman ana sayfasında gösterilecek haberler için azami gün sayısıdır. 0 şeklinde ayarlanması durumunda, haberler ne kadar eski olduğundan bağımsız olarak gösterilecektir."
 
 #: indico/modules/news/forms.py:25
 msgid "\"New\" threshold"
@@ -15182,9 +15182,9 @@ msgstr "Yeni uygulama kaydet"
 
 #: indico/modules/oauth/templates/apps.html:18
 msgid ""
-"This is the list of applications authorized to access Indico. Click on the "
+"This is the list of applications authorized to access Oceanman. Click on the "
 "name of an application to see more information."
-msgstr "Bu, Indico'ya erişime yetkilendirilmiş uygulamaların listesidir. Daha fazla bilgi görmek için bir uygulamanın adının üstüne tıklayın."
+msgstr "Bu, Oceanman'ya erişime yetkilendirilmiş uygulamaların listesidir. Daha fazla bilgi görmek için bir uygulamanın adının üstüne tıklayın."
 
 #: indico/modules/oauth/templates/apps.html:22
 msgid "There aren't any authorized applications."
@@ -15212,8 +15212,8 @@ msgstr "Yetkilendirilmiş uygulamalar"
 
 #: indico/modules/oauth/templates/user_profile.html:12
 msgid ""
-"This is the list of applications you authorized to access your Indico data."
-msgstr "Indico verilerinize erişmesi için yetkilendirdiğiniz uygulamaların listesi"
+"This is the list of applications you authorized to access your Oceanman data."
+msgstr "Oceanman verilerinize erişmesi için yetkilendirdiğiniz uygulamaların listesi"
 
 #: indico/modules/oauth/templates/user_profile.html:16
 msgid "No third party applications have been authorized."
@@ -15230,9 +15230,9 @@ msgstr "Son kullanma tarihi:"
 #: indico/modules/oauth/templates/user_profile.html:39
 #, python-format
 msgid ""
-"%(app_name)s will no longer have access to your Indico data.<br> Are you "
+"%(app_name)s will no longer have access to your Oceanman data.<br> Are you "
 "sure you want to revoke its access?"
-msgstr "%(app_name)s artık Indico verilerinize erişemeyecek<br> Onun erişimini iptal etmek istediğinizden emin misiniz?"
+msgstr "%(app_name)s artık Oceanman verilerinize erişemeyecek<br> Onun erişimini iptal etmek istediğinizden emin misiniz?"
 
 #: indico/modules/oauth/templates/user_profile.html:41
 msgid "Revoke"
@@ -15492,9 +15492,9 @@ msgstr "Doğrulama jetonları geçersizdir veya zaman aşımına uğramıştır.
 
 #: indico/modules/users/controllers.py:412
 msgid ""
-"This token is for a different Indico user. Please login with the correct "
+"This token is for a different Oceanman user. Please login with the correct "
 "account"
-msgstr "Bu jeton farklı bir Indico kullanıcısı içindir. Lütfen doğru hesapla oturum açın"
+msgstr "Bu jeton farklı bir Oceanman kullanıcısı içindir. Lütfen doğru hesapla oturum açın"
 
 #: indico/modules/users/controllers.py:417
 msgid "This email address is already attached to your account."
@@ -15541,12 +15541,12 @@ msgid "Users' names seem to be different!"
 msgstr "Kullanıcılar adları farklıymış gibi görünüyor!"
 
 #: indico/modules/users/controllers.py:588
-msgid "Source user has never logged in to Indico!"
-msgstr "Kaynak kullanıcı Indico'da hiçbir zaman oturum açmamıştır!"
+msgid "Source user has never logged in to Oceanman!"
+msgstr "Kaynak kullanıcı Oceanman'da hiçbir zaman oturum açmamıştır!"
 
 #: indico/modules/users/controllers.py:590
-msgid "Target user has never logged in to Indico!"
-msgstr "Hedef kullanıcı Indico'da hiçbir zaman oturum açmamıştır!"
+msgid "Target user has never logged in to Oceanman!"
+msgstr "Hedef kullanıcı Oceanman'da hiçbir zaman oturum açmamıştır!"
 
 #: indico/modules/users/controllers.py:592
 msgid "Source user is blocked!"
@@ -15695,9 +15695,9 @@ msgstr "e-posta kara listesi"
 
 #: indico/modules/users/forms.py:114
 msgid ""
-"Prevent users from creating Indico accounts with these email addresses. "
+"Prevent users from creating Oceanman accounts with these email addresses. "
 "Supports wildcards, e.g. *@gmail.com"
-msgstr "Kullanıcıların bu e-posta adresleriyle Indico hesapları oluşturmasını önleyin. Joker karakterleri destekler, ör. *@gmail.com"
+msgstr "Kullanıcıların bu e-posta adresleriyle Oceanman hesapları oluşturmasını önleyin. Joker karakterleri destekler, ör. *@gmail.com"
 
 #: indico/modules/users/forms.py:121
 msgid "Set login details"
@@ -15830,8 +15830,8 @@ msgid "Deleted"
 msgstr "Silindi"
 
 #: indico/modules/users/templates/admins.html:9
-msgid "Admins have unrestricted access to everything in Indico."
-msgstr "Sistem yöneticileri, Indico'daki her şeye kısıtsız biçimde erişebilir."
+msgid "Admins have unrestricted access to everything in Oceanman."
+msgstr "Sistem yöneticileri, Oceanman'daki her şeye kısıtsız biçimde erişebilir."
 
 #: indico/modules/users/templates/base.html:10
 #, python-format
@@ -15905,9 +15905,9 @@ msgstr "Ekle"
 
 #: indico/modules/users/templates/personal_data.html:19
 msgid ""
-"This user will no longer have access to Indico.<br> Are you sure you want to"
+"This user will no longer have access to Oceanman.<br> Are you sure you want to"
 " revoke their access?"
-msgstr "Bu kullanıcı artık Indico'ya erişemeyecektir.<br> Erişimi iptal etmek istediğinizden emin misiniz?"
+msgstr "Bu kullanıcı artık Oceanman'ya erişemeyecektir.<br> Erişimi iptal etmek istediğinizden emin misiniz?"
 
 #: indico/modules/users/templates/personal_data.html:23
 msgid "Block User"
@@ -15915,9 +15915,9 @@ msgstr "Kullanıcıyı Engelle"
 
 #: indico/modules/users/templates/personal_data.html:30
 msgid ""
-"This user will regain access to Indico.<br> Are you sure you want to restore"
+"This user will regain access to Oceanman.<br> Are you sure you want to restore"
 " their access?"
-msgstr "Bu kullanıcı Indico'ya tekrar erişecektir.<br> Erişimi geri getirmek istediğinizden emin misiniz?"
+msgstr "Bu kullanıcı Oceanman'ya tekrar erişecektir.<br> Erişimi geri getirmek istediğinizden emin misiniz?"
 
 #: indico/modules/users/templates/personal_data.html:33
 msgid "Unblock User"
@@ -15979,9 +15979,9 @@ msgstr[1] "Arama kriterlerinizle eşleşen '%(count)s' kullanıcı var."
 #: indico/modules/users/templates/emails/verify_email.txt:12
 #, python-format
 msgid ""
-"You recently added the e-mail address %(email)s to your Indico account.\n"
+"You recently added the e-mail address %(email)s to your Oceanman account.\n"
 "Please click the following link to confirm this action."
-msgstr "Kısa süre önce bu e-posta adresini %(email)s Indico hesabınıza eklediniz.\nOnaylamak için lütfen aşağıdaki bağlantıyı tıklayın."
+msgstr "Kısa süre önce bu e-posta adresini %(email)s Oceanman hesabınıza eklediniz.\nOnaylamak için lütfen aşağıdaki bağlantıyı tıklayın."
 
 #: indico/modules/vc/controllers.py:57
 msgid "There is already a videoconference attached to '{link_object_title}'."
@@ -16083,10 +16083,10 @@ msgstr "Bağlanacak oda"
 
 #: indico/modules/vc/forms.py:105
 msgid ""
-"Please start writing the name of the room you would like to attach. Indico "
-"will suggest existing rooms. Only rooms created through Indico can be "
+"Please start writing the name of the room you would like to attach. Oceanman "
+"will suggest existing rooms. Only rooms created through Oceanman can be "
 "attached."
-msgstr "Lütfen eklemek isteyeceğiniz odanın adını yazmaya başlayın. Indico var olan odaları önerecektir. Yalnızca Indico üzerinden oluşturulan odalar eklenebilir."
+msgstr "Lütfen eklemek isteyeceğiniz odanın adını yazmaya başlayın. Oceanman var olan odaları önerecektir. Yalnızca Oceanman üzerinden oluşturulan odalar eklenebilir."
 
 #: indico/modules/vc/forms.py:117
 msgid "The name of the room."
@@ -16881,9 +16881,9 @@ msgstr "Geçersiz URL"
 #: indico/web/templates/bad_url_error.html:4
 #, python-format
 msgid ""
-"This Indico instance can only be accessed via <a "
+"This Oceanman instance can only be accessed via <a "
 "href=\"%(url)s\">%(url)s</a>"
-msgstr "Bu Indico oluşumuna yalnızca<a href=\"%(url)s\">%(url)s</a>üzerinden erişilebilir"
+msgstr "Bu Oceanman oluşumuna yalnızca<a href=\"%(url)s\">%(url)s</a>üzerinden erişilebilir"
 
 #: indico/web/templates/confirmation_dialog.html:7
 msgid "I understand what this means. Please go ahead."
@@ -16970,12 +16970,12 @@ msgid "This field is required"
 msgstr "Bu alan zorunludur"
 
 #: indico/web/templates/forms/_person_link_widget_base.html:28
-msgid "You have to log in in order to be able to search for Indico users"
-msgstr "Indico kullanıcıları arasında arama yapabilmek için oturum açmak zorundasınız"
+msgid "You have to log in in order to be able to search for Oceanman users"
+msgstr "Oceanman kullanıcıları arasında arama yapabilmek için oturum açmak zorundasınız"
 
 #: indico/web/templates/forms/_person_link_widget_base.html:30
-msgid "Search among Indico users"
-msgstr "Indico kullanıcıları arasında ara"
+msgid "Search among Oceanman users"
+msgstr "Oceanman kullanıcıları arasında ara"
 
 #: indico/web/templates/forms/_person_link_widget_base.html:34
 msgid "Add yourself to the list"

@@ -2648,7 +2648,7 @@ msgstr ""
 
 #: indico/modules/rb/client/js/modules/admin/LocationPage.jsx:130
 msgid ""
-"Indico can show a link to an external map when a room is associated to an "
+"Oceanman can show a link to an external map when a room is associated to an "
 "event."
 msgstr ""
 
@@ -3481,7 +3481,7 @@ msgstr ""
 #: indico/modules/search/client/js/components/SearchApp.jsx:112
 msgid ""
 "Enter a term above to begin searching inside the {categoryTitle} category. "
-"You can {link}search all of Indico instead{/link}."
+"You can {link}search all of Oceanman instead{/link}."
 msgstr ""
 
 #: indico/modules/search/client/js/components/SearchApp.jsx:131
@@ -3495,7 +3495,7 @@ msgstr ""
 #: indico/modules/search/client/js/components/SearchApp.jsx:138
 msgid ""
 "Your search - {query} - did not match any results. You could try "
-"{link}searching all of Indico instead{/link}."
+"{link}searching all of Oceanman instead{/link}."
 msgstr ""
 
 #: indico/modules/search/client/js/components/SearchApp.jsx:190
@@ -3537,7 +3537,7 @@ msgid "In this category ↵"
 msgstr ""
 
 #: indico/modules/search/client/js/components/SearchBox.jsx:40
-msgid "All Indico ↵"
+msgid "All Oceanman ↵"
 msgstr ""
 
 #: indico/modules/search/client/js/components/results/PersonList.jsx:31
@@ -3553,7 +3553,7 @@ msgid "You have not marked any category as favorite."
 msgstr "You have not marked any category as favourite."
 
 #: indico/modules/users/client/js/Favorites.jsx:143
-msgid "Add Indico user"
+msgid "Add Oceanman user"
 msgstr ""
 
 #: indico/modules/users/client/js/Favorites.jsx:151
@@ -3764,7 +3764,7 @@ msgid "Affiliation"
 msgstr ""
 
 #: indico/web/client/js/react/components/principals/Search.jsx:548
-msgid "Include users with no Indico account"
+msgid "Include users with no Oceanman account"
 msgstr ""
 
 #: indico/web/client/js/react/components/principals/Search.jsx:551

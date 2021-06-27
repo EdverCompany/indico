@@ -12,7 +12,7 @@
 # Thayana Correa Mamore <thayanacmamore@gmail.com>, 2020
 msgid ""
 msgstr ""
-"Project-Id-Version: Indico\n"
+"Project-Id-Version: Oceanman\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-10 16:36+0200\n"
 "PO-Revision-Date: 2021-01-08 13:10+0000\n"
@@ -247,9 +247,9 @@ msgstr "Fora de sincronia"
 
 #: indico/modules/cephalopod/client/js/index.js:121
 msgid ""
-"Your Indico server is out of sync. Synchronize it with the button on the "
+"Your Oceanman server is out of sync. Synchronize it with the button on the "
 "right."
-msgstr "Seu servidor Indico está fora de sincronia. Sincronize com o botão à direita."
+msgstr "Seu servidor Oceanman está fora de sincronia. Sincronize com o botão à direita."
 
 #: indico/modules/cephalopod/client/js/index.js:131
 msgid "Error!"
@@ -257,9 +257,9 @@ msgstr "Erro!"
 
 #: indico/modules/cephalopod/client/js/index.js:149
 msgid ""
-"Your Indico server is not synchronized with the Community Hub! You can solve"
+"Your Oceanman server is not synchronized with the Community Hub! You can solve"
 " this <a href=\"{0}\">here</a>."
-msgstr "Seu servidor Indico não está sincronizado com o Hub da Comunidade! Você pode resolver isso <a href=\"{0}\">clicando aqui</a>."
+msgstr "Seu servidor Oceanman não está sincronizado com o Hub da Comunidade! Você pode resolver isso <a href=\"{0}\">clicando aqui</a>."
 
 #: indico/modules/core/client/js/impersonation.js:35
 msgid "Select user to impersonate"
@@ -401,12 +401,12 @@ msgid "The user associated with this email address is already registered."
 msgstr "O usuário associado a este endereço de e-mail já está registrado."
 
 #: indico/modules/events/registration/client/js/form/field.js:185
-msgid "There is no Indico user associated with this email address."
-msgstr "Não há usuário Indico associado a este endereço de e-mail."
+msgid "There is no Oceanman user associated with this email address."
+msgstr "Não há usuário Oceanman associado a este endereço de e-mail."
 
 #: indico/modules/events/registration/client/js/form/field.js:190
-msgid "This email address is not associated with your Indico account."
-msgstr "Este endereço de e-mail não está associado à sua conta do Indico."
+msgid "This email address is not associated with your Oceanman account."
+msgstr "Este endereço de e-mail não está associado à sua conta do Oceanman."
 
 #: indico/modules/events/registration/client/js/form/field.js:193
 msgid ""
@@ -429,24 +429,24 @@ msgid "This email address is invalid."
 msgstr "Este e-mail é inválido"
 
 #: indico/modules/events/registration/client/js/form/field.js:210
-msgid "The registration will not be associated with any Indico account."
-msgstr "O registro não será associado a nenhuma conta Indico."
+msgid "The registration will not be associated with any Oceanman account."
+msgstr "O registro não será associado a nenhuma conta Oceanman."
 
 #: indico/modules/events/registration/client/js/form/field.js:212
-msgid "The registration will be associated with your Indico account."
-msgstr "O registro será associado à sua conta Indico."
+msgid "The registration will be associated with your Oceanman account."
+msgstr "O registro será associado à sua conta Oceanman."
 
 #: indico/modules/events/registration/client/js/form/field.js:215
 msgid ""
-"The registration will remain associated with the Indico account "
+"The registration will remain associated with the Oceanman account "
 "<strong>{0}</strong>."
-msgstr "A inscrição permanecerá associada à conta Indico <strong>{0}</strong>."
+msgstr "A inscrição permanecerá associada à conta Oceanman <strong>{0}</strong>."
 
 #: indico/modules/events/registration/client/js/form/field.js:221
 msgid ""
-"The registration will be associated with the Indico account "
+"The registration will be associated with the Oceanman account "
 "<strong>{0}</strong>."
-msgstr "A inscrição será associada à conta Indico <strong>{0}</strong>."
+msgstr "A inscrição será associada à conta Oceanman <strong>{0}</strong>."
 
 #: indico/modules/events/registration/client/js/form/field.js:242
 msgid "Checking email address..."
@@ -1148,8 +1148,8 @@ msgid "This person exists in the event"
 msgstr "Esta pessoa existe no evento"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:191
-msgid "Users with no Indico account"
-msgstr "Usuários sem conta no Indico"
+msgid "Users with no Oceanman account"
+msgstr "Usuários sem conta no Oceanman"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:239
 msgid "Grant all selected users submission rights"
@@ -1228,8 +1228,8 @@ msgstr "Nota:"
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1012
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1032
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1047
-msgid " If this person does not already have an Indico account, "
-msgstr "Se esta pessoa não tiver já uma conta no Indico,"
+msgid " If this person does not already have an Oceanman account, "
+msgstr "Se esta pessoa não tiver já uma conta no Oceanman,"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:995
 msgid "he or she will be sent an email asking to register as a user."
@@ -1345,10 +1345,10 @@ msgstr "Direitos de submissão"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1445
 msgid ""
-"Please note that you have added a user that does not exist in Indico.\n"
+"Please note that you have added a user that does not exist in Oceanman.\n"
 "                                    Non existing users will be asked via email to create an account so\n"
 "                                    that they will be able to use the privileges below."
-msgstr "Favor observar que você adicionou um usuário que não existe no Indico.\n                                    Usuários não existentes serão solicitados, por e-mail, para que criem uma conta, para que\n                                    possam desfrutar dos privilégios abaixo."
+msgstr "Favor observar que você adicionou um usuário que não existe no Oceanman.\n                                    Usuários não existentes serão solicitados, por e-mail, para que criem uma conta, para que\n                                    possam desfrutar dos privilégios abaixo."
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:1450
 msgid ""

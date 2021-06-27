@@ -10,7 +10,7 @@
 # Sonya Sirets <prettyflysonia@gmail.com>, 2018-2019
 msgid ""
 msgstr ""
-"Project-Id-Version: Indico\n"
+"Project-Id-Version: Oceanman\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-05-10 16:36+0200\n"
 "PO-Revision-Date: 2021-05-11 11:19+0000\n"
@@ -100,13 +100,13 @@ msgid ""
 msgstr "Схоже, менеджер завдань Celery не запущено. Це означає, що відсилання емейлів та інші регулярні завдання, як-то нагадування, про заходи, не працюють."
 
 #: indico/core/celery/__init__.py:81
-msgid "The Celery task scheduler is running a different Indico version."
-msgstr "Менеджер завдань Celery запускає іншу версію Indico"
+msgid "The Celery task scheduler is running a different Oceanman version."
+msgstr "Менеджер завдань Celery запускає іншу версію Oceanman"
 
 #: indico/core/celery/templates/celery_tasks.html:12
 #, python-format
 msgid ""
-"Monitor Indico's Celery tasks with Flower <a class=\"bold\" "
+"Monitor Oceanman's Celery tasks with Flower <a class=\"bold\" "
 "href=\"%(flower_url)s\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">here</a>."
 msgstr ""
@@ -621,8 +621,8 @@ msgid "Administration"
 msgstr "Управління"
 
 #: indico/modules/admin/controllers/base.py:25
-msgid "Only Indico administrators may access this page."
-msgstr "Сторінка доступна лише адміністраторам Indico."
+msgid "Only Oceanman administrators may access this page."
+msgstr "Сторінка доступна лише адміністраторам Oceanman."
 
 #: indico/modules/announcement/__init__.py:38
 #: indico/modules/announcement/templates/settings.html:5
@@ -651,8 +651,8 @@ msgid "Message"
 msgstr "Повідомлення"
 
 #: indico/modules/announcement/templates/settings.html:9
-msgid "The announcement is a message shown on top of each Indico page."
-msgstr "Сповіщення — це повідомлення у верхній частині сторінок Indico."
+msgid "The announcement is a message shown on top of each Oceanman page."
+msgstr "Сповіщення — це повідомлення у верхній частині сторінок Oceanman."
 
 #: indico/modules/api/__init__.py:64
 msgid "API"
@@ -780,12 +780,12 @@ msgstr "Вимикаючи використання постійних підп�
 msgid ""
 "In order to enable an iCal export link, your account needs to have an API "
 "key created. This key enables other applications to access data from within "
-"Indico even when you are neither using nor logged into the Indico system "
+"Oceanman even when you are neither using nor logged into the Oceanman system "
 "yourself with the link provided. Once created, you can manage your key at "
 "any time by going to 'My Profile' and looking under the tab entitled 'HTTP "
-"API'. Further information about HTTP API keys can be found in the Indico "
+"API'. Further information about HTTP API keys can be found in the Oceanman "
 "documentation."
-msgstr "Аби дозволити експортний канал iCal, вашому акаунту потрібен ключ API. Цей ключ надає застосункам доступ до даних Indico, навіть коли ви не увійшли в систему. Створивши його, ви зможете керувати ключем будь-коли у розділі “Мій профіль” у закладці “HTTP API”. Більше про ключі HTTP API — у документації Indico."
+msgstr "Аби дозволити експортний канал iCal, вашому акаунту потрібен ключ API. Цей ключ надає застосункам доступ до даних Oceanman, навіть коли ви не увійшли в систему. Створивши його, ви зможете керувати ключем будь-коли у розділі “Мій профіль” у закладці “HTTP API”. Більше про ключі HTTP API — у документації Oceanman."
 
 #: indico/modules/api/templates/_messages.html:32
 msgid ""
@@ -956,13 +956,13 @@ msgstr "Зробити всі посилання недійсними"
 
 #: indico/modules/api/templates/user_profile.html:133
 msgid ""
-"Token-based unique links are secret URLs which Indico uses to allow you to "
+"Token-based unique links are secret URLs which Oceanman uses to allow you to "
 "easily fetch data from within other applications (e.g. calendar schedulers "
 "through iCalendar). They are generated through a digital signature based on "
-"a secret key that is unique per Indico user. If one of your links is "
+"a secret key that is unique per Oceanman user. If one of your links is "
 "compromised, you should click this button. All other links will be "
 "invalidated."
-msgstr "Унікальні посилання на основі токенів - це секретні URL-адреси, які Indico використовує, щоб дозволити вам легко отримувати дані з інших програм (наприклад, з планувальника календаря через iCalendar). Вони генеруються за допомогою цифрового підпису на основі секретного ключа, унікального для кожного користувача Indico. Якщо одне з ваших посилань скомпроментовано, натисніть цю кнопку. Усі інші посилання будуть відкликані."
+msgstr "Унікальні посилання на основі токенів - це секретні URL-адреси, які Oceanman використовує, щоб дозволити вам легко отримувати дані з інших програм (наприклад, з планувальника календаря через iCalendar). Вони генеруються за допомогою цифрового підпису на основі секретного ключа, унікального для кожного користувача Oceanman. Якщо одне з ваших посилань скомпроментовано, натисніть цю кнопку. Усі інші посилання будуть відкликані."
 
 #: indico/modules/api/templates/user_profile.html:156
 msgid "Unblock API key"
@@ -1514,12 +1514,12 @@ msgid "Upload"
 msgstr "Завантажити"
 
 #: indico/modules/auth/__init__.py:58
-msgid "Your Indico profile has been deleted."
-msgstr "Ваш профіль Indico було видалено."
+msgid "Your Oceanman profile has been deleted."
+msgstr "Ваш профіль Oceanman було видалено."
 
 #: indico/modules/auth/__init__.py:73 indico/web/flask/session.py:71
-msgid "Your Indico profile has been blocked."
-msgstr "Ваш профіль Indico було заблоковано."
+msgid "Your Oceanman profile has been blocked."
+msgstr "Ваш профіль Oceanman було заблоковано."
 
 #: indico/modules/auth/__init__.py:108
 msgid "Accounts"
@@ -1554,9 +1554,9 @@ msgstr "Ви підтвердили адресу електронної пошт
 
 #: indico/modules/auth/controllers.py:278
 msgid ""
-"There is already some information in Indico that concerns you. We are going "
+"There is already some information in Oceanman that concerns you. We are going "
 "to link it automatically."
-msgstr "Деякі ваші дані уже існують в Indico. Ми автоматично додамо їх. "
+msgstr "Деякі ваші дані уже існують в Oceanman. Ми автоматично додамо їх. "
 
 #: indico/modules/auth/controllers.py:313
 msgid ""
@@ -1566,9 +1566,9 @@ msgstr "Запит на реєстрацію отримано. Після йог
 
 #: indico/modules/auth/controllers.py:320
 msgid ""
-"You have sucessfully registered your Indico profile. Check <a "
+"You have sucessfully registered your Oceanman profile. Check <a "
 "href=\"{url}\">your profile</a> for further details and settings."
-msgstr "Реєстрація в Indico пройшла успішно. Подальші налаштування та більше інформації — у <a href=\"{url}\">вашому профілі</a>. "
+msgstr "Реєстрація в Oceanman пройшла успішно. Подальші налаштування та більше інформації — у <a href=\"{url}\">вашому профілі</a>. "
 
 #: indico/modules/auth/controllers.py:341
 msgid "Local account added successfully"
@@ -1795,8 +1795,8 @@ msgid "External Accounts"
 msgstr "Зовнішні акаунти"
 
 #: indico/modules/auth/templates/accounts.html:97
-msgid "External accounts linked with your Indico profile."
-msgstr "Зовнішні акаунти, прив'язані до вашого профілю Indico. "
+msgid "External accounts linked with your Oceanman profile."
+msgstr "Зовнішні акаунти, прив'язані до вашого профілю Oceanman. "
 
 #: indico/modules/auth/templates/accounts.html:126
 msgid "The account used to log in cannot be unlinked"
@@ -1831,17 +1831,17 @@ msgstr "Ви вперше увійшли, використовуючи <strong>%
 #: indico/modules/auth/templates/link_identity.html:19
 #, python-format
 msgid ""
-"We have found an existing Indico profile <strong>%(name)s</strong> which "
+"We have found an existing Oceanman profile <strong>%(name)s</strong> which "
 "will be linked with this account once you have verified that "
 "<strong>%(emails)s</strong> is actually your email address."
-msgstr "Існуючий профіль Indico <strong>%(name)s</strong> буде прив'язаний до підтвердженого вами акаунту, де <strong>%(emails)s</strong> є адресою електронної пошти. "
+msgstr "Існуючий профіль Oceanman <strong>%(name)s</strong> буде прив'язаний до підтвердженого вами акаунту, де <strong>%(emails)s</strong> є адресою електронної пошти. "
 
 #: indico/modules/auth/templates/link_identity.html:25
 #, python-format
 msgid ""
-"We have found an existing Indico profile <strong>%(name)s</strong> which "
+"We have found an existing Oceanman profile <strong>%(name)s</strong> which "
 "will be linked with this account once you click the button below."
-msgstr "Існуючий профіль Indico <strong>%(name)s</strong> буде прив'язаний до вибраного вами акаунту."
+msgstr "Існуючий профіль Oceanman <strong>%(name)s</strong> буде прив'язаний до вибраного вами акаунту."
 
 #: indico/modules/auth/templates/link_identity.html:44
 msgid "Add this account and log in"
@@ -1868,9 +1868,9 @@ msgstr "або приєднати до "
 #: indico/modules/auth/templates/login_page.html:61
 #, python-format
 msgid ""
-"If you do not have an Indico account yet, you can <a href=\"%(url)s\">create"
+"If you do not have an Oceanman account yet, you can <a href=\"%(url)s\">create"
 " one here</a>."
-msgstr "Якщо у вас немає акаунта Indico, ви можете <a href=\"%(url)s\">створити його тут</a>."
+msgstr "Якщо у вас немає акаунта Oceanman, ви можете <a href=\"%(url)s\">створити його тут</a>."
 
 #: indico/modules/auth/templates/login_page.html:67
 #, python-format
@@ -1900,13 +1900,13 @@ msgid "Back"
 msgstr "Назад"
 
 #: indico/modules/auth/templates/register.html:7
-msgid "Create a new Indico profile"
-msgstr "Створити новий профіль Indico"
+msgid "Create a new Oceanman profile"
+msgstr "Створити новий профіль Oceanman"
 
 #: indico/modules/auth/templates/register.html:15
 msgid ""
-"To create a new Indico profile you first need to verify your email address."
-msgstr "Для створення нового профілю Indico, підтвердіть вашу електронну пошту."
+"To create a new Oceanman profile you first need to verify your email address."
+msgstr "Для створення нового профілю Oceanman, підтвердіть вашу електронну пошту."
 
 #: indico/modules/auth/templates/register.html:24
 #: indico/modules/users/templates/users_admin_create.html:4
@@ -1933,12 +1933,12 @@ msgid "Submit registration request"
 msgstr "Підтвердити запит на реєстрацію"
 
 #: indico/modules/auth/templates/register.html:58
-msgid "Create my Indico profile"
-msgstr "Створити мій профіль Indico"
+msgid "Create my Oceanman profile"
+msgstr "Створити мій профіль Oceanman"
 
 #: indico/modules/auth/templates/reset_password.html:6
-msgid "Reset your Indico password"
-msgstr "Скинути  пароль від вашого профілю в Indico"
+msgid "Reset your Oceanman password"
+msgstr "Скинути  пароль від вашого профілю в Oceanman"
 
 #: indico/modules/auth/templates/reset_password.html:15
 msgid ""
@@ -1974,10 +1974,10 @@ msgstr "користувач"
 #: indico/modules/auth/templates/emails/register_verify_email.txt:13
 #, python-format
 msgid ""
-"You started the Indico profile creation process.  To continue, you need to "
+"You started the Oceanman profile creation process.  To continue, you need to "
 "verify that %(email)s is indeed your email address. Please click the "
 "following link to continue the registration process:"
-msgstr "Ви почали створення профілю Indico. Аби продовжити, потрібно підтвердити, що %(email)s є справді вашою адресою. Будь ласка, перейдіть за посиланням, аби продовжити процес реєстрації: "
+msgstr "Ви почали створення профілю Oceanman. Аби продовжити, потрібно підтвердити, що %(email)s є справді вашою адресою. Будь ласка, перейдіть за посиланням, аби продовжити процес реєстрації: "
 
 #: indico/modules/auth/templates/emails/reset_password.txt:4
 msgid "Reset your password"
@@ -1986,10 +1986,10 @@ msgstr "Скинути ваш пароль"
 #: indico/modules/auth/templates/emails/reset_password.txt:13
 #, python-format
 msgid ""
-"We heard that you forgot your Indico username or password. Your username is:"
+"We heard that you forgot your Oceanman username or password. Your username is:"
 " %(username)s To set a new password, simply use the following link within an"
 " hour:"
-msgstr "Забули логін Indico чи пароль? Ваш логін: %(username)s. Ви можете встановити новий пароль за посиланням протягом години: "
+msgstr "Забули логін Oceanman чи пароль? Ваш логін: %(username)s. Ви можете встановити новий пароль за посиланням протягом години: "
 
 #: indico/modules/bootstrap/controllers.py:54
 msgid ""
@@ -2002,8 +2002,8 @@ msgid "Hello there!"
 msgstr "Привіт!"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:15
-msgid "Indico needs just a little bit more data from you..."
-msgstr "Indico треба ще трошки ваших даних..."
+msgid "Oceanman needs just a little bit more data from you..."
+msgstr "Oceanman треба ще трошки ваших даних..."
 
 #: indico/modules/bootstrap/templates/bootstrap.html:25
 #: indico/web/templates/_session_bar.html:180
@@ -2029,8 +2029,8 @@ msgid "Site configuration"
 msgstr "Конфігурація сайту"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:76
-msgid "These are the default parameters for your Indico site."
-msgstr "Параметри за умовчанням для вашого сайту Indico."
+msgid "These are the default parameters for your Oceanman site."
+msgstr "Параметри за умовчанням для вашого сайту Oceanman."
 
 #: indico/modules/bootstrap/templates/bootstrap.html:78
 msgid ""
@@ -2051,10 +2051,10 @@ msgstr "Дайте знати, що ви ще тут!"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:104
 msgid ""
-"Be part of the ever growing Indico community! Choose to receive news on the "
+"Be part of the ever growing Oceanman community! Choose to receive news on the "
 "latest releases (2–3 times per year) as well as important security "
 "advisories."
-msgstr "Долучайтеся до зростаючої спільноти Indico! Виберіть отримання новин про останні випуски (2—3 рази на рік) та важливі поради з безпеки. "
+msgstr "Долучайтеся до зростаючої спільноти Oceanman! Виберіть отримання новин про останні випуски (2—3 рази на рік) та важливі поради з безпеки. "
 
 #: indico/modules/bootstrap/templates/bootstrap.html:110
 msgid "The following data will be sent to the Community Hub:"
@@ -2066,8 +2066,8 @@ msgstr "URL серверу"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:113
 #: indico/modules/cephalopod/templates/cephalopod.html:20
-msgid "Indico version installed"
-msgstr "Встановлена версія Indico "
+msgid "Oceanman version installed"
+msgstr "Встановлена версія Oceanman "
 
 #: indico/modules/bootstrap/templates/bootstrap.html:114
 #: indico/modules/cephalopod/templates/cephalopod.html:21
@@ -2112,15 +2112,15 @@ msgstr "Контактна особа"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:125
 #: indico/modules/cephalopod/templates/cephalopod.html:58
-msgid "Affiliation of your Indico server"
-msgstr "Приналежність сервера Indico"
+msgid "Affiliation of your Oceanman server"
+msgstr "Приналежність сервера Oceanman"
 
 #: indico/modules/bootstrap/templates/bootstrap.html:129
 msgid ""
 "Please note that <strong>no private information</strong> will ever be sent "
-"to the Community Hub or the Indico Project and that you can disable it any "
+"to the Community Hub or the Oceanman Project and that you can disable it any "
 "time (from the \"Community Hub\" section of the administrative area)."
-msgstr "Зважайте на те, що <strong>приватна інформація</strong>ніколи не надсилатиметься до Community Hub чи на Indico Project та що ви можете деактивувати це будь-коли (у закладці “Community Hub” панелі керування). "
+msgstr "Зважайте на те, що <strong>приватна інформація</strong>ніколи не надсилатиметься до Community Hub чи на Oceanman Project та що ви можете деактивувати це будь-коли (у закладці “Community Hub” панелі керування). "
 
 #: indico/modules/bootstrap/templates/bootstrap.html:147
 msgid "Finish"
@@ -2129,17 +2129,17 @@ msgstr "Закінчити"
 #: indico/modules/bootstrap/templates/flash_messages.html:2
 #, python-format
 msgid ""
-"Indico is now ready and you are logged as %(name)s with administrative "
-"rights!<br> Don't forget to tweak <a href=\"%(settings_link)s\">Indico's "
+"Oceanman is now ready and you are logged as %(name)s with administrative "
+"rights!<br> Don't forget to tweak <a href=\"%(settings_link)s\">Oceanman's "
 "settings</a> and update your <a href=\"%(profile_link)s\">profile</a>."
-msgstr "Indico готовий працювати з вашим профілем  %(name)s з правами адміністратора! Не забудьте змінити <a href=\"%(settings_link)s\">налаштування Indico</a> та оновити ваш <a href=\"%(profile_link)s\">профіль</a>."
+msgstr "Oceanman готовий працювати з вашим профілем  %(name)s з правами адміністратора! Не забудьте змінити <a href=\"%(settings_link)s\">налаштування Oceanman</a> та оновити ваш <a href=\"%(profile_link)s\">профіль</a>."
 
 #: indico/modules/bootstrap/templates/flash_messages.html:10
 #, python-format
 msgid ""
-"Welcome to the Indico community, your server has been registered to the "
+"Welcome to the Oceanman community, your server has been registered to the "
 "Community Hub!<br> You can manage it <a href=\"%(link)s\">here</a>."
-msgstr "Ласкаво просимо до спільноти Indico, ваш сервер зареєстрований у Community Hub! <br>Ви можете керувати цим <a href=\"%(link)s\">тут</a>."
+msgstr "Ласкаво просимо до спільноти Oceanman, ваш сервер зареєстрований у Community Hub! <br>Ви можете керувати цим <a href=\"%(link)s\">тут</a>."
 
 #: indico/modules/bootstrap/templates/flash_messages.html:17
 #, python-format
@@ -2263,9 +2263,9 @@ msgstr "Деактивувати рекомендації"
 
 #: indico/modules/categories/forms.py:50
 msgid ""
-"Enable this if you don't want Indico to suggest this category as a possible "
+"Enable this if you don't want Oceanman to suggest this category as a possible "
 "addition to a user's favourites."
-msgstr "Активуйте, якщо не хочете, аби Indico рекомендував вам категорії для обраного. "
+msgstr "Активуйте, якщо не хочете, аби Oceanman рекомендував вам категорії для обраного. "
 
 #: indico/modules/categories/forms.py:52
 msgid "Message Type"
@@ -2511,8 +2511,8 @@ msgid "Everywhere"
 msgstr "Скрізь"
 
 #: indico/modules/categories/views.py:50
-msgid "Indico Atom feed"
-msgstr "Новини Indico Atom  "
+msgid "Oceanman Atom feed"
+msgstr "Новини Oceanman Atom  "
 
 #: indico/modules/categories/controllers/admin.py:28
 msgid "Settings saved!"
@@ -2820,9 +2820,9 @@ msgstr "нове"
 
 #: indico/modules/categories/templates/display/root_category.html:17
 msgid ""
-"Welcome to Indico. The Indico tool allows you to manage complex conferences,"
+"Welcome to Oceanman. The Oceanman tool allows you to manage complex conferences,"
 " workshops and meetings."
-msgstr "Ласкаво просимо до Indico. Тут ви можете керувати конференціями, семінарами та зустрічами. "
+msgstr "Ласкаво просимо до Oceanman. Тут ви можете керувати конференціями, семінарами та зустрічами. "
 
 #: indico/modules/categories/templates/display/root_category.html:21
 msgid "To start browsing, please select a category below."
@@ -3189,12 +3189,12 @@ msgid "Synchronization timed-out. Please try again in a while."
 msgstr "Час синхронізації сплинув. Спробуйте пізніше. "
 
 #: indico/modules/cephalopod/forms.py:23
-msgid "Name of the person responsible for your Indico server."
-msgstr "Ім'я відповідальної особи вашого серверу Indico."
+msgid "Name of the person responsible for your Oceanman server."
+msgstr "Ім'я відповідальної особи вашого серверу Oceanman."
 
 #: indico/modules/cephalopod/forms.py:26
-msgid "Email address of the person responsible for your Indico server."
-msgstr "Адреса електронної пошти відповідальної особи вашого серверу Indico."
+msgid "Email address of the person responsible for your Oceanman server."
+msgstr "Адреса електронної пошти відповідальної особи вашого серверу Oceanman."
 
 #: indico/modules/cephalopod/templates/cephalopod.html:10
 msgid "Let us know that you exist!"
@@ -3202,10 +3202,10 @@ msgstr "Дайте знати, що ви ще тут!"
 
 #: indico/modules/cephalopod/templates/cephalopod.html:12
 msgid ""
-"By registering your Indico server with the community hub, you will receive "
+"By registering your Oceanman server with the community hub, you will receive "
 "news on the latest releases as well as important security advisories. The "
 "data in the form below will be sent to the community hub."
-msgstr "Реєструючи ваш сервер Indico на Community Hub, ви будете отримувати новини про останні запуски та важливі поради з безпеки. Дані у формі нижче будуть надіслані на мережевий вузол. "
+msgstr "Реєструючи ваш сервер Oceanman на Community Hub, ви будете отримувати новини про останні запуски та важливі поради з безпеки. Дані у формі нижче будуть надіслані на мережевий вузол. "
 
 #: indico/modules/cephalopod/templates/cephalopod.html:17
 msgid ""
@@ -3226,15 +3226,15 @@ msgid "Synchronize"
 msgstr "Синхронізувати"
 
 #: indico/modules/cephalopod/templates/cephalopod.html:53
-msgid "URL of your Indico server"
-msgstr "URL вашого сервера Indico"
+msgid "URL of your Oceanman server"
+msgstr "URL вашого сервера Oceanman"
 
 #: indico/modules/cephalopod/templates/not_prod_warning.html:4
 msgid ""
-"It seems like you are using a local URL for Indico or running in debug "
+"It seems like you are using a local URL for Oceanman or running in debug "
 "mode.<br> We recommend registering only production instances with the "
 "Community Hub."
-msgstr "Здається, ви використовуєте локальний URL для Indico чи ввімкнули режим налагодження.<br> Ми рекомендуємо записувати показники продуктивності за допомогою Community Hub. "
+msgstr "Здається, ви використовуєте локальний URL для Oceanman чи ввімкнули режим налагодження.<br> Ми рекомендуємо записувати показники продуктивності за допомогою Community Hub. "
 
 #: indico/modules/core/__init__.py:21
 #: indico/modules/events/management/__init__.py:22
@@ -3260,8 +3260,8 @@ msgid "All your token-based links have been invalidated"
 msgstr "Всі посилання з токенами було відмінено"
 
 #: indico/modules/core/forms.py:21
-msgid "The global title of this Indico site."
-msgstr "Загальна назва цього сайту Indico."
+msgid "The global title of this Oceanman site."
+msgstr "Загальна назва цього сайту Oceanman."
 
 #: indico/modules/core/forms.py:22
 #: indico/modules/events/management/__init__.py:20
@@ -3269,8 +3269,8 @@ msgid "Organization"
 msgstr "Організація"
 
 #: indico/modules/core/forms.py:23
-msgid "The organization that runs this Indico site."
-msgstr "Організація, що керує цим сайтом Indico."
+msgid "The organization that runs this Oceanman site."
+msgstr "Організація, що керує цим сайтом Oceanman."
 
 #: indico/modules/core/forms.py:32
 msgid "Site"
@@ -3307,8 +3307,8 @@ msgid "Impersonating %(name)s"
 msgstr "Імітувати %(name)s"
 
 #: indico/modules/core/templates/admin/settings.html:16
-msgid "Upgrade to Indico v2 successful!"
-msgstr "Успішне оновлення до Indico v2!"
+msgid "Upgrade to Oceanman v2 successful!"
+msgstr "Успішне оновлення до Oceanman v2!"
 
 #: indico/modules/core/templates/admin/settings.html:19
 msgid "Please consider registering your server with the Community Hub."
@@ -3320,17 +3320,17 @@ msgstr "Режим налагодження активовано. "
 
 #: indico/modules/core/templates/admin/settings.html:38
 msgid ""
-"A new Indico version (<strong id=\"new-indico-version\"></strong>) is "
+"A new Oceanman version (<strong id=\"new-indico-version\"></strong>) is "
 "available! Your current version is <strong id=\"cur-indico-"
 "version\"></strong>."
-msgstr "Доступна нова версія (<strong id=\"new-indico-version\"></strong>) Indico! Поточна версія <strong id=\"cur-indico-version\"></strong>."
+msgstr "Доступна нова версія (<strong id=\"new-indico-version\"></strong>) Oceanman! Поточна версія <strong id=\"cur-indico-version\"></strong>."
 
 #: indico/modules/core/templates/admin/settings.html:52
 msgid ""
 "A new version (<strong id=\"new-indico-plugins-version\"></strong>) of the "
-"official Indico plugin package is available! Your current version is <strong"
+"official Oceanman plugin package is available! Your current version is <strong"
 " id=\"cur-indico-plugins-version\"></strong>."
-msgstr "Доступна нова версія (<strong id=\"new-indico-plugins-version\"></strong>) офіційного плагіна Indico! Поточна версія <strong id=\"cur-indico-plugins-version\"></strong>."
+msgstr "Доступна нова версія (<strong id=\"new-indico-plugins-version\"></strong>) офіційного плагіна Oceanman! Поточна версія <strong id=\"cur-indico-plugins-version\"></strong>."
 
 #: indico/modules/core/templates/admin/settings.html:61
 #: indico/modules/users/templates/users_admin.html:98
@@ -7638,8 +7638,8 @@ msgstr "Обов'язковим є лише поле \"Назва\"."
 #: indico/modules/events/registration/templates/management/import_registrations.html:33
 #: indico/modules/events/roles/templates/import_members.html:9
 msgid ""
-"Users will be matched with existing Indico identities through their e-mail."
-msgstr "Користувачі будуть прив'язані до існуючого акаунта Indico через адресу електронної пошти."
+"Users will be matched with existing Oceanman identities through their e-mail."
+msgstr "Користувачі будуть прив'язані до існуючого акаунта Oceanman через адресу електронної пошти."
 
 #: indico/modules/events/contributions/templates/management/types_dialog.html:8
 msgid "Add new contribution type"
@@ -8095,8 +8095,8 @@ msgstr "Використовувати власний CSS"
 #: indico/modules/events/layout/forms.py:96
 msgid ""
 "Use a custom CSS file as a theme for the conference page. Deactivate this "
-"option to reveal the available Indico themes."
-msgstr "Використовувати власний файл CSS як тему сторінки конференції. Деактивуйте цю опцію, аби використати стандартні теми  Indico."
+"option to reveal the available Oceanman themes."
+msgstr "Використовувати власний файл CSS як тему сторінки конференції. Деактивуйте цю опцію, аби використати стандартні теми  Oceanman."
 
 #: indico/modules/events/layout/forms.py:100
 msgid ""
@@ -8450,8 +8450,8 @@ msgstr "Скорочений URL"
 #: indico/modules/events/management/forms.py:70
 msgid ""
 "<strong>{}SHORTCUT</strong> - the URL shortcut must be unique within this "
-"Indico instance and is not case sensitive."
-msgstr "<strong>{} КОРОТКИЙ</strong> - короткий URL  не чутливий до регістру та повинен бути унікальним у Indico."
+"Oceanman instance and is not case sensitive."
+msgstr "<strong>{} КОРОТКИЙ</strong> - короткий URL  не чутливий до регістру та повинен бути унікальним у Oceanman."
 
 #: indico/modules/events/management/forms.py:78
 msgid ""
@@ -8781,17 +8781,17 @@ msgid "Edit attachment \"{name}\""
 msgstr "Редагувати вкладення \"{name}\""
 
 #: indico/modules/events/management/util.py:187
-msgid "You have added a user with no Indico account."
-msgid_plural "You have added {} users with no Indico account."
-msgstr[0] "Ви додали {} користувача без акаунта Indico. "
-msgstr[1] "Ви додали {} користувачі без акаунта Indico. "
-msgstr[2] "Ви додали {} користувачів без акаунта Indico. "
-msgstr[3] "Ви додали {} користувачів без акаунта  Indico. "
+msgid "You have added a user with no Oceanman account."
+msgid_plural "You have added {} users with no Oceanman account."
+msgstr[0] "Ви додали {} користувача без акаунта Oceanman. "
+msgstr[1] "Ви додали {} користувачі без акаунта Oceanman. "
+msgstr[2] "Ви додали {} користувачів без акаунта Oceanman. "
+msgstr[3] "Ви додали {} користувачів без акаунта  Oceanman. "
 
 #: indico/modules/events/management/util.py:189
 msgid ""
-"An Indico account may be needed to upload materials and/or manage contents."
-msgstr "Для завантаження матеріалів чи керування вмістом може знадобитися акаунт Indico."
+"An Oceanman account may be needed to upload materials and/or manage contents."
+msgstr "Для завантаження матеріалів чи керування вмістом може знадобитися акаунт Oceanman."
 
 #: indico/modules/events/management/util.py:191
 msgid "To invite them, please go to the {link_start}Roles page{link_end}"
@@ -9319,8 +9319,8 @@ msgstr "Коди програм"
 #: indico/modules/events/management/templates/program_codes.html:6
 msgid ""
 "You can automatically assign programme codes in your event to have more "
-"meaningful ways of referencing e.g. certain contributions outside Indico."
-msgstr "Ви можете автоматично призначити програмні коди у вашому заході, щоб мати більш доречні способи посилань, наприклад на певні матеріли поза Indico."
+"meaningful ways of referencing e.g. certain contributions outside Oceanman."
+msgstr "Ви можете автоматично призначити програмні коди у вашому заході, щоб мати більш доречні способи посилань, наприклад на певні матеріли поза Oceanman."
 
 #: indico/modules/events/management/templates/program_codes.html:14
 msgid "Programme code templates"
@@ -10552,9 +10552,9 @@ msgstr "Наразі ця особа є лише автором тез та бі
 #: indico/modules/events/persons/templates/management/_person_list_row.html:68
 #, python-format
 msgid ""
-"This user seems to have no Indico account. If they do have an account, they "
+"This user seems to have no Oceanman account. If they do have an account, they "
 "should add %(email)s to their profile"
-msgstr "Цей користувач не має акаунта Indico. Якщо користувач уже має акаунт, то повинен додати %(email)s до свого профілю. "
+msgstr "Цей користувач не має акаунта Oceanman. Якщо користувач уже має акаунт, то повинен додати %(email)s до свого профілю. "
 
 #: indico/modules/events/persons/templates/management/_person_list_row.html:70
 msgid "No account"
@@ -10605,8 +10605,8 @@ msgid "Send invitation"
 msgstr "Надіслати запрошення"
 
 #: indico/modules/events/persons/templates/management/person_list.html:92
-msgid "Send an email to all users with no Indico account"
-msgstr "Надіслати листа всім користувачам без акаунта  Indico"
+msgid "Send an email to all users with no Oceanman account"
+msgstr "Надіслати листа всім користувачам без акаунта  Oceanman"
 
 #: indico/modules/events/persons/templates/management/person_list.html:99
 msgid "To all users with no account"
@@ -10614,9 +10614,9 @@ msgstr "Всім користувачам без акаунта"
 
 #: indico/modules/events/persons/templates/management/person_list.html:105
 msgid ""
-"Send an email to all users with no Indico account who have not received an "
+"Send an email to all users with no Oceanman account who have not received an "
 "invitation email yet"
-msgstr "Надіслати листа всім користувачам без акаунта Indico, які ще не отримали запрошення "
+msgstr "Надіслати листа всім користувачам без акаунта Oceanman, які ще не отримали запрошення "
 
 #: indico/modules/events/persons/templates/management/person_list.html:114
 msgid "To users not invited yet"
@@ -10641,15 +10641,15 @@ msgstr "Рядок пошуку"
 #: indico/modules/events/persons/templates/management/person_list.html:192
 #, python-format
 msgid ""
-"There is one user with no Indico account. An Indico account may be needed to"
+"There is one user with no Oceanman account. An Oceanman account may be needed to"
 " upload materials and/or manage contents."
 msgid_plural ""
-"There are %(count)s users with no Indico account. An Indico account may be "
+"There are %(count)s users with no Oceanman account. An Oceanman account may be "
 "needed to upload materials and/or manage contents."
-msgstr[0] "Користувач, незареєстрований у Indico. Акаунт Indico може знадобитись для завантаження матеріалів та/чи керування вмістом."
-msgstr[1] " %(count)sкористувачі, незареєстровані у Indico. Акаунт Indico може знадобитись для завантаження матеріалів та/чи керування вмістом."
-msgstr[2] "%(count)s користувачів, незареєстрованих у Indico. Акаунт Indico може знадобитись для завантаження матеріалів та/чи керування вмістом."
-msgstr[3] "%(count)s користувачів, незареєстрованих у Indico. Акаунт Indico може знадобитись для завантаження матеріалів та/чи керування вмістом."
+msgstr[0] "Користувач, незареєстрований у Oceanman. Акаунт Oceanman може знадобитись для завантаження матеріалів та/чи керування вмістом."
+msgstr[1] " %(count)sкористувачі, незареєстровані у Oceanman. Акаунт Oceanman може знадобитись для завантаження матеріалів та/чи керування вмістом."
+msgstr[2] "%(count)s користувачів, незареєстрованих у Oceanman. Акаунт Oceanman може знадобитись для завантаження матеріалів та/чи керування вмістом."
+msgstr[3] "%(count)s користувачів, незареєстрованих у Oceanman. Акаунт Oceanman може знадобитись для завантаження матеріалів та/чи керування вмістом."
 
 #: indico/modules/events/persons/templates/management/person_list.html:229
 msgid "No persons"
@@ -10755,8 +10755,8 @@ msgid "Registrant must have account"
 msgstr "Реєстранти повинні мати акаунт"
 
 #: indico/modules/events/registration/forms.py:63
-msgid "Registrations emails must be associated with an Indico account"
-msgstr "Пошти для реєстрації мають бути прив'язані до акаунта Indico"
+msgid "Registrations emails must be associated with an Oceanman account"
+msgstr "Пошти для реєстрації мають бути прив'язані до акаунта Oceanman"
 
 #: indico/modules/events/registration/forms.py:64
 msgid "Limit registrations"
@@ -11010,8 +11010,8 @@ msgstr "Список користувачів, що можуть змінюва�
 
 #: indico/modules/events/registration/forms.py:343
 #: indico/modules/events/registration/templates/management/regform_invitations.html:37
-msgid "Indico users"
-msgstr "Користувачі Indico"
+msgid "Oceanman users"
+msgstr "Користувачі Oceanman"
 
 #: indico/modules/events/registration/forms.py:344
 msgid "Send e-mail notifications"
@@ -11185,8 +11185,8 @@ msgstr "Вашу реєстрацію не знайдено. Якщо ви вж�
 msgid ""
 "We could not find a registration for you.  If have already registered, "
 "please use the direct access link from the email you received after "
-"registering or log in to your Indico account."
-msgstr "Вашу реєстрацію не знайдено. Якщо ви вже зареєструвались, використайте пряме посилання з листа, який ви отримали після реєстрації чи увійдіть до вашого акаунта Indico."
+"registering or log in to your Oceanman account."
+msgstr "Вашу реєстрацію не знайдено. Якщо ви вже зареєструвались, використайте пряме посилання з листа, який ви отримали після реєстрації чи увійдіть до вашого акаунта Oceanman."
 
 #: indico/modules/events/registration/controllers/display.py:359
 msgid "Your registration has been withdrawn."
@@ -11963,9 +11963,9 @@ msgstr "Не зареєстровано"
 
 #: indico/modules/events/registration/templates/management/_registration_details.html:247
 msgid ""
-"You can mark the registration as checked in manually here or with the Indico"
+"You can mark the registration as checked in manually here or with the Oceanman"
 " Check in app."
-msgstr "Ви можете позначити реєстрацію як перевірену вручну тут чи у додатку Indico Check in."
+msgstr "Ви можете позначити реєстрацію як перевірену вручну тут чи у додатку Oceanman Check in."
 
 #: indico/modules/events/registration/templates/management/_registration_details.html:251
 msgid "You can mark the registration as checked in manually."
@@ -12080,10 +12080,10 @@ msgid ""
 "<strong>Example</strong>: If your left and right margins are 1.5 cm each, "
 "but your printer prints everything 1 mm to the left, you could use a left "
 "margin of 1.6 cm and a right margin of 1.4 cm to compensate. If you increase"
-" a margin, do not forget to decrease the opposing one to avoid Indico "
+" a margin, do not forget to decrease the opposing one to avoid Oceanman "
 "thinking there is less space for printing badges, and the number of rows / "
 "columns will change."
-msgstr "<strong>Приклад</strong>: ліве та праве поля дорівнюють 1,5 см кожне, та під час друку принтер додає до кожного з них по 1 мм. У такому випадку, вам потрібно надати лівому полю значення 1,6 см, а правому - 1,4 см. Збільшуючи значення одного поля, не забудьте зменшити значення іншого, інакше система Indico сприйматиме це як брак місця для друку бейджів та змінюватиме число рядків/стовпчиків. "
+msgstr "<strong>Приклад</strong>: ліве та праве поля дорівнюють 1,5 см кожне, та під час друку принтер додає до кожного з них по 1 мм. У такому випадку, вам потрібно надати лівому полю значення 1,6 см, а правому - 1,4 см. Збільшуючи значення одного поля, не забудьте зменшити значення іншого, інакше система Oceanman сприйматиме це як брак місця для друку бейджів та змінюватиме число рядків/стовпчиків. "
 
 #: indico/modules/events/registration/templates/management/regform.html:19
 msgid "Edit settings for this form."
@@ -12340,24 +12340,24 @@ msgid "Registration list configuration"
 msgstr "Керування списком зареєстрованих "
 
 #: indico/modules/events/registration/templates/management/regform_reglist.html:42
-msgid "Register a user that doesn't exist in Indico"
-msgstr "Зареєструвати користувача без профілю Indico"
+msgid "Register a user that doesn't exist in Oceanman"
+msgstr "Зареєструвати користувача без профілю Oceanman"
 
 #: indico/modules/events/registration/templates/management/regform_reglist.html:49
-msgid "Register a Indico user"
-msgstr "Зареєструвати користувача Indico"
+msgid "Register a Oceanman user"
+msgstr "Зареєструвати користувача Oceanman"
 
 #: indico/modules/events/registration/templates/management/regform_reglist.html:50
-msgid "Indico user"
-msgstr "Користувач Indico"
+msgid "Oceanman user"
+msgstr "Користувач Oceanman"
 
 #: indico/modules/events/registration/templates/management/regform_reglist.html:56
-msgid "Register multiple Indico users"
-msgstr "Зареєструвати кілька користувачів Indico"
+msgid "Register multiple Oceanman users"
+msgstr "Зареєструвати кілька користувачів Oceanman"
 
 #: indico/modules/events/registration/templates/management/regform_reglist.html:57
-msgid "Multiple Indico users"
-msgstr "Кілька користувачів Indico"
+msgid "Multiple Oceanman users"
+msgstr "Кілька користувачів Oceanman"
 
 #: indico/modules/events/registration/templates/management/regform_reglist.html:75
 msgid "PDF (table style)"
@@ -13843,8 +13843,8 @@ msgid "Social Networks"
 msgstr "Соціальні мережі"
 
 #: indico/modules/events/templates/header.html:8
-msgid "Go to the Indico Home Page"
-msgstr "Повернутись до домашньої сторінки Indico"
+msgid "Go to the Oceanman Home Page"
+msgstr "Повернутись до домашньої сторінки Oceanman"
 
 #: indico/modules/events/templates/header.html:14
 msgid "Oldest event"
@@ -14753,9 +14753,9 @@ msgstr "Засідання за умовчанням"
 
 #: indico/modules/events/tracks/forms.py:28
 msgid ""
-"Indico will preselect this session whenever an abstract is accepted for the "
+"Oceanman will preselect this session whenever an abstract is accepted for the "
 "track"
-msgstr "Indico попередньо вибиратиме це засідання при затвердженні тез у цьому напрямку. "
+msgstr "Oceanman попередньо вибиратиме це засідання при затвердженні тез у цьому напрямку. "
 
 #: indico/modules/events/tracks/templates/_track_list.html:12
 msgid "Edit track"
@@ -14787,9 +14787,9 @@ msgstr "Цей напрямок не можна видалити, так як в
 #: indico/modules/events/tracks/templates/_track_list.html:41
 #, python-format
 msgid ""
-"Indico will preselect the session \"%(title)s\" whenever an abstract is "
+"Oceanman will preselect the session \"%(title)s\" whenever an abstract is "
 "accepted for this track."
-msgstr "Indico попередньо вибиратиме засідання \"%(title)s\" при затвердженні тез у цьому напрямку. "
+msgstr "Oceanman попередньо вибиратиме засідання \"%(title)s\" при затвердженні тез у цьому напрямку. "
 
 #: indico/modules/events/tracks/templates/_track_list.html:70
 msgid "Edit track group"
@@ -14961,9 +14961,9 @@ msgstr "Пошук груп"
 #: indico/modules/groups/templates/groups.html:74
 #, python-format
 msgid ""
-"This Indico instance also supports external groups from identity providers "
+"This Oceanman instance also supports external groups from identity providers "
 "(%(providers)s)."
-msgstr "Ця версія Indico підтримує зовнішні групи з джерел ідентифікаційної інформації (%(providers)s)."
+msgstr "Ця версія Oceanman підтримує зовнішні групи з джерел ідентифікаційної інформації (%(providers)s)."
 
 #: indico/modules/groups/templates/groups.html:78
 msgid ""
@@ -15039,8 +15039,8 @@ msgstr "підмережа"
 #: indico/modules/networks/forms.py:21
 msgid ""
 "Do you really want to grant everyone within the specified networks "
-"unauthenticated access to all attachments/materials in Indico?"
-msgstr "Ви справді хочете дозволити неавторизований доступ до всіх вкладень/матеріалів у Indico всім користувачам?"
+"unauthenticated access to all attachments/materials in Oceanman?"
+msgstr "Ви справді хочете дозволити неавторизований доступ до всіх вкладень/матеріалів у Oceanman всім користувачам?"
 
 #: indico/modules/networks/forms.py:30
 msgid "Subnets"
@@ -15151,16 +15151,16 @@ msgid "News '{title}' has been deleted"
 msgstr "Новини \"{title}\" видалено"
 
 #: indico/modules/news/forms.py:21
-msgid "Whether to show the latest news headlines on the Indico home page."
-msgstr "Показувати заголовки останніх новин на домашній сторінці Indico"
+msgid "Whether to show the latest news headlines on the Oceanman home page."
+msgstr "Показувати заголовки останніх новин на домашній сторінці Oceanman"
 
 #: indico/modules/news/forms.py:22
 msgid "Max. headlines"
 msgstr "Максимальна кількість заголовків"
 
 #: indico/modules/news/forms.py:23
-msgid "The maximum number of news headlines to show on the Indico home page."
-msgstr "Максимальна кількість заголовків новин, яку можна показати на домашній сторінці Indico"
+msgid "The maximum number of news headlines to show on the Oceanman home page."
+msgstr "Максимальна кількість заголовків новин, яку можна показати на домашній сторінці Oceanman"
 
 #: indico/modules/news/forms.py:24
 msgid "Max. age"
@@ -15168,9 +15168,9 @@ msgstr "Максимальна актуальність"
 
 #: indico/modules/news/forms.py:25
 msgid ""
-"The maximum age in days for news to show up on the Indico home page. Setting"
+"The maximum age in days for news to show up on the Oceanman home page. Setting"
 " it to 0 will show news no matter how old they are."
-msgstr "Актуальність новин (у днях), які можна показувати на домашній сторінці Indico. 0 означає, що актуальність новин не є важливою. "
+msgstr "Актуальність новин (у днях), які можна показувати на домашній сторінці Oceanman. 0 означає, що актуальність новин не є важливою. "
 
 #: indico/modules/news/forms.py:27
 msgid "\"New\" threshold"
@@ -15329,9 +15329,9 @@ msgstr "Зареєструвати новий застосунок"
 
 #: indico/modules/oauth/templates/apps.html:18
 msgid ""
-"This is the list of applications authorized to access Indico. Click on the "
+"This is the list of applications authorized to access Oceanman. Click on the "
 "name of an application to see more information."
-msgstr "Це - список застосунків, які мають доступ до Indico. Натисніть на назву застосунку, аби побачити більше інформації. "
+msgstr "Це - список застосунків, які мають доступ до Oceanman. Натисніть на назву застосунку, аби побачити більше інформації. "
 
 #: indico/modules/oauth/templates/apps.html:22
 msgid "There aren't any authorized applications."
@@ -15359,8 +15359,8 @@ msgstr "Авторизовані застосунки"
 
 #: indico/modules/oauth/templates/user_profile.html:12
 msgid ""
-"This is the list of applications you authorized to access your Indico data."
-msgstr "Список застосунків, яким ви надали доступ до даних  Indico."
+"This is the list of applications you authorized to access your Oceanman data."
+msgstr "Список застосунків, яким ви надали доступ до даних  Oceanman."
 
 #: indico/modules/oauth/templates/user_profile.html:16
 msgid "No third party applications have been authorized."
@@ -15373,9 +15373,9 @@ msgstr "Востаннє використано:"
 #: indico/modules/oauth/templates/user_profile.html:36
 #, python-format
 msgid ""
-"%(app_name)s will no longer have access to your Indico data.<br> Are you "
+"%(app_name)s will no longer have access to your Oceanman data.<br> Are you "
 "sure you want to revoke its access?"
-msgstr "%(app_name)s  більше не матиме доступу до ваших даних  Indico. <br> Ви впевнені, що хочете заборонити доступ?"
+msgstr "%(app_name)s  більше не матиме доступу до ваших даних  Oceanman. <br> Ви впевнені, що хочете заборонити доступ?"
 
 #: indico/modules/oauth/templates/user_profile.html:38
 msgid "Revoke"
@@ -15630,9 +15630,9 @@ msgstr "Токен верифікації є недопустимим або з�
 
 #: indico/modules/users/controllers.py:408
 msgid ""
-"This token is for a different Indico user. Please login with the correct "
+"This token is for a different Oceanman user. Please login with the correct "
 "account"
-msgstr "Цей токен належить іншому користувачеві Indico. Увійдіть з правильного акаунта."
+msgstr "Цей токен належить іншому користувачеві Oceanman. Увійдіть з правильного акаунта."
 
 #: indico/modules/users/controllers.py:413
 msgid "This email address is already attached to your account."
@@ -15679,12 +15679,12 @@ msgid "Users' names seem to be different!"
 msgstr "Імена користувачів відрізняються!"
 
 #: indico/modules/users/controllers.py:576
-msgid "Source user has never logged in to Indico!"
-msgstr "Вихідний користувач не є користувачем Indico!"
+msgid "Source user has never logged in to Oceanman!"
+msgstr "Вихідний користувач не є користувачем Oceanman!"
 
 #: indico/modules/users/controllers.py:578
-msgid "Target user has never logged in to Indico!"
-msgstr "Цільовий користувач не є користувачем Indico!"
+msgid "Target user has never logged in to Oceanman!"
+msgstr "Цільовий користувач не є користувачем Oceanman!"
 
 #: indico/modules/users/controllers.py:580
 msgid "Source user is blocked!"
@@ -15963,7 +15963,7 @@ msgid "Deleted"
 msgstr "Видалено"
 
 #: indico/modules/users/templates/admins.html:9
-msgid "Admins have unrestricted access to everything in Indico."
+msgid "Admins have unrestricted access to everything in Oceanman."
 msgstr "Адміністратори матимуть необмежений доступ до функціоналу."
 
 #: indico/modules/users/templates/base.html:10
@@ -16045,8 +16045,8 @@ msgid "You have not marked any user as favourite."
 msgstr "Ви ще нікого не додали в обране."
 
 #: indico/modules/users/templates/favorites.html:28
-msgid "Add Indico user"
-msgstr "Додати користувача Indico"
+msgid "Add Oceanman user"
+msgstr "Додати користувача Oceanman"
 
 #: indico/modules/users/templates/favorites.html:35
 msgid "Favourite Categories"
@@ -16058,9 +16058,9 @@ msgstr "Ви не додали в обране жодної категорії. 
 
 #: indico/modules/users/templates/personal_data.html:19
 msgid ""
-"This user will no longer have access to Indico.<br> Are you sure you want to"
+"This user will no longer have access to Oceanman.<br> Are you sure you want to"
 " revoke their access?"
-msgstr "Цей користувач більше не матиме доступу до Indico. <br> Ви впевнені, що хочете заборонити доступ?"
+msgstr "Цей користувач більше не матиме доступу до Oceanman. <br> Ви впевнені, що хочете заборонити доступ?"
 
 #: indico/modules/users/templates/personal_data.html:23
 msgid "Block User"
@@ -16068,9 +16068,9 @@ msgstr "Залокувати користувача"
 
 #: indico/modules/users/templates/personal_data.html:30
 msgid ""
-"This user will regain access to Indico.<br> Are you sure you want to restore"
+"This user will regain access to Oceanman.<br> Are you sure you want to restore"
 " their access?"
-msgstr "Цей користувач поновить доступ до Indico.  <br> Ви впевнені що хочете відновити його доступ?"
+msgstr "Цей користувач поновить доступ до Oceanman.  <br> Ви впевнені що хочете відновити його доступ?"
 
 #: indico/modules/users/templates/personal_data.html:33
 msgid "Unblock User"
@@ -16134,9 +16134,9 @@ msgstr[3] "За вашим пошуковим запитом знайдено %(
 #: indico/modules/users/templates/emails/verify_email.txt:13
 #, python-format
 msgid ""
-"You recently added the e-mail address %(email)s to your Indico account. "
+"You recently added the e-mail address %(email)s to your Oceanman account. "
 "Please click the following link to confirm this action."
-msgstr "Нещодавно ви додали %(email)s адрес до вашого акаунта Indico. Перейдіть за посиланням, аби підтвердити цю дію."
+msgstr "Нещодавно ви додали %(email)s адрес до вашого акаунта Oceanman. Перейдіть за посиланням, аби підтвердити цю дію."
 
 #: indico/modules/vc/__init__.py:59
 #: indico/modules/vc/templates/event_header.html:4
@@ -16247,10 +16247,10 @@ msgstr "Аудиторія для закріплення"
 
 #: indico/modules/vc/forms.py:107
 msgid ""
-"Please start writing the name of the room you would like to attach. Indico "
-"will suggest existing rooms. Only rooms created through Indico can be "
+"Please start writing the name of the room you would like to attach. Oceanman "
+"will suggest existing rooms. Only rooms created through Oceanman can be "
 "attached."
-msgstr "Будь лвска почніть писати назву аудиторії, яку ви хочете додати. Indico запропонує існуючі аудиторії. Лише аудиторії створені в Indico можуть бути додані."
+msgstr "Будь лвска почніть писати назву аудиторії, яку ви хочете додати. Oceanman запропонує існуючі аудиторії. Лише аудиторії створені в Oceanman можуть бути додані."
 
 #: indico/modules/vc/forms.py:119
 msgid "The name of the room."
@@ -17081,9 +17081,9 @@ msgstr "Недопустимий URL"
 #: indico/web/templates/bad_url_error.html:4
 #, python-format
 msgid ""
-"This Indico instance can only be accessed via <a "
+"This Oceanman instance can only be accessed via <a "
 "href=\"%(url)s\">%(url)s</a>"
-msgstr "Цей Indico сайт доступний за <a href=\"%(url)s\">%(url)s</a>"
+msgstr "Цей Oceanman сайт доступний за <a href=\"%(url)s\">%(url)s</a>"
 
 #: indico/web/templates/confirmation_dialog.html:7
 msgid "I understand what this means. Please go ahead."
@@ -17170,12 +17170,12 @@ msgid "This field is required"
 msgstr "Обов'язкове поле"
 
 #: indico/web/templates/forms/_person_link_widget_base.html:28
-msgid "You have to log in in order to be able to search for Indico users"
+msgid "You have to log in in order to be able to search for Oceanman users"
 msgstr "Для пошуку користувачів ви повинні ввійти в систему."
 
 #: indico/web/templates/forms/_person_link_widget_base.html:30
-msgid "Search among Indico users"
-msgstr "Пошук з-поміж користувачів Indico"
+msgid "Search among Oceanman users"
+msgstr "Пошук з-поміж користувачів Oceanman"
 
 #: indico/web/templates/forms/_person_link_widget_base.html:34
 msgid "Add yourself to the list"

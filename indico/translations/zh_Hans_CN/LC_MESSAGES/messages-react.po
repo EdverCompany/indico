@@ -2564,9 +2564,9 @@ msgstr "地图URL模板"
 
 #: indico/modules/rb/client/js/modules/admin/LocationPage.jsx:130
 msgid ""
-"Indico can show a link to an external map when a room is associated to an "
+"Oceanman can show a link to an external map when a room is associated to an "
 "event."
-msgstr "当会议室与事件关联时，Indico可以显示指向外部地图的链接。"
+msgstr "当会议室与事件关联时，Oceanman可以显示指向外部地图的链接。"
 
 #: indico/modules/rb/client/js/modules/admin/LocationPage.jsx:148
 msgid ""
@@ -3558,7 +3558,7 @@ msgid "Affiliation"
 msgstr "工作单位"
 
 #: indico/web/client/js/react/components/principals/Search.jsx:402
-msgid "Include users with no Indico account"
+msgid "Include users with no Oceanman account"
 msgstr "包含没有indico帐号的用户"
 
 #: indico/web/client/js/react/components/principals/Search.jsx:405

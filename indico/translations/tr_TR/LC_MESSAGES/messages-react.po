@@ -2718,10 +2718,10 @@ msgstr "Harita URL şablonu"
 
 #: indico/modules/rb/client/js/modules/admin/LocationPage.jsx:130
 msgid ""
-"Indico can show a link to an external map when a room is associated to an "
+"Oceanman can show a link to an external map when a room is associated to an "
 "event."
 msgstr ""
-"Indico, bir oda bir etkinlik ile ilişkilendirildiğinde, bir dış haritaya "
+"Oceanman, bir oda bir etkinlik ile ilişkilendirildiğinde, bir dış haritaya "
 "bağlantıyı gösterebilir."
 
 #: indico/modules/rb/client/js/modules/admin/LocationPage.jsx:148
@@ -3606,10 +3606,10 @@ msgstr "Aramaya başlamak için bir terim girin."
 #: indico/modules/search/client/js/components/SearchApp.jsx:112
 msgid ""
 "Enter a term above to begin searching inside the {categoryTitle} category. "
-"You can {link}search all of Indico instead{/link}."
+"You can {link}search all of Oceanman instead{/link}."
 msgstr ""
 "{categoryTitle} kategorisi içinde arama yapmaya başlamak için bir terim "
-"girin. {link}Bunun yerine tüm Indico'da arama yapabilirsiniz{/link}."
+"girin. {link}Bunun yerine tüm Oceanman'da arama yapabilirsiniz{/link}."
 
 #: indico/modules/search/client/js/components/SearchApp.jsx:131
 msgid "No Results"
@@ -3622,10 +3622,10 @@ msgstr "Aramanız - {query}  - hiçbir sonuçla eşleşmedi"
 #: indico/modules/search/client/js/components/SearchApp.jsx:138
 msgid ""
 "Your search - {query} - did not match any results. You could try "
-"{link}searching all of Indico instead{/link}."
+"{link}searching all of Oceanman instead{/link}."
 msgstr ""
 "Aramanız - {query} - hiçbir sonuçla eşleşmedi. Bunun yerine {link}tüm "
-"Indico'da arama yapmayı{/link} deneyebilirsiniz."
+"Oceanman'da arama yapmayı{/link} deneyebilirsiniz."
 
 #: indico/modules/search/client/js/components/SearchApp.jsx:190
 msgid "Sort by: {value}"
@@ -3666,8 +3666,8 @@ msgid "In this category ↵"
 msgstr "Bu kategoride  "
 
 #: indico/modules/search/client/js/components/SearchBox.jsx:40
-msgid "All Indico ↵"
-msgstr "Tüm Indico  "
+msgid "All Oceanman ↵"
+msgstr "Tüm Oceanman  "
 
 #: indico/modules/search/client/js/components/results/PersonList.jsx:31
 msgid "et al."
@@ -3682,8 +3682,8 @@ msgid "You have not marked any category as favorite."
 msgstr "Herhangi bir kategoriyi favori olarak işaretlemediniz."
 
 #: indico/modules/users/client/js/Favorites.jsx:143
-msgid "Add Indico user"
-msgstr "Indico kullanıcısı ekle"
+msgid "Add Oceanman user"
+msgstr "Oceanman kullanıcısı ekle"
 
 #: indico/modules/users/client/js/Favorites.jsx:151
 msgid "Favorite Users"
@@ -3894,8 +3894,8 @@ msgid "Affiliation"
 msgstr "Yakınlık"
 
 #: indico/web/client/js/react/components/principals/Search.jsx:548
-msgid "Include users with no Indico account"
-msgstr "Indico hesabı olmayan kullanıcıları dahil et"
+msgid "Include users with no Oceanman account"
+msgstr "Oceanman hesabı olmayan kullanıcıları dahil et"
 
 #: indico/web/client/js/react/components/principals/Search.jsx:551
 #: indico/web/client/js/react/components/principals/Search.jsx:705

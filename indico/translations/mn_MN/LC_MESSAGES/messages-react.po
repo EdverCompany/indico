@@ -2647,7 +2647,7 @@ msgstr "Газрын зургийн URL загвар"
 
 #: indico/modules/rb/client/js/modules/admin/LocationPage.jsx:130
 msgid ""
-"Indico can show a link to an external map when a room is associated to an "
+"Oceanman can show a link to an external map when a room is associated to an "
 "event."
 msgstr ""
 "Индико өрөө нь үйл явдалтай холбоотой байх үед гадаад газрын зургийн "
@@ -3704,7 +3704,7 @@ msgid "Affiliation"
 msgstr "Харьяалал"
 
 #: indico/web/client/js/react/components/principals/Search.jsx:402
-msgid "Include users with no Indico account"
+msgid "Include users with no Oceanman account"
 msgstr "Индико дансгүй хэрэглэгчдийг оруулаарай"
 
 #: indico/web/client/js/react/components/principals/Search.jsx:405

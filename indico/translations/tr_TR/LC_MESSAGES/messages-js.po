@@ -8,7 +8,7 @@
 # selcuk bilmis <selcukbilmis@gmail.com>, 2021
 msgid ""
 msgstr ""
-"Project-Id-Version: Indico\n"
+"Project-Id-Version: Oceanman\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2021-06-24 17:51+0200\n"
 "PO-Revision-Date: 2021-06-24 14:14+0000\n"
@@ -242,9 +242,9 @@ msgstr "Senkronize değil"
 
 #: indico/modules/cephalopod/client/js/index.js:119
 msgid ""
-"Your Indico server is out of sync. Synchronize it with the button on the "
+"Your Oceanman server is out of sync. Synchronize it with the button on the "
 "right."
-msgstr "Indico sunucunuz senkronize değildir. Sağdaki düğme ile sunucunuzu senkronize hale getirin."
+msgstr "Oceanman sunucunuz senkronize değildir. Sağdaki düğme ile sunucunuzu senkronize hale getirin."
 
 #: indico/modules/cephalopod/client/js/index.js:129
 msgid "Error!"
@@ -252,9 +252,9 @@ msgstr "Hata!"
 
 #: indico/modules/cephalopod/client/js/index.js:147
 msgid ""
-"Your Indico server is not synchronized with the Community Hub! You can solve"
+"Your Oceanman server is not synchronized with the Community Hub! You can solve"
 " this <a href=\"{0}\">here</a>."
-msgstr "Indico sunucunuz Topluluk Merkezi ile eş zamanlı değildir! Bu sorunu <a href=\"{0}\">buradan</a> çözebilirsiniz."
+msgstr "Oceanman sunucunuz Topluluk Merkezi ile eş zamanlı değildir! Bu sorunu <a href=\"{0}\">buradan</a> çözebilirsiniz."
 
 #: indico/modules/designer/client/js/index.js:31
 #: indico/modules/designer/client/js/index.js:707
@@ -391,12 +391,12 @@ msgid "The user associated with this email address is already registered."
 msgstr "Bu e-posta adresi ile ilişkilendirilmiş kullanıcı zaten kayıtlı."
 
 #: indico/modules/events/registration/client/js/form/field.js:185
-msgid "There is no Indico user associated with this email address."
-msgstr "Bu e-posta adresi ile ilişkilendirilmiş hiçbir Indico kullanıcısı yoktur."
+msgid "There is no Oceanman user associated with this email address."
+msgstr "Bu e-posta adresi ile ilişkilendirilmiş hiçbir Oceanman kullanıcısı yoktur."
 
 #: indico/modules/events/registration/client/js/form/field.js:190
-msgid "This email address is not associated with your Indico account."
-msgstr "Bu e-posta adresi Indico hesabınız ile ilişkilendirilmiş değildir."
+msgid "This email address is not associated with your Oceanman account."
+msgstr "Bu e-posta adresi Oceanman hesabınız ile ilişkilendirilmiş değildir."
 
 #: indico/modules/events/registration/client/js/form/field.js:193
 msgid ""
@@ -419,24 +419,24 @@ msgid "This email address is invalid."
 msgstr "E-posta adresi geçersizdir."
 
 #: indico/modules/events/registration/client/js/form/field.js:210
-msgid "The registration will not be associated with any Indico account."
-msgstr "Bu kayıt, hiçbir Indico hesabı ile ilişkilendirilmeyecektir."
+msgid "The registration will not be associated with any Oceanman account."
+msgstr "Bu kayıt, hiçbir Oceanman hesabı ile ilişkilendirilmeyecektir."
 
 #: indico/modules/events/registration/client/js/form/field.js:212
-msgid "The registration will be associated with your Indico account."
-msgstr "Bu kayıt, Indico hesabınız ile ilişkilendirilecektir."
+msgid "The registration will be associated with your Oceanman account."
+msgstr "Bu kayıt, Oceanman hesabınız ile ilişkilendirilecektir."
 
 #: indico/modules/events/registration/client/js/form/field.js:215
 msgid ""
-"The registration will remain associated with the Indico account "
+"The registration will remain associated with the Oceanman account "
 "<strong>{0}</strong>."
-msgstr "Bu kayıt, Indico hesabı <strong>{0}</strong> ile ilişkili kalacaktır."
+msgstr "Bu kayıt, Oceanman hesabı <strong>{0}</strong> ile ilişkili kalacaktır."
 
 #: indico/modules/events/registration/client/js/form/field.js:221
 msgid ""
-"The registration will be associated with the Indico account "
+"The registration will be associated with the Oceanman account "
 "<strong>{0}</strong>."
-msgstr "Bu kayıt, Indico hesabı <strong>{0}</strong> ile ilişkilendirilecektir."
+msgstr "Bu kayıt, Oceanman hesabı <strong>{0}</strong> ile ilişkilendirilecektir."
 
 #: indico/modules/events/registration/client/js/form/field.js:242
 msgid "Checking email address..."
@@ -1091,8 +1091,8 @@ msgstr "Not:"
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:58
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:78
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:93
-msgid " If this person does not already have an Indico account, "
-msgstr "Bu kişi bir Indico hesabına sahip değilse"
+msgid " If this person does not already have an Oceanman account, "
+msgstr "Bu kişi bir Oceanman hesabına sahip değilse"
 
 #: indico/web/client/js/legacy/libs/indico/Core/Dialogs/Users.js:41
 msgid "he or she will be sent an email asking to register as a user."
